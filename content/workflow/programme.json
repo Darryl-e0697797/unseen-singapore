@@ -1,0 +1,7 @@
+{
+  "remaining_limit": 4,
+  "selected_remaining": ["mrt", "barrage", "reclamation"],
+  "recommended_remaining": [],
+  "deferred": ["caverns", "newater", "power", "coast"],
+  "recommendations_approved": false
+}

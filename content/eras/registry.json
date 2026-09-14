@@ -1,0 +1,19 @@
+[
+  {
+    "era": "present",
+    "label": "Present \u00b7 2026 context",
+    "available": true
+  },
+  {
+    "era": "historical",
+    "label": "1930 / 1965 / 2000",
+    "available": false,
+    "reason": "Awaiting licensed historical geometry and reconstruction review."
+  },
+  {
+    "era": "future",
+    "label": "2050 scenarios",
+    "available": false,
+    "reason": "Awaiting explicit scenario assumptions and review."
+  }
+]

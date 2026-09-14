@@ -1,0 +1,644 @@
+{
+  "revision": "tuas-r1",
+  "project_id": "tuas",
+  "claims": [
+    {
+      "claim_id": "tuas-operating",
+      "project_id": "tuas",
+      "statement": "PSA reported 14 operational berths on 6 August 2026.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-psa-202608",
+          "locator": "Final paragraph before Share"
+        }
+      ],
+      "phase": "2026",
+      "limitations": "Dated operator report; do not assert a live berth count."
+    },
+    {
+      "claim_id": "tuas-berth-target",
+      "project_id": "tuas",
+      "statement": "PSA\u2019s August 2026 target is 18 berths by 2027; MPA overview states 21 Phase 1 berths by 2027.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "tuas-psa-202608",
+          "locator": "Final paragraph"
+        },
+        {
+          "source_id": "tuas-mpa-overview",
+          "locator": "Port operations"
+        }
+      ],
+      "phase": "Future target",
+      "limitations": "Unreconciled programme targets; show sources/dates, not a merged number."
+    },
+    {
+      "claim_id": "tuas-capacity",
+      "project_id": "tuas",
+      "statement": "The completed Tuas programme targets capacity of 65 million TEUs annually in the 2040s.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-pmo-2026",
+          "locator": "Anchoring Connectivity"
+        },
+        {
+          "source_id": "tuas-pmo-rationale",
+          "locator": "Paragraph beginning Looking ahead"
+        }
+      ],
+      "phase": "Full development target",
+      "limitations": "Capacity is not actual throughput; 2050 is the interface horizon, not the completion date."
+    },
+    {
+      "claim_id": "tuas-consolidation",
+      "project_id": "tuas",
+      "statement": "Consolidation brings PSA\u2019s city and Pasir Panjang container operations to Tuas.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-pmo-rationale",
+          "locator": "Paragraph beginning Looking ahead"
+        },
+        {
+          "source_id": "tuas-pmo-waterfront",
+          "locator": "Tuas Port and Changi T5"
+        }
+      ],
+      "phase": "Master plan",
+      "limitations": "Do not claim all Singapore maritime terminals close."
+    },
+    {
+      "claim_id": "tuas-rationale",
+      "project_id": "tuas",
+      "statement": "A greenfield site permits redesigned operations and industry/logistics integration.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-pmo-rationale",
+          "locator": "Paragraphs following Looking ahead"
+        }
+      ],
+      "phase": "Master plan",
+      "limitations": "Representative model only; no as-built geometry supplied."
+    },
+    {
+      "claim_id": "tuas-waterfront",
+      "project_id": "tuas",
+      "statement": "Relocating container operations progressively releases land for the Greater Southern Waterfront.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-pmo-waterfront",
+          "locator": "Tuas Port and Changi T5, consolidation paragraph"
+        }
+      ],
+      "phase": "Planning",
+      "limitations": "Land-use rationale, not an approved future-building model."
+    },
+    {
+      "claim_id": "tuas-history-1966",
+      "project_id": "tuas",
+      "statement": "The container-terminal decision was made in 1966; Tanjong Pagar opened in 1972.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "tuas-pmo-opening",
+          "locator": "Paragraphs beginning In 1966 and Tanjong Pagar"
+        },
+        {
+          "source_id": "tuas-nas-2000",
+          "locator": "PDF p1 paragraph 3"
+        }
+      ],
+      "phase": "1965 context",
+      "limitations": "1965 precedes the decision; do not backdate it. NAS corroborates opening only."
+    },
+    {
+      "claim_id": "tuas-history-2000",
+      "project_id": "tuas",
+      "statement": "Pasir Panjang Terminal\u2019s official opening was 30 March 2000.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-nas-2000",
+          "locator": "PDF p1 heading"
+        }
+      ],
+      "phase": "2000",
+      "limitations": "Tuas megaport is pre-project at this era."
+    },
+    {
+      "claim_id": "tuas-history-1950",
+      "project_id": "tuas",
+      "statement": "Tuas has fishing-settlement history; no dated 1958 shoreline is established in this dossier.",
+      "accuracy_class": "reconstructed",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "tuas-nlb-history",
+          "locator": "History"
+        },
+        {
+          "source_id": "tuas-pmo-rationale",
+          "locator": "Paragraph on 1950s Harbour Board workers"
+        }
+      ],
+      "phase": "1950s",
+      "limitations": "Regional history only. NLB snippet includes obsolete port forecasts, excluded here. No exact historical village reconstruction."
+    },
+    {
+      "claim_id": "tuas-reclamation-complete",
+      "project_id": "tuas",
+      "statement": "Phase 1 reclamation was completed in November 2021.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-completion",
+          "locator": "Opening paragraph"
+        },
+        {
+          "source_id": "tuas-mpa-overview",
+          "locator": "Reclamation works"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Completion of reclamation does not mean all terminal works or berths complete."
+    },
+    {
+      "claim_id": "tuas-first-operations",
+      "project_id": "tuas",
+      "statement": "The first two Tuas berths began operating in December 2021; official opening followed in September 2022.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-overview",
+          "locator": "Port operations and timeline"
+        },
+        {
+          "source_id": "tuas-pmo-opening",
+          "locator": "Title/date and opening remarks"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Different milestones, not conflicting opening dates."
+    },
+    {
+      "claim_id": "tuas-area",
+      "project_id": "tuas",
+      "statement": "Phase 1 soil improvement covered 414 hectares, including 294 hectares of newly reclaimed land.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-completion",
+          "locator": "Paragraph 2"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Do not label 414 hectares as all newly reclaimed."
+    },
+    {
+      "claim_id": "tuas-caisson-count",
+      "project_id": "tuas",
+      "statement": "Phase 1 used 221 caissons for approximately 8.6 km of seawall.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-completion",
+          "locator": "Paragraph 2"
+        },
+        {
+          "source_id": "tuas-mpa-caisson",
+          "locator": "Paragraph 1"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Not the count for Phase 2."
+    },
+    {
+      "claim_id": "tuas-caisson-scale",
+      "project_id": "tuas",
+      "statement": "MPA describes a Phase 1 caisson as approximately 40 \u00d7 28 \u00d7 28 metres and 15,000 tonnes.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-caisson",
+          "locator": "Paragraph 2"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Rounded envelope only; internal cells, reinforcement, mass distribution and draft not specified."
+    },
+    {
+      "claim_id": "tuas-caisson-function",
+      "project_id": "tuas",
+      "statement": "Caissons retain reclamation fill and form the waterfront berthing structure.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-awards",
+          "locator": "Paragraph 3"
+        },
+        {
+          "source_id": "tuas-mpa-annex",
+          "locator": "PDF p4, caisson dual-function bullet"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Representative model only; no as-built geometry supplied."
+    },
+    {
+      "claim_id": "tuas-float-place",
+      "project_id": "tuas",
+      "statement": "Caissons were fabricated nearby, towed and submerged onto a prepared seabed foundation.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-awards",
+          "locator": "Paragraph 3"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "No pump sequence, mooring layout, tow speed or stability calculations verified."
+    },
+    {
+      "claim_id": "tuas-rock-mound",
+      "project_id": "tuas",
+      "statement": "TEMAROCK combined rock placement, compaction and underwater survey for caisson foundations.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-caisson",
+          "locator": "Paragraph 4(a)"
+        },
+        {
+          "source_id": "tuas-mpa-annex",
+          "locator": "PDF p5, Temarock bullet"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Functional schematic, not a vessel replica; same publisher corroboration."
+    },
+    {
+      "claim_id": "tuas-rebar",
+      "project_id": "tuas",
+      "statement": "ARMS automated reinforcement cutting, bending and transfer.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-caisson",
+          "locator": "Paragraph 4(b)"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "No exact bar sizes, spacing or robot design verified."
+    },
+    {
+      "claim_id": "tuas-geotextile",
+      "project_id": "tuas",
+      "statement": "MPA reports geotextile pre-installation on land instead of at sea.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-caisson",
+          "locator": "Paragraph 4"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Do not invent detailed filter joint geometry."
+    },
+    {
+      "claim_id": "tuas-slipform",
+      "project_id": "tuas",
+      "statement": "Phase 1 used sheltered caisson fabrication and dual-lane slip-form production.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-annex",
+          "locator": "PDF pp4\u20135, caisson production bullet"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Show a representative fabrication process, not a verified factory layout."
+    },
+    {
+      "claim_id": "tuas-reused-fill",
+      "project_id": "tuas",
+      "statement": "Reused dredged and land-excavated material provided more than half of Phase 1 reclamation fill.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-awards",
+          "locator": "Paragraph 2"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Not all fill was sand; not a claim that any excavated material is suitable."
+    },
+    {
+      "claim_id": "tuas-drains",
+      "project_id": "tuas",
+      "statement": "Preloading and vertical/sand drains expedited consolidation of soft fill.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-annex",
+          "locator": "PDF p4, soil improvement bullet"
+        },
+        {
+          "source_id": "tuas-ground-paper",
+          "locator": "Abstract, surcharge/PVD passage"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Drain spacing and consolidation duration remain unspecified."
+    },
+    {
+      "claim_id": "tuas-monitoring",
+      "project_id": "tuas",
+      "statement": "The Phase 1 study describes settlement beacons, extensometers and pore-pressure instruments.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-ground-paper",
+          "locator": "Abstract, monitoring passage"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Construction monitoring evidence, not a verified permanent maintenance schedule."
+    },
+    {
+      "claim_id": "tuas-settlement",
+      "project_id": "tuas",
+      "statement": "Ground treatment addressed demanding stability requirements for automated vehicle operation.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-awards",
+          "locator": "Paragraph 2"
+        },
+        {
+          "source_id": "tuas-ground-paper",
+          "locator": "Abstract, concluding sentence"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "The paper reports a 40 mm / 60-year design requirement (printed p162); retain in evidence notes only, not a universal operational tolerance or simulated result."
+    },
+    {
+      "claim_id": "tuas-finger-piers",
+      "project_id": "tuas",
+      "statement": "MPA chose finger-pier geometry to use land/sea space efficiently and accommodate different ship lengths.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-awards",
+          "locator": "Paragraph 4"
+        }
+      ],
+      "phase": "Planning",
+      "limitations": "Use a clearly illustrative finger-pier district, not traced official boundaries."
+    },
+    {
+      "claim_id": "tuas-elevation",
+      "project_id": "tuas",
+      "statement": "The Phase 1 platform was built five metres above mean sea level.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-awards",
+          "locator": "Paragraph 5"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Height datum is MSL; not five metres above every tide or a guaranteed flood threshold."
+    },
+    {
+      "claim_id": "tuas-environment",
+      "project_id": "tuas",
+      "statement": "An EIA and environmental monitoring programme accompanied the reclamation.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-annex",
+          "locator": "PDF p4, EIA bullet"
+        },
+        {
+          "source_id": "tuas-mpa-2014",
+          "locator": "Printed pp35\u201336, coral relocation"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Do not equate mitigation with zero ecological impact or invent compliance readings."
+    },
+    {
+      "claim_id": "tuas-corals",
+      "project_id": "tuas",
+      "statement": "MPA reports relocating 2,300 coral colonies from Sultan Shoal before works began.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-annex",
+          "locator": "PDF p4, coral bullet"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Do not infer survival rates; relocation is not proof of complete ecosystem replacement."
+    },
+    {
+      "claim_id": "tuas-phase2-scope",
+      "project_id": "tuas",
+      "statement": "The 2019 Phase 2 plan specifies 387 hectares and 227 caissons.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-phase2",
+          "locator": "Paragraph 2"
+        }
+      ],
+      "phase": "Phase 2",
+      "limitations": "Keep separate from Phase 1 figures."
+    },
+    {
+      "claim_id": "tuas-phase2-length",
+      "project_id": "tuas",
+      "statement": "Phase 2 was described as an 8.6 km wharf in 2019; the overview describes 9.1 km seawall.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-phase2",
+          "locator": "Paragraph 2"
+        },
+        {
+          "source_id": "tuas-mpa-overview",
+          "locator": "Reclamation works"
+        }
+      ],
+      "phase": "Phase 2",
+      "limitations": "Different measures or revisions; unresolved. Do not silently substitute."
+    },
+    {
+      "claim_id": "tuas-phase2-methods",
+      "project_id": "tuas",
+      "statement": "Phase 2 announced slip-form jack monitoring, modular reinforcement and automated curing.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-phase2",
+          "locator": "Paragraphs 4\u20135"
+        }
+      ],
+      "phase": "Phase 2",
+      "limitations": "Announced method, not proof every component was built identically."
+    },
+    {
+      "claim_id": "tuas-phase2-logistics",
+      "project_id": "tuas",
+      "statement": "Phase 2 planning describes dredging, reclaimer equipment and reuse of fill above sea level.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-phase2-method",
+          "locator": "PDF p2, foundation/dredging and material-handling paragraphs"
+        }
+      ],
+      "phase": "Phase 2",
+      "limitations": "No exact dredger configuration, cycle times or executed contract programme verified."
+    },
+    {
+      "claim_id": "tuas-terminal-interface",
+      "project_id": "tuas",
+      "statement": "A separate PSA tender covered Phase 2 berths and stacking yards in 2025.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-psa-phase2-tender",
+          "locator": "Tender title, ref 2025/QS/BC/PSAC/4018099 and closing date"
+        }
+      ],
+      "phase": "Phase 2",
+      "limitations": "Public notice only; drawings require supplier access and were not retrieved."
+    },
+    {
+      "claim_id": "tuas-automation",
+      "project_id": "tuas",
+      "statement": "Electric AGVs connect quay and yard; automated yard equipment is remotely managed.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-overview",
+          "locator": "Deploying AI and Automation in Port Operations"
+        },
+        {
+          "source_id": "tuas-pmo-opening",
+          "locator": "Sustainability paragraph"
+        }
+      ],
+      "phase": "Operations",
+      "limitations": "No real dispatch algorithm, collision controls or live operational simulation."
+    },
+    {
+      "claim_id": "tuas-energy-target",
+      "project_id": "tuas",
+      "statement": "Net-zero emissions by 2050 is a stated aim, not current achieved status.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "tuas-pmo-opening",
+          "locator": "Sustainability paragraph"
+        },
+        {
+          "source_id": "tuas-mpa-overview",
+          "locator": "Reducing Emissions"
+        }
+      ],
+      "phase": "Future",
+      "limitations": "Avoid invented emissions savings or guaranteed future operation."
+    },
+    {
+      "claim_id": "tuas-supply-chain",
+      "project_id": "tuas",
+      "statement": "The planned Supply Chain Hub includes cargo consolidation and distribution functions.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-pmo-supplychain",
+          "locator": "Keppel Distripark / Supply Chain Hub paragraphs"
+        }
+      ],
+      "phase": "Ecosystem",
+      "limitations": "Keep logistics ecosystem schematic; do not infer a built 2026 layout."
+    },
+    {
+      "claim_id": "tuas-visual-mechanisms",
+      "project_id": "tuas",
+      "statement": "Proposed cutaways and animated placement/drainage explain relationships rather than calculate real performance.",
+      "accuracy_class": "schematic",
+      "verification": "illustrative",
+      "evidence": [
+        {
+          "source_id": "tuas-mpa-annex",
+          "locator": "PDF pp4\u20135, component basis"
+        },
+        {
+          "source_id": "tuas-ground-paper",
+          "locator": "Abstract, consolidation basis"
+        }
+      ],
+      "phase": "Editorial model",
+      "limitations": "All camera layouts, particles, component spacing and timings are original schematic choices."
+    },
+    {
+      "claim_id": "tuas-foundation",
+      "project_id": "tuas",
+      "statement": "The Phase 1 paper describes local soft-ground replacement with compacted sand beneath quay foundations.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "tuas-ground-paper",
+          "locator": "Section 2, printed p161; PDF p3"
+        }
+      ],
+      "phase": "Phase 1",
+      "limitations": "Where required, with varying depth; do not depict one uniform sand key under the whole port."
+    }
+  ]
+}

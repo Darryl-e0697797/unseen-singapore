@@ -1,0 +1,5510 @@
+{
+  "source_crs": "OneMap WGS84 / SVY21",
+  "accuracy": "Station reference points; generalised connecting lines, not surveyed tunnel alignments.",
+  "source_hashes": {
+    "assets/source/mrt-onemap-references.json": "31fb99a1316378c9a89435590cdf325e65e7bba765369887f4f1fee820105bc8",
+    "assets/source/TrainStation_Mar2026.zip": "7a7c6730ce7a9092b38d095ef7b663e8281ae612b1c9477449ea7c215b477e09"
+  },
+  "stations": [
+    {
+      "name": "Admiralty",
+      "coordinate": [
+        103.800990519771,
+        1.440588561618472
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ADMIRALTY MRT STATION (NS10)",
+      "source_xy": [
+        24402.38662679307,
+        46918.50680194795
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 150,
+          "centroid_svy21": [
+            24400.88304451411,
+            46918.344065850986
+          ],
+          "centroid_wgs84": [
+            103.80097700864262,
+            1.440587089699446
+          ],
+          "distance_metres": 1.51,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Aljunied",
+      "coordinate": [
+        103.8829060443844,
+        1.316432611815716
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ALJUNIED MRT STATION (EW9)",
+      "source_xy": [
+        33518.60486928467,
+        33190.00201745704
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 48,
+          "centroid_svy21": [
+            33518.60489606126,
+            33189.98657897501
+          ],
+          "centroid_wgs84": [
+            103.88290604462229,
+            1.3164324721955845
+          ],
+          "distance_metres": 0.02,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Ang Mo Kio",
+      "coordinate": [
+        103.8495580923193,
+        1.369932849622636
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ANG MO KIO MRT STATION (NS16)",
+      "source_xy": [
+        29807.26114680432,
+        39105.73599502631
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 123,
+          "centroid_svy21": [
+            29813.74482360448,
+            39107.48418094308
+          ],
+          "centroid_wgs84": [
+            103.8496163528243,
+            1.3699486591934034
+          ],
+          "distance_metres": 6.72,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bartley",
+      "coordinate": [
+        103.8801778991837,
+        1.342501178052448
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BARTLEY MRT STATION (CC12)",
+      "source_xy": [
+        33214.93396752048,
+        36072.52553255484
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 209,
+          "centroid_svy21": [
+            33164.55128473108,
+            36110.74656073919
+          ],
+          "centroid_wgs84": [
+            103.87972518707302,
+            1.3428468440311465
+          ],
+          "distance_metres": 63.24,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bayfront",
+      "coordinate": [
+        103.8590797648737,
+        1.281873788792091
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BAYFRONT MRT STATION (DT16 / CC34)",
+      "source_xy": [
+        30867.00927121844,
+        29368.62503323331
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 32,
+          "centroid_svy21": [
+            30866.640788925495,
+            29368.417425264703
+          ],
+          "centroid_wgs84": [
+            103.85907645389945,
+            1.2818719112921144
+          ],
+          "distance_metres": 0.42,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bayshore",
+      "coordinate": [
+        103.9423097767668,
+        1.313122482912643
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BAYSHORE MRT STATION (TE29)",
+      "source_xy": [
+        40129.68705286924,
+        32824.1944562085
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 74,
+          "centroid_svy21": [
+            40050.33173757513,
+            32793.06149933713
+          ],
+          "centroid_wgs84": [
+            103.94159671901635,
+            1.3128409591220405
+          ],
+          "distance_metres": 85.24,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 228,
+          "centroid_svy21": [
+            40254.962274384794,
+            32863.562829209804
+          ],
+          "centroid_wgs84": [
+            103.9434354503726,
+            1.3134784662854566
+          ],
+          "distance_metres": 131.32,
+          "distance_to_footprint_m": 66.82
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Beauty World",
+      "coordinate": [
+        103.7757942850826,
+        1.341223175585512
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BEAUTY WORLD MRT STATION (DT5)",
+      "source_xy": [
+        21598.16647637635,
+        35931.23588608578
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 66,
+          "centroid_svy21": [
+            21600.914351886302,
+            35929.06712963957
+          ],
+          "centroid_wgs84": [
+            103.77581897683307,
+            1.341203562716049
+          ],
+          "distance_metres": 3.5,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bedok",
+      "coordinate": [
+        103.9299844950654,
+        1.323979968681596
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BEDOK MRT STATION (EW5)",
+      "source_xy": [
+        38757.95204950497,
+        34024.70477720723
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 2,
+          "centroid_svy21": [
+            38778.877245167045,
+            34028.172144213524
+          ],
+          "centroid_wgs84": [
+            103.93017252010469,
+            1.3240113188941398
+          ],
+          "distance_metres": 21.21,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bedok North",
+      "coordinate": [
+        103.9179783299497,
+        1.334742116640915
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BEDOK NORTH MRT STATION (DT29)",
+      "source_xy": [
+        37421.74381961673,
+        35214.6803870108
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 180,
+          "centroid_svy21": [
+            37410.43594053098,
+            35216.17469531431
+          ],
+          "centroid_wgs84": [
+            103.91787672273168,
+            1.3347556341377083
+          ],
+          "distance_metres": 11.41,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bedok Reservoir",
+      "coordinate": [
+        103.9322346232856,
+        1.336607829551007
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BEDOK RESERVOIR MRT STATION (DT30)",
+      "source_xy": [
+        39008.31316226628,
+        35421.04087130539
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 134,
+          "centroid_svy21": [
+            39014.20302100304,
+            35420.03556618168
+          ],
+          "centroid_wgs84": [
+            103.93228754664719,
+            1.3365987357963531
+          ],
+          "distance_metres": 5.98,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bencoolen",
+      "coordinate": [
+        103.8503537627163,
+        1.298918433694228
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BENCOOLEN MRT STATION (DT21)",
+      "source_xy": [
+        29895.86394964438,
+        31253.32587341219
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 49,
+          "centroid_svy21": [
+            29883.747506495987,
+            31232.17900050015
+          ],
+          "centroid_wgs84": [
+            103.85024488980041,
+            1.2987271895608459
+          ],
+          "distance_metres": 24.37,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bendemeer",
+      "coordinate": [
+        103.8629776209451,
+        1.313672528476904
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BENDEMEER MRT STATION (DT23)",
+      "source_xy": [
+        31300.76760840975,
+        32884.77092220448
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 128,
+          "centroid_svy21": [
+            31291.149531368235,
+            32881.726424727334
+          ],
+          "centroid_wgs84": [
+            103.86289119741424,
+            1.313644996150244
+          ],
+          "distance_metres": 10.09,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bishan",
+      "coordinate": [
+        103.8491402653198,
+        1.351315801466592
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BISHAN MRT STATION (CC15)",
+      "source_xy": [
+        29760.77554714307,
+        37047.15733237006
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 129,
+          "centroid_svy21": [
+            29649.850098902833,
+            36994.36633223808
+          ],
+          "centroid_wgs84": [
+            103.84814352686071,
+            1.3508383847770202
+          ],
+          "distance_metres": 122.85,
+          "distance_to_footprint_m": 82.48
+        },
+        {
+          "feature_index": 157,
+          "centroid_svy21": [
+            29769.798454584277,
+            37040.83015497179
+          ],
+          "centroid_wgs84": [
+            103.84922134149893,
+            1.3512585801949428
+          ],
+          "distance_metres": 11.02,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Boon Keng",
+      "coordinate": [
+        103.861569454156,
+        1.319335709225138
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BOON KENG MRT STATION (NE9)",
+      "source_xy": [
+        31144.04501320701,
+        33510.97461326979
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 117,
+          "centroid_svy21": [
+            31156.468335137135,
+            33523.29063843424
+          ],
+          "centroid_wgs84": [
+            103.86168108539829,
+            1.3194470897134363
+          ],
+          "distance_metres": 17.49,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Boon Lay",
+      "coordinate": [
+        103.7060646227716,
+        1.33860405469845
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BOON LAY MRT STATION (EW27)",
+      "source_xy": [
+        13837.9827195406,
+        35641.9191215802
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 113,
+          "centroid_svy21": [
+            13837.36493781259,
+            35641.91571087303
+          ],
+          "centroid_wgs84": [
+            103.70605907165447,
+            1.3386040235633818
+          ],
+          "distance_metres": 0.62,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Botanic Gardens",
+      "coordinate": [
+        103.814984510627,
+        1.322113735588771
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BOTANIC GARDENS MRT STATION (CC19)",
+      "source_xy": [
+        25959.6005048994,
+        33818.14422153868
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 50,
+          "centroid_svy21": [
+            26090.297088076328,
+            33849.96354053276
+          ],
+          "centroid_wgs84": [
+            103.81615888652753,
+            1.322401506700128
+          ],
+          "distance_metres": 134.51,
+          "distance_to_footprint_m": 26.83
+        },
+        {
+          "feature_index": 197,
+          "centroid_svy21": [
+            25960.147369155973,
+            33817.67499128569
+          ],
+          "centroid_wgs84": [
+            103.81498942452252,
+            1.3221094920730296
+          ],
+          "distance_metres": 0.72,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Braddell",
+      "coordinate": [
+        103.8467990831476,
+        1.340469001027704
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BRADDELL MRT STATION (NS18)",
+      "source_xy": [
+        29500.23494824115,
+        35847.77198152058
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 159,
+          "centroid_svy21": [
+            29500.325729308293,
+            35845.020107114855
+          ],
+          "centroid_wgs84": [
+            103.84679989873356,
+            1.3404441140484697
+          ],
+          "distance_metres": 2.75,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bras Basah",
+      "coordinate": [
+        103.8506673716367,
+        1.296861686496568
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BRAS BASAH MRT STATION (CC2)",
+      "source_xy": [
+        29930.76738426369,
+        31025.90159656666
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 135,
+          "centroid_svy21": [
+            29929.447411369798,
+            31022.04109099087
+          ],
+          "centroid_wgs84": [
+            103.8506555108639,
+            1.2968267735253725
+          ],
+          "distance_metres": 4.08,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bright Hill",
+      "coordinate": [
+        103.8328936199913,
+        1.363283185451856
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BRIGHT HILL MRT STATION (TE7)",
+      "source_xy": [
+        27952.70709733665,
+        38370.44388759695
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 122,
+          "centroid_svy21": [
+            27957.503673063053,
+            38368.68342539907
+          ],
+          "centroid_wgs84": [
+            103.83293672048511,
+            1.3632672644671089
+          ],
+          "distance_metres": 5.11,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Buangkok",
+      "coordinate": [
+        103.8931225697062,
+        1.382870019716735
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BUANGKOK MRT STATION (NE15)",
+      "source_xy": [
+        34655.42505680211,
+        40536.34016849846
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 13,
+          "centroid_svy21": [
+            34652.07545559632,
+            40525.45550270126
+          ],
+          "centroid_wgs84": [
+            103.89309246857367,
+            1.382771583513829
+          ],
+          "distance_metres": 11.39,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bugis",
+      "coordinate": [
+        103.8571259590224,
+        1.299313503445817
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BUGIS MRT STATION (DT14)",
+      "source_xy": [
+        30649.54860925395,
+        31297.01673933119
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 166,
+          "centroid_svy21": [
+            30506.3589798745,
+            31442.23529956449
+          ],
+          "centroid_wgs84": [
+            103.85583934782896,
+            1.3006268207538052
+          ],
+          "distance_metres": 203.94,
+          "distance_to_footprint_m": 165.85
+        },
+        {
+          "feature_index": 167,
+          "centroid_svy21": [
+            30622.886927064093,
+            31312.183096204808
+          ],
+          "centroid_wgs84": [
+            103.85688639316214,
+            1.2994506648872364
+          ],
+          "distance_metres": 30.67,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bukit Batok",
+      "coordinate": [
+        103.7495664783088,
+        1.349033312016372
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BUKIT BATOK MRT STATION (NS2)",
+      "source_xy": [
+        18679.32231912576,
+        36794.92602143064
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 184,
+          "centroid_svy21": [
+            18676.448441984958,
+            36790.87182331722
+          ],
+          "centroid_wgs84": [
+            103.74954065600356,
+            1.3489966464349066
+          ],
+          "distance_metres": 4.97,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bukit Gombak",
+      "coordinate": [
+        103.7517909107326,
+        1.358611590941928
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BUKIT GOMBAK MRT STATION (NS3)",
+      "source_xy": [
+        18926.91270065773,
+        37854.03588487208
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 17,
+          "centroid_svy21": [
+            18940.17831140768,
+            37860.70650051269
+          ],
+          "centroid_wgs84": [
+            103.7519101088861,
+            1.3586719215970804
+          ],
+          "distance_metres": 14.85,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Bukit Panjang",
+      "coordinate": [
+        103.7615351149282,
+        1.379002116410369
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BUKIT PANJANG MRT STATION (DT1)",
+      "source_xy": [
+        20011.39812173322,
+        40108.68376602046
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 224,
+          "centroid_svy21": [
+            20015.585942711994,
+            40126.16331740597
+          ],
+          "centroid_wgs84": [
+            103.76157274082574,
+            1.3791601962354054
+          ],
+          "distance_metres": 17.97,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Buona Vista",
+      "coordinate": [
+        103.7907094044361,
+        1.306634504050007
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "BUONA VISTA MRT STATION (CC22)",
+      "source_xy": [
+        23257.9930265341,
+        32106.56305138208
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 68,
+          "centroid_svy21": [
+            23249.451860685425,
+            32089.888314301297
+          ],
+          "centroid_wgs84": [
+            103.79063266058296,
+            1.3064837023354121
+          ],
+          "distance_metres": 18.73,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 119,
+          "centroid_svy21": [
+            23172.62107423376,
+            32175.542989122354
+          ],
+          "centroid_wgs84": [
+            103.7899422865196,
+            1.307258320898058
+          ],
+          "distance_metres": 109.76,
+          "distance_to_footprint_m": 36.58
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Caldecott",
+      "coordinate": [
+        103.8395307855756,
+        1.337673374078292
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CALDECOTT MRT STATION (CC17)",
+      "source_xy": [
+        28691.35247360915,
+        35538.64261210896
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 158,
+          "centroid_svy21": [
+            28758.98298529963,
+            35499.26400198772
+          ],
+          "centroid_wgs84": [
+            103.84013848431869,
+            1.337317246278614
+          ],
+          "distance_metres": 78.26,
+          "distance_to_footprint_m": 39.33
+        },
+        {
+          "feature_index": 161,
+          "centroid_svy21": [
+            28692.513078773518,
+            35537.003150879034
+          ],
+          "centroid_wgs84": [
+            103.83954121425496,
+            1.3376585473460387
+          ],
+          "distance_metres": 2.01,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Canberra",
+      "coordinate": [
+        103.8297025909592,
+        1.443076640756983
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CANBERRA MRT STATION (NS12)",
+      "source_xy": [
+        27597.59693769645,
+        47193.60088304989
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 126,
+          "centroid_svy21": [
+            27598.95755625782,
+            47198.21564510435
+          ],
+          "centroid_wgs84": [
+            103.82971481738953,
+            1.443118375010165
+          ],
+          "distance_metres": 4.81,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Cantonment",
+      "coordinate": [
+        103.8370623137639,
+        1.27287214563204
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CANTONMENT MRT STATION (CC31)",
+      "source_xy": [
+        28416.64845601469,
+        28373.255790269
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [],
+      "distance_to_lta_footprint_m": null,
+      "review": "CCL6 station absent from March 2026 extract; OneMap named station reference retained. Opened July 2026."
+    },
+    {
+      "name": "Cashew",
+      "coordinate": [
+        103.7644392141394,
+        1.369815449255529
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CASHEW MRT STATION (DT2)",
+      "source_xy": [
+        20334.55891116057,
+        39092.85854188912
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 230,
+          "centroid_svy21": [
+            20363.267144553887,
+            39042.671608054654
+          ],
+          "centroid_wgs84": [
+            103.76469719053986,
+            1.3693615843249332
+          ],
+          "distance_metres": 57.82,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Changi Airport",
+      "coordinate": [
+        103.9878835695896,
+        1.357478974476929
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CHANGI AIRPORT MRT STATION (CG2)",
+      "source_xy": [
+        45201.32039469201,
+        37729.19337646663
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 138,
+          "centroid_svy21": [
+            45255.52053701745,
+            37710.283650869125
+          ],
+          "centroid_wgs84": [
+            103.98837058084158,
+            1.3573079309122364
+          ],
+          "distance_metres": 57.4,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Chinatown",
+      "coordinate": [
+        103.845143798953,
+        1.284223919190854
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CHINATOWN MRT STATION (DT19)",
+      "source_xy": [
+        29316.04900069255,
+        29628.47894238867
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 192,
+          "centroid_svy21": [
+            29250.797895780113,
+            29673.106893377193
+          ],
+          "centroid_wgs84": [
+            103.84455749379326,
+            1.2846275213722047
+          ],
+          "distance_metres": 79.05,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 196,
+          "centroid_svy21": [
+            29130.869187312004,
+            29643.254493516764
+          ],
+          "centroid_wgs84": [
+            103.8434798857962,
+            1.2843575512809884
+          ],
+          "distance_metres": 185.77,
+          "distance_to_footprint_m": 117.61
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Chinese Garden",
+      "coordinate": [
+        103.7325967383628,
+        1.342352820814013
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CHINESE GARDEN MRT STATION (EW25)",
+      "source_xy": [
+        16790.74663220812,
+        36056.30189328268
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 107,
+          "centroid_svy21": [
+            16814.968512847598,
+            36033.31840523886
+          ],
+          "centroid_wgs84": [
+            103.73281439469824,
+            1.3421449756432844
+          ],
+          "distance_metres": 33.39,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Choa Chu Kang",
+      "coordinate": [
+        103.7443707797555,
+        1.38536316540225
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CHOA CHU KANG MRT STATION (NS4)",
+      "source_xy": [
+        18101.24720414635,
+        40812.12160524167
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 149,
+          "centroid_svy21": [
+            18101.055912754746,
+            40790.98913947339
+          ],
+          "centroid_wgs84": [
+            103.74436906798668,
+            1.3851720511206775
+          ],
+          "distance_metres": 21.13,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "City Hall",
+      "coordinate": [
+        103.8525855803662,
+        1.292936722277808
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CITY HALL MRT STATION (EW13 / NS25)",
+      "source_xy": [
+        30144.25037914794,
+        30591.90081282519
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 111,
+          "centroid_svy21": [
+            30146.80162752348,
+            30591.515482178074
+          ],
+          "centroid_wgs84": [
+            103.8526085043901,
+            1.2929332373080271
+          ],
+          "distance_metres": 2.58,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Clarke Quay",
+      "coordinate": [
+        103.8465552096935,
+        1.288386024075879
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CLARKE QUAY MRT STATION (NE5)",
+      "source_xy": [
+        29473.12494433764,
+        30088.70378614962
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 133,
+          "centroid_svy21": [
+            29478.64313592659,
+            30105.974747764507
+          ],
+          "centroid_wgs84": [
+            103.8466047937103,
+            1.2885422163244435
+          ],
+          "distance_metres": 18.13,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Clementi",
+      "coordinate": [
+        103.7651914528873,
+        1.315116252773782
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "CLEMENTI MRT STATION (EW23)",
+      "source_xy": [
+        20418.10550785623,
+        33044.49446692131
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 139,
+          "centroid_svy21": [
+            20422.73235801241,
+            33040.28964266223
+          ],
+          "centroid_wgs84": [
+            103.7652330284684,
+            1.3150782269966002
+          ],
+          "distance_metres": 6.25,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Commonwealth",
+      "coordinate": [
+        103.7982285233357,
+        1.302501999243251
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "COMMONWEALTH MRT STATION (EW20)",
+      "source_xy": [
+        24094.79514336679,
+        31649.59891697206
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 131,
+          "centroid_svy21": [
+            24101.716865576775,
+            31643.588748790506
+          ],
+          "centroid_wgs84": [
+            103.79829071892578,
+            1.3024476462799686
+          ],
+          "distance_metres": 9.17,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Dakota",
+      "coordinate": [
+        103.8890647183767,
+        1.308547983881218
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "DAKOTA MRT STATION (CC8)",
+      "source_xy": [
+        34204.02529771347,
+        32318.17445576191
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 171,
+          "centroid_svy21": [
+            34159.90800232357,
+            32299.06290261782
+          ],
+          "centroid_wgs84": [
+            103.88866829968163,
+            1.3083751546451665
+          ],
+          "distance_metres": 48.08,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Dhoby Ghaut",
+      "coordinate": [
+        103.8462925069598,
+        1.298911643626761
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "DHOBY GHAUT MRT STATION (CC1)",
+      "source_xy": [
+        29443.88240964059,
+        31252.57238222472
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 198,
+          "centroid_svy21": [
+            29392.761163333205,
+            31267.22985662101
+          ],
+          "centroid_wgs84": [
+            103.84583316040958,
+            1.2990442029924572
+          ],
+          "distance_metres": 53.18,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 200,
+          "centroid_svy21": [
+            29424.19455242453,
+            31229.091108231638
+          ],
+          "centroid_wgs84": [
+            103.84611560171376,
+            1.2986992881594839
+          ],
+          "distance_metres": 30.64,
+          "distance_to_footprint_m": 14.26
+        },
+        {
+          "feature_index": 201,
+          "centroid_svy21": [
+            29354.168910695746,
+            31340.1195044395
+          ],
+          "centroid_wgs84": [
+            103.84548639493656,
+            1.2997033930027975
+          ],
+          "distance_metres": 125.35,
+          "distance_to_footprint_m": 18.31
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Dover",
+      "coordinate": [
+        103.7786378419088,
+        1.311405293209642
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "DOVER MRT STATION (EW22)",
+      "source_xy": [
+        21914.5509301452,
+        32634.11863143928
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 53,
+          "centroid_svy21": [
+            21915.809920890977,
+            32632.946178983613
+          ],
+          "centroid_wgs84": [
+            103.77864915478327,
+            1.3113946902168594
+          ],
+          "distance_metres": 1.72,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Downtown",
+      "coordinate": [
+        103.8528408295805,
+        1.279446381789169
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "DOWNTOWN MRT STATION (DT17)",
+      "source_xy": [
+        30172.66880745254,
+        29100.20876550488
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 183,
+          "centroid_svy21": [
+            30173.81464729061,
+            29099.66757552871
+          ],
+          "centroid_wgs84": [
+            103.85285112534702,
+            1.2794414873782018
+          ],
+          "distance_metres": 1.27,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Esplanade",
+      "coordinate": [
+        103.8550812262447,
+        1.293657724538611
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ESPLANADE MRT STATION (CC3)",
+      "source_xy": [
+        30421.99348391593,
+        30671.62777158432
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 202,
+          "centroid_svy21": [
+            30481.034384562667,
+            30627.63890226081
+          ],
+          "centroid_wgs84": [
+            103.85561173048427,
+            1.2932599000655098
+          ],
+          "distance_metres": 73.63,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Eunos",
+      "coordinate": [
+        103.9032258072548,
+        1.319783549160883
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "EUNOS MRT STATION (EW7)",
+      "source_xy": [
+        35779.98834538553,
+        33560.58589680493
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 79,
+          "centroid_svy21": [
+            35795.12504819206,
+            33560.10887376074
+          ],
+          "centroid_wgs84": [
+            103.90336181818702,
+            1.3197792312864234
+          ],
+          "distance_metres": 15.14,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Expo",
+      "coordinate": [
+        103.9615482110178,
+        1.334549778248175
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "EXPO MRT STATION (CG1)",
+      "source_xy": [
+        42270.62323448155,
+        35193.62234537862
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 163,
+          "centroid_svy21": [
+            42270.40269100889,
+            35193.57623160311
+          ],
+          "centroid_wgs84": [
+            103.96154622929151,
+            1.3345493613165362
+          ],
+          "distance_metres": 0.23,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 225,
+          "centroid_svy21": [
+            42363.12257888333,
+            35271.287391293015
+          ],
+          "centroid_wgs84": [
+            103.96237940522032,
+            1.3352521078567923
+          ],
+          "distance_metres": 120.78,
+          "distance_to_footprint_m": 24.04
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Farrer Park",
+      "coordinate": [
+        103.8534777165087,
+        1.311905573257754
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "FARRER PARK MRT STATION (NE8)",
+      "source_xy": [
+        30243.52064856142,
+        32689.37955520861
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 155,
+          "centroid_svy21": [
+            30331.711402113247,
+            32749.384252124877
+          ],
+          "centroid_wgs84": [
+            103.85427015831633,
+            1.3124482279810736
+          ],
+          "distance_metres": 106.67,
+          "distance_to_footprint_m": 0.39
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.39,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Farrer Road",
+      "coordinate": [
+        103.8073792141607,
+        1.317439151589664
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "FARRER ROAD MRT STATION (CC20)",
+      "source_xy": [
+        25113.2011973979,
+        33301.26022450067
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 12,
+          "centroid_svy21": [
+            25125.433186244984,
+            33302.96508208019
+          ],
+          "centroid_wgs84": [
+            103.80748912467556,
+            1.3174545708674896
+          ],
+          "distance_metres": 12.35,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Fort Canning",
+      "coordinate": [
+        103.8443313624644,
+        1.292481948229968
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "FORT CANNING MRT STATION (DT20)",
+      "source_xy": [
+        29225.62760658655,
+        30541.60877206922
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 199,
+          "centroid_svy21": [
+            29224.96970019455,
+            30540.463864464804
+          ],
+          "centroid_wgs84": [
+            103.84432545085234,
+            1.2924715941138984
+          ],
+          "distance_metres": 1.32,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Gardens by the Bay",
+      "coordinate": [
+        103.8674546644205,
+        1.27848725876303
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "GARDENS BY THE BAY MRT STATION (TE22)",
+      "source_xy": [
+        31799.07217873447,
+        28994.17087761126
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 102,
+          "centroid_svy21": [
+            31850.30510038348,
+            29065.745547460567
+          ],
+          "centroid_wgs84": [
+            103.86791501999907,
+            1.2791345486762813
+          ],
+          "distance_metres": 88.02,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Geylang Bahru",
+      "coordinate": [
+        103.8716226271413,
+        1.321301102283224
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "GEYLANG BAHRU MRT STATION (DT24)",
+      "source_xy": [
+        32262.86125918571,
+        33728.3126899004
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 132,
+          "centroid_svy21": [
+            32295.005619954067,
+            33751.73120160862
+          ],
+          "centroid_wgs84": [
+            103.87191146433439,
+            1.3215128864792325
+          ],
+          "distance_metres": 39.77,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Great World",
+      "coordinate": [
+        103.8337208377308,
+        1.293948161693831
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "GREAT WORLD MRT STATION (TE15)",
+      "source_xy": [
+        28044.76786597632,
+        30703.73244682141
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 98,
+          "centroid_svy21": [
+            28014.283081157344,
+            30768.256235051875
+          ],
+          "centroid_wgs84": [
+            103.83344691889354,
+            1.2945316921778918
+          ],
+          "distance_metres": 71.36,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Gul Circle",
+      "coordinate": [
+        103.6605304613452,
+        1.319470900752091
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "GUL CIRCLE MRT STATION (EW30)",
+      "source_xy": [
+        8770.35150132887,
+        33526.57337001711
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 181,
+          "centroid_svy21": [
+            8777.408897072966,
+            33536.902186281295
+          ],
+          "centroid_wgs84": [
+            103.66059386897847,
+            1.319564314920689
+          ],
+          "distance_metres": 12.51,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "HarbourFront",
+      "coordinate": [
+        103.8215301570942,
+        1.265389383749022
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "HARBOURFRONT MRT STATION (NE1 / CC29)",
+      "source_xy": [
+        26688.03670214023,
+        27545.85342604853
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 34,
+          "centroid_svy21": [
+            26679.197650936123,
+            27553.368637145788
+          ],
+          "centroid_wgs84": [
+            103.82145073499991,
+            1.2654573483251224
+          ],
+          "distance_metres": 11.6,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 137,
+          "centroid_svy21": [
+            26692.069081352325,
+            27520.951154656377
+          ],
+          "centroid_wgs84": [
+            103.82156639036376,
+            1.265164176480545
+          ],
+          "distance_metres": 25.23,
+          "distance_to_footprint_m": 3.08
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Havelock",
+      "coordinate": [
+        103.8335858382257,
+        1.288505239753116
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "HAVELOCK MRT STATION (TE16)",
+      "source_xy": [
+        28029.74365609512,
+        30101.88222411647
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 164,
+          "centroid_svy21": [
+            28028.39237739265,
+            30095.817017850946
+          ],
+          "centroid_wgs84": [
+            103.83357369642785,
+            1.2884503881586142
+          ],
+          "distance_metres": 6.21,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Haw Par Villa",
+      "coordinate": [
+        103.7817527250638,
+        1.282571357724892
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "HAW PAR VILLA MRT STATION (CC25)",
+      "source_xy": [
+        22261.14310407545,
+        29445.80203543603
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 145,
+          "centroid_svy21": [
+            22268.777968514016,
+            29438.232434911213
+          ],
+          "centroid_wgs84": [
+            103.78182132863105,
+            1.2825029023308565
+          ],
+          "distance_metres": 10.75,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Hillview",
+      "coordinate": [
+        103.7674182540068,
+        1.362344868035584
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "HILLVIEW MRT STATION (DT3)",
+      "source_xy": [
+        20666.06754996069,
+        38266.7898455672
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 220,
+          "centroid_svy21": [
+            20667.29148160053,
+            38266.26144637698
+          ],
+          "centroid_wgs84": [
+            103.76742925198232,
+            1.3623400896876234
+          ],
+          "distance_metres": 1.33,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Holland Village",
+      "coordinate": [
+        103.796399122407,
+        1.312240296315966
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "HOLLAND VILLAGE MRT STATION (CC21)",
+      "source_xy": [
+        23891.2152273953,
+        32726.41282676905
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 87,
+          "centroid_svy21": [
+            23872.764293812936,
+            32693.8290240718
+          ],
+          "centroid_wgs84": [
+            103.79623333603709,
+            1.3119456174947703
+          ],
+          "distance_metres": 37.45,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Hougang",
+      "coordinate": [
+        103.8923805130286,
+        1.371292266207984
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "HOUGANG MRT STATION (NE14)",
+      "source_xy": [
+        34572.87524534576,
+        39256.1282835789
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 1,
+          "centroid_svy21": [
+            34569.205117747464,
+            39254.9017490263
+          ],
+          "centroid_wgs84": [
+            103.89234753407565,
+            1.371281174691941
+          ],
+          "distance_metres": 3.87,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Hume",
+      "coordinate": [
+        103.7691188518866,
+        1.354595323950304
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "HUME MRT STATION (DT4)",
+      "source_xy": [
+        20855.30144049414,
+        37409.87913321517
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 54,
+          "centroid_svy21": [
+            20853.64044486895,
+            37400.536885754875
+          ],
+          "centroid_wgs84": [
+            103.76910392899998,
+            1.3545108356453068
+          ],
+          "distance_metres": 9.49,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Jalan Besar",
+      "coordinate": [
+        103.855295713435,
+        1.3051713878069
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "JALAN BESAR MRT STATION (DT22)",
+      "source_xy": [
+        30445.85297878087,
+        31944.74962346256
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 177,
+          "centroid_svy21": [
+            30461.358579888187,
+            31967.87044445559
+          ],
+          "centroid_wgs84": [
+            103.85543504033971,
+            1.3053804831214166
+          ],
+          "distance_metres": 27.84,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Joo Koon",
+      "coordinate": [
+        103.6783749961644,
+        1.327717040844709
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "JOO KOON MRT STATION (EW29)",
+      "source_xy": [
+        10756.33797434811,
+        34438.26177777722
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 18,
+          "centroid_svy21": [
+            10757.666870102645,
+            34438.24161314355
+          ],
+          "centroid_wgs84": [
+            103.6783869369899,
+            1.3277168592366733
+          ],
+          "distance_metres": 1.33,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Jurong East",
+      "coordinate": [
+        103.7423704876066,
+        1.333027515439408
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "JURONG EAST MRT STATION (EW24 / NS1)",
+      "source_xy": [
+        17878.42214742769,
+        35025.11342758313
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 5,
+          "centroid_svy21": [
+            17866.486620154392,
+            35045.18422591204
+          ],
+          "centroid_wgs84": [
+            103.74226323357735,
+            1.333209024406938
+          ],
+          "distance_metres": 23.35,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Kaki Bukit",
+      "coordinate": [
+        103.9084593380455,
+        1.334967359954289
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KAKI BUKIT MRT STATION (DT28)",
+      "source_xy": [
+        36362.37828251533,
+        35239.55225512572
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 77,
+          "centroid_svy21": [
+            36361.913120677105,
+            35239.06779359425
+          ],
+          "centroid_wgs84": [
+            103.90845515816943,
+            1.3349629787882433
+          ],
+          "distance_metres": 0.67,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Kallang",
+      "coordinate": [
+        103.8713865417532,
+        1.311488909988205
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KALLANG MRT STATION (EW10)",
+      "source_xy": [
+        32236.60384384729,
+        32643.33023826405
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 173,
+          "centroid_svy21": [
+            32228.671361694687,
+            32633.12756780614
+          ],
+          "centroid_wgs84": [
+            103.87131526313172,
+            1.3113966417459602
+          ],
+          "distance_metres": 12.92,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Katong Park",
+      "coordinate": [
+        103.8861789499243,
+        1.297831477789522
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KATONG PARK MRT STATION (TE24)",
+      "source_xy": [
+        33882.89094979595,
+        31133.19094451331
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 172,
+          "centroid_svy21": [
+            33883.23915801152,
+            31132.19784237314
+          ],
+          "centroid_wgs84": [
+            103.88618207854142,
+            1.297822496461215
+          ],
+          "distance_metres": 1.05,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Kembangan",
+      "coordinate": [
+        103.9129479308509,
+        1.321038133593401
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KEMBANGAN MRT STATION (EW6)",
+      "source_xy": [
+        36861.96149354428,
+        33699.34405018762
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 75,
+          "centroid_svy21": [
+            36861.91674072048,
+            33699.33697404333
+          ],
+          "centroid_wgs84": [
+            103.91294752872169,
+            1.3210380696122812
+          ],
+          "distance_metres": 0.05,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Kent Ridge",
+      "coordinate": [
+        103.7845727381728,
+        1.293533498871235
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KENT RIDGE MRT STATION (CC24)",
+      "source_xy": [
+        22575.0107144611,
+        30657.93329476379
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 10,
+          "centroid_svy21": [
+            22566.685854601605,
+            30643.275626485738
+          ],
+          "centroid_wgs84": [
+            103.78449793831082,
+            1.2934009386725291
+          ],
+          "distance_metres": 16.86,
+          "distance_to_footprint_m": 6.01
+        }
+      ],
+      "distance_to_lta_footprint_m": 6.01,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Keppel",
+      "coordinate": [
+        103.8300314595233,
+        1.269772201244406
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KEPPEL MRT STATION (CC30)",
+      "source_xy": [
+        27634.16874357872,
+        28030.47992479801
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [],
+      "distance_to_lta_footprint_m": null,
+      "review": "CCL6 station absent from March 2026 extract; OneMap named station reference retained. Opened July 2026."
+    },
+    {
+      "name": "Khatib",
+      "coordinate": [
+        103.8329799082429,
+        1.417383370095667
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KHATIB MRT STATION (NS14)",
+      "source_xy": [
+        27962.31085615791,
+        44352.56799359992
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 82,
+          "centroid_svy21": [
+            27968.782282892065,
+            44373.95742565226
+          ],
+          "centroid_wgs84": [
+            103.83303805970739,
+            1.4175768084100262
+          ],
+          "distance_metres": 22.35,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "King Albert Park",
+      "coordinate": [
+        103.7833991134405,
+        1.335661612622142
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KING ALBERT PARK MRT STATION (DT6)",
+      "source_xy": [
+        22444.48956909589,
+        35316.24790558405
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 229,
+          "centroid_svy21": [
+            22497.064752358438,
+            35313.64818504875
+          ],
+          "centroid_wgs84": [
+            103.78387153213814,
+            1.3356381112935833
+          ],
+          "distance_metres": 52.64,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Kovan",
+      "coordinate": [
+        103.8850648563529,
+        1.360179170652371
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KOVAN MRT STATION (NE13)",
+      "source_xy": [
+        33758.75780185778,
+        38027.27944175154
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 20,
+          "centroid_svy21": [
+            33761.68015391231,
+            38027.35690666731
+          ],
+          "centroid_wgs84": [
+            103.88509111564177,
+            1.3601798706506054
+          ],
+          "distance_metres": 2.92,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Kranji",
+      "coordinate": [
+        103.762137459497,
+        1.425086980736478
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "KRANJI MRT STATION (NS7)",
+      "source_xy": [
+        20078.58650770131,
+        45204.51684511267
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 95,
+          "centroid_svy21": [
+            20083.39175768095,
+            45221.395722207635
+          ],
+          "centroid_wgs84": [
+            103.76218063434013,
+            1.4252396284248883
+          ],
+          "distance_metres": 17.55,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Labrador Park",
+      "coordinate": [
+        103.8026315787653,
+        1.27225417749656
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "LABRADOR PARK MRT STATION (CC27)",
+      "source_xy": [
+        24584.7750495933,
+        28304.94409888983
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 37,
+          "centroid_svy21": [
+            24617.731695506423,
+            28312.608380210804
+          ],
+          "centroid_wgs84": [
+            103.80292770501198,
+            1.2723234940934274
+          ],
+          "distance_metres": 33.84,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Lakeside",
+      "coordinate": [
+        103.7209490874561,
+        1.344259114938191
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "LAKESIDE MRT STATION (EW26)",
+      "source_xy": [
+        15494.49695343617,
+        36267.14703338593
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 105,
+          "centroid_svy21": [
+            15496.303092380385,
+            36267.59308007348
+          ],
+          "centroid_wgs84": [
+            103.72096531649909,
+            1.3442631495697484
+          ],
+          "distance_metres": 1.86,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Lavender",
+      "coordinate": [
+        103.8627676338875,
+        1.307377817470643
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "LAVENDER MRT STATION (EW11)",
+      "source_xy": [
+        31277.40623375308,
+        32188.73378661089
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 168,
+          "centroid_svy21": [
+            31285.21523192067,
+            32188.060816763747
+          ],
+          "centroid_wgs84": [
+            103.86283780137497,
+            1.3073717305406238
+          ],
+          "distance_metres": 7.84,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Lentor",
+      "coordinate": [
+        103.8357438096688,
+        1.385506579721705
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "LENTOR MRT STATION (TE5)",
+      "source_xy": [
+        28269.89707295597,
+        40827.79394345731
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 46,
+          "centroid_svy21": [
+            28337.075862323854,
+            40764.1721308114
+          ],
+          "centroid_wgs84": [
+            103.83634746157776,
+            1.384931206149239
+          ],
+          "distance_metres": 92.52,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Little India",
+      "coordinate": [
+        103.8486609350915,
+        1.307018267652254
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "LITTLE INDIA MRT STATION (DT12)",
+      "source_xy": [
+        29707.46188383922,
+        32148.96262458153
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 218,
+          "centroid_svy21": [
+            29701.848757855343,
+            32165.448359489885
+          ],
+          "centroid_wgs84": [
+            103.84861049939104,
+            1.3071673591317268
+          ],
+          "distance_metres": 17.42,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 219,
+          "centroid_svy21": [
+            29839.249296205675,
+            32164.13738452989
+          ],
+          "centroid_wgs84": [
+            103.84984510844264,
+            1.3071554952730982
+          ],
+          "distance_metres": 132.66,
+          "distance_to_footprint_m": 69.25
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Lorong Chuan",
+      "coordinate": [
+        103.8641519386503,
+        1.351612170745556
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "LORONG CHUAN MRT STATION (CC14)",
+      "source_xy": [
+        31431.40546712093,
+        37079.94436903112
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 207,
+          "centroid_svy21": [
+            31430.536033509674,
+            37080.783109987344
+          ],
+          "centroid_wgs84": [
+            103.86414412633293,
+            1.3516197561190195
+          ],
+          "distance_metres": 1.21,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "MacPherson",
+      "coordinate": [
+        103.8903913057249,
+        1.326077601716667
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MACPHERSON MRT STATION (CC10)",
+      "source_xy": [
+        34351.61776750349,
+        34256.51382551342
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 116,
+          "centroid_svy21": [
+            34337.17059425167,
+            34288.628394337444
+          ],
+          "centroid_wgs84": [
+            103.89026149672551,
+            1.3263680373758828
+          ],
+          "distance_metres": 35.21,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 140,
+          "centroid_svy21": [
+            34238.144078254605,
+            34257.950732891964
+          ],
+          "centroid_wgs84": [
+            103.88937168377497,
+            1.3260906200314289
+          ],
+          "distance_metres": 113.48,
+          "distance_to_footprint_m": 21.59
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Marina Bay",
+      "coordinate": [
+        103.8554471562785,
+        1.27625146423744
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MARINA BAY MRT STATION (CC33)",
+      "source_xy": [
+        30462.73497696687,
+        28746.93363264576
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 38,
+          "centroid_svy21": [
+            30429.119907124634,
+            28713.638011034036
+          ],
+          "centroid_wgs84": [
+            103.8551451100268,
+            1.275950352915493
+          ],
+          "distance_metres": 47.31,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 136,
+          "centroid_svy21": [
+            30369.816038908528,
+            28776.351525423
+          ],
+          "centroid_wgs84": [
+            103.85461224777038,
+            1.2765175164239124
+          ],
+          "distance_metres": 97.46,
+          "distance_to_footprint_m": 43.87
+        },
+        {
+          "feature_index": 146,
+          "centroid_svy21": [
+            30431.99612800203,
+            28640.698476839065
+          ],
+          "centroid_wgs84": [
+            103.85517094836104,
+            1.2752907131418711
+          ],
+          "distance_metres": 110.59,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 148,
+          "centroid_svy21": [
+            30336.17390077,
+            28798.321134443417
+          ],
+          "centroid_wgs84": [
+            103.85430996241398,
+            1.2767162043577465
+          ],
+          "distance_metres": 136.6,
+          "distance_to_footprint_m": 125.68
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Marina South Pier",
+      "coordinate": [
+        103.8624475157361,
+        1.271027036120066
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MARINA SOUTH PIER MRT STATION (NS28)",
+      "source_xy": [
+        31241.82600701787,
+        28169.25109341368
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 141,
+          "centroid_svy21": [
+            31293.395860244866,
+            28207.991023872895
+          ],
+          "centroid_wgs84": [
+            103.86291089278309,
+            1.271377381149496
+          ],
+          "distance_metres": 64.5,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Marine Parade",
+      "coordinate": [
+        103.9049830868117,
+        1.302611634833843
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MARINE PARADE MRT STATION (TE26)",
+      "source_xy": [
+        35975.61074790172,
+        31661.80799249187
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 33,
+          "centroid_svy21": [
+            36034.055916628284,
+            31689.840613102093
+          ],
+          "centroid_wgs84": [
+            103.90550825029845,
+            1.3028651366989974
+          ],
+          "distance_metres": 64.82,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 186,
+          "centroid_svy21": [
+            36313.5417253436,
+            31874.758650041953
+          ],
+          "centroid_wgs84": [
+            103.90801960613192,
+            1.3045373952053323
+          ],
+          "distance_metres": 399.43,
+          "distance_to_footprint_m": 229.1
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Marine Terrace",
+      "coordinate": [
+        103.9151067004998,
+        1.306665103448141
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MARINE TERRACE MRT STATION (TE27)",
+      "source_xy": [
+        37102.26343540102,
+        32110.0544330366
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 156,
+          "centroid_svy21": [
+            37125.53836183583,
+            32123.443382751524
+          ],
+          "centroid_wgs84": [
+            103.9153158404512,
+            1.3067861814062411
+          ],
+          "distance_metres": 26.85,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Marsiling",
+      "coordinate": [
+        103.7740746414026,
+        1.432521148550268
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MARSILING MRT STATION (NS8)",
+      "source_xy": [
+        21407.04132114816,
+        46026.51253020577
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 59,
+          "centroid_svy21": [
+            21420.32456173876,
+            46031.37970470379
+          ],
+          "centroid_wgs84": [
+            103.77419400264611,
+            1.4325651685938978
+          ],
+          "distance_metres": 14.15,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Marymount",
+      "coordinate": [
+        103.8394231323315,
+        1.34870726345101
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MARYMOUNT MRT STATION (CC16)",
+      "source_xy": [
+        28679.36877349578,
+        36758.71364785545
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 124,
+          "centroid_svy21": [
+            28678.22388962035,
+            36766.38674979054
+          ],
+          "centroid_wgs84": [
+            103.83941284500592,
+            1.348776656282285
+          ],
+          "distance_metres": 7.76,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Mattar",
+      "coordinate": [
+        103.8832475095416,
+        1.326876715013358
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MATTAR MRT STATION (DT25)",
+      "source_xy": [
+        33556.58344024606,
+        34344.85853325576
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 190,
+          "centroid_svy21": [
+            33557.201043292574,
+            34343.638577195845
+          ],
+          "centroid_wgs84": [
+            103.88325305881898,
+            1.32686568205406
+          ],
+          "distance_metres": 1.37,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Maxwell",
+      "coordinate": [
+        103.8438836706331,
+        1.280533298428769
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MAXWELL MRT STATION (TE18)",
+      "source_xy": [
+        29175.80883602332,
+        29220.38855155371
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 194,
+          "centroid_svy21": [
+            29180.083781901598,
+            29227.02914610164
+          ],
+          "centroid_wgs84": [
+            103.84392208289995,
+            1.2805933534773526
+          ],
+          "distance_metres": 7.9,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Mayflower",
+      "coordinate": [
+        103.8365677669445,
+        1.371463188310142
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MAYFLOWER MRT STATION (TE6)",
+      "source_xy": [
+        28361.59504954237,
+        39274.94719057903
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 204,
+          "centroid_svy21": [
+            28386.40964912868,
+            39345.706186168776
+          ],
+          "centroid_wgs84": [
+            103.83679074465117,
+            1.3721031070709433
+          ],
+          "distance_metres": 74.98,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Mountbatten",
+      "coordinate": [
+        103.8825280810512,
+        1.306201905253319
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "MOUNTBATTEN MRT STATION (CC7)",
+      "source_xy": [
+        33476.56342686899,
+        32058.74184667319
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 36,
+          "centroid_svy21": [
+            33478.67062396591,
+            32057.84421267998
+          ],
+          "centroid_wgs84": [
+            103.88254701504702,
+            1.3061937869977824
+          ],
+          "distance_metres": 2.29,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Napier",
+      "coordinate": [
+        103.8189567968147,
+        1.306782233647866
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "NAPIER MRT STATION (TE12)",
+      "source_xy": [
+        26401.66670745704,
+        32122.86257249117
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 188,
+          "centroid_svy21": [
+            26410.663835136864,
+            32117.23676575561
+          ],
+          "centroid_wgs84": [
+            103.81903764055825,
+            1.3067313563005127
+          ],
+          "distance_metres": 10.61,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Newton",
+      "coordinate": [
+        103.8377146130905,
+        1.313992862645701
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "NEWTON MRT STATION (DT11)",
+      "source_xy": [
+        28489.23643840197,
+        32920.17268890887
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 215,
+          "centroid_svy21": [
+            28519.62475910652,
+            32735.44878512384
+          ],
+          "centroid_wgs84": [
+            103.8379876642513,
+            1.3123222843618183
+          ],
+          "distance_metres": 187.21,
+          "distance_to_footprint_m": 139.39
+        },
+        {
+          "feature_index": 216,
+          "centroid_svy21": [
+            28530.109808487032,
+            32865.8192711025
+          ],
+          "centroid_wgs84": [
+            103.83808187982277,
+            1.313501308846315
+          ],
+          "distance_metres": 68.01,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Nicoll Highway",
+      "coordinate": [
+        103.8636369657193,
+        1.299766846751384
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "NICOLL HIGHWAY MRT STATION (CC5)",
+      "source_xy": [
+        31374.16492641345,
+        31347.15286970511
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 165,
+          "centroid_svy21": [
+            31373.73885363547,
+            31351.13169854536
+          ],
+          "centroid_wgs84": [
+            103.86363313769341,
+            1.2998028299201994
+          ],
+          "distance_metres": 4.0,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Novena",
+      "coordinate": [
+        103.8438256187479,
+        1.320440791201562
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "NOVENA MRT STATION (NS20)",
+      "source_xy": [
+        29169.32979250047,
+        33633.15353910625
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 86,
+          "centroid_svy21": [
+            29168.496448488087,
+            33631.96931418828
+          ],
+          "centroid_wgs84": [
+            103.84381813067145,
+            1.3204300815219443
+          ],
+          "distance_metres": 1.45,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Orchard",
+      "coordinate": [
+        103.8322452443746,
+        1.303980136817154
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ORCHARD MRT STATION (NS22)",
+      "source_xy": [
+        27880.54764906317,
+        31813.0165782962
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 31,
+          "centroid_svy21": [
+            27796.015463104908,
+            31700.32555304915
+          ],
+          "centroid_wgs84": [
+            103.83148568418467,
+            1.3029609984319233
+          ],
+          "distance_metres": 140.87,
+          "distance_to_footprint_m": 75.95
+        },
+        {
+          "feature_index": 41,
+          "centroid_svy21": [
+            27877.663674668234,
+            31808.329142885224
+          ],
+          "centroid_wgs84": [
+            103.83221933054449,
+            1.3039377452910825
+          ],
+          "distance_metres": 5.5,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Orchard Boulevard",
+      "coordinate": [
+        103.8238685232488,
+        1.302422248367229
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ORCHARD BOULEVARD MRT STATION (TE13)",
+      "source_xy": [
+        26948.29453753773,
+        31640.75524775684
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 178,
+          "centroid_svy21": [
+            26947.08435708196,
+            31664.061732353104
+          ],
+          "centroid_wgs84": [
+            103.82385764843515,
+            1.302633023962424
+          ],
+          "distance_metres": 23.34,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Outram Park",
+      "coordinate": [
+        103.8391309792483,
+        1.281405047722123
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "OUTRAM PARK MRT STATION (EW16)",
+      "source_xy": [
+        28646.87267269287,
+        29316.78039625101
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 191,
+          "centroid_svy21": [
+            28681.26596229692,
+            29139.056387598754
+          ],
+          "centroid_wgs84": [
+            103.83944001238696,
+            1.279797773382348
+          ],
+          "distance_metres": 181.02,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 193,
+          "centroid_svy21": [
+            28666.274165533374,
+            29296.151911788922
+          ],
+          "centroid_wgs84": [
+            103.83930530869567,
+            1.281218490539793
+          ],
+          "distance_metres": 28.32,
+          "distance_to_footprint_m": 2.91
+        },
+        {
+          "feature_index": 195,
+          "centroid_svy21": [
+            28647.896873150956,
+            29317.580357638923
+          ],
+          "centroid_wgs84": [
+            103.8391401820999,
+            1.2814122822714
+          ],
+          "distance_metres": 1.3,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Pasir Panjang",
+      "coordinate": [
+        103.7913503132878,
+        1.27621352233767
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PASIR PANJANG MRT STATION (CC26)",
+      "source_xy": [
+        23329.26471484546,
+        28742.7657615561
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 80,
+          "centroid_svy21": [
+            23328.33571787137,
+            28744.551331680133
+          ],
+          "centroid_wgs84": [
+            103.79134196564955,
+            1.2762296702669356
+          ],
+          "distance_metres": 2.01,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Pasir Ris",
+      "coordinate": [
+        103.9492845277626,
+        1.373043316358061
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PASIR RIS MRT STATION (EW1)",
+      "source_xy": [
+        40905.59746265505,
+        39449.98233968206
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 108,
+          "centroid_svy21": [
+            40902.605524717306,
+            39439.87140983422
+          ],
+          "centroid_wgs84": [
+            103.94925763871005,
+            1.3729518782222085
+          ],
+          "distance_metres": 10.54,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Paya Lebar",
+      "coordinate": [
+        103.8922607538836,
+        1.317247385403492
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PAYA LEBAR MRT STATION (CC9)",
+      "source_xy": [
+        34559.69169208966,
+        33280.11818921566
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 99,
+          "centroid_svy21": [
+            34647.39902202866,
+            33375.87834461069
+          ],
+          "centroid_wgs84": [
+            103.89304886930358,
+            1.318113387069056
+          ],
+          "distance_metres": 129.86,
+          "distance_to_footprint_m": 69.48
+        },
+        {
+          "feature_index": 182,
+          "centroid_svy21": [
+            34560.9645805696,
+            33293.610081873
+          ],
+          "centroid_wgs84": [
+            103.89227219429853,
+            1.3173694009778274
+          ],
+          "distance_metres": 13.55,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Pioneer",
+      "coordinate": [
+        103.6973216084733,
+        1.337587011067095
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PIONEER MRT STATION (EW28)",
+      "source_xy": [
+        12864.96983310208,
+        35529.51154839061
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 170,
+          "centroid_svy21": [
+            12864.627157012534,
+            35529.455191643094
+          ],
+          "centroid_wgs84": [
+            103.69731852936503,
+            1.3375865012263775
+          ],
+          "distance_metres": 0.35,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Potong Pasir",
+      "coordinate": [
+        103.8690556567813,
+        1.331379490213673
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "POTONG PASIR MRT STATION (NE10)",
+      "source_xy": [
+        31977.16675509606,
+        34842.72509558871
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 39,
+          "centroid_svy21": [
+            31978.758317366097,
+            34843.59845862711
+          ],
+          "centroid_wgs84": [
+            103.86906995797435,
+            1.3313873883895007
+          ],
+          "distance_metres": 1.82,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Prince Edward Road",
+      "coordinate": [
+        103.847097123745,
+        1.273156936360872
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PRINCE EDWARD ROAD MRT STATION (CC32)",
+      "source_xy": [
+        29533.44443515223,
+        28404.7502629552
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [],
+      "distance_to_lta_footprint_m": null,
+      "review": "CCL6 station absent from March 2026 extract; OneMap named station reference retained. Opened July 2026."
+    },
+    {
+      "name": "Promenade",
+      "coordinate": [
+        103.8603500001881,
+        1.293997986362327
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PROMENADE MRT STATION (CC4)",
+      "source_xy": [
+        31008.36187509354,
+        30709.25780671276
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 205,
+          "centroid_svy21": [
+            31080.30627334414,
+            30626.56852559861
+          ],
+          "centroid_wgs84": [
+            103.86099644329532,
+            1.2932501666470508
+          ],
+          "distance_metres": 109.61,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 206,
+          "centroid_svy21": [
+            31065.637772342514,
+            30576.592453139783
+          ],
+          "centroid_wgs84": [
+            103.86086463570636,
+            1.2927982021075515
+          ],
+          "distance_metres": 144.5,
+          "distance_to_footprint_m": 49.72
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Punggol",
+      "coordinate": [
+        103.9020726222284,
+        1.404546536689935
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PUNGGOL MRT STATION (NE17)",
+      "source_xy": [
+        35651.38280017301,
+        42933.24826928042
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 21,
+          "centroid_svy21": [
+            35684.9176624436,
+            42998.052196217475
+          ],
+          "centroid_wgs84": [
+            103.90237397793739,
+            1.4051325907214047
+          ],
+          "distance_metres": 72.97,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Punggol Coast",
+      "coordinate": [
+        103.9101663881767,
+        1.414927333886055
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "PUNGGOL COAST MRT STATION (NE18)",
+      "source_xy": [
+        36552.07067246642,
+        44081.1334630698
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 61,
+          "centroid_svy21": [
+            36557.801523449314,
+            44082.31743393716
+          ],
+          "centroid_wgs84": [
+            103.91021788518965,
+            1.4149380395652096
+          ],
+          "distance_metres": 5.85,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Queenstown",
+      "coordinate": [
+        103.8060771559821,
+        1.294550851849307
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "QUEENSTOWN MRT STATION (EW19)",
+      "source_xy": [
+        24968.26734622475,
+        30770.39111280628
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 169,
+          "centroid_svy21": [
+            24964.715107563843,
+            30777.078749358403
+          ],
+          "centroid_wgs84": [
+            103.80604523694412,
+            1.2946113321306543
+          ],
+          "distance_metres": 7.57,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Raffles Place",
+      "coordinate": [
+        103.8514617123419,
+        1.284125610436589
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "RAFFLES PLACE MRT STATION (EW14 / NS26)",
+      "source_xy": [
+        30019.18052791804,
+        29617.61258489452
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 84,
+          "centroid_svy21": [
+            30018.91380314545,
+            29611.161600063053
+          ],
+          "centroid_wgs84": [
+            103.85145931530387,
+            1.284067270013051
+          ],
+          "distance_metres": 6.46,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Redhill",
+      "coordinate": [
+        103.8167409720498,
+        1.289634534128879
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "REDHILL MRT STATION (EW18)",
+      "source_xy": [
+        26155.05349751096,
+        30226.75978284702
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 187,
+          "centroid_svy21": [
+            26160.5129865353,
+            30225.101679275187
+          ],
+          "centroid_wgs84": [
+            103.81679002791165,
+            1.2896195391445053
+          ],
+          "distance_metres": 5.71,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Rochor",
+      "coordinate": [
+        103.8527694288838,
+        1.30385218527656
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ROCHOR MRT STATION (DT13)",
+      "source_xy": [
+        30164.70185038634,
+        31798.87667782791
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 221,
+          "centroid_svy21": [
+            30127.915188061615,
+            31807.21088260208
+          ],
+          "centroid_wgs84": [
+            103.85243888424918,
+            1.3039275594307014
+          ],
+          "distance_metres": 37.72,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Sembawang",
+      "coordinate": [
+        103.8200461402103,
+        1.449050821585015
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SEMBAWANG MRT STATION (NS11)",
+      "source_xy": [
+        26522.98826238792,
+        47854.19983955473
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 91,
+          "centroid_svy21": [
+            26539.42735928854,
+            47856.279892907965
+          ],
+          "centroid_wgs84": [
+            103.82019386194229,
+            1.449069633698365
+          ],
+          "distance_metres": 16.57,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Sengkang",
+      "coordinate": [
+        103.895484694279,
+        1.391694626015214
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SENGKANG MRT STATION (NE16)",
+      "source_xy": [
+        34918.27401321381,
+        41512.1276907362
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 72,
+          "centroid_svy21": [
+            34910.63868633408,
+            41493.66763169377
+          ],
+          "centroid_wgs84": [
+            103.89541608054328,
+            1.391527681781383
+          ],
+          "distance_metres": 19.98,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Serangoon",
+      "coordinate": [
+        103.8727716604309,
+        1.350633615265261
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SERANGOON MRT STATION (CC13)",
+      "source_xy": [
+        32390.68525479082,
+        36971.75454856828
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 208,
+          "centroid_svy21": [
+            32356.3429909157,
+            36960.41517790514
+          ],
+          "centroid_wgs84": [
+            103.87246307189737,
+            1.3505310710735132
+          ],
+          "distance_metres": 36.17,
+          "distance_to_footprint_m": 0.0
+        },
+        {
+          "feature_index": 210,
+          "centroid_svy21": [
+            32486.726486741485,
+            36859.36875248217
+          ],
+          "centroid_wgs84": [
+            103.87363463471038,
+            1.3496172241019497
+          ],
+          "distance_metres": 147.83,
+          "distance_to_footprint_m": 73.79
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Shenton Way",
+      "coordinate": [
+        103.8503675960666,
+        1.277716828342504
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SHENTON WAY MRT STATION (TE19)",
+      "source_xy": [
+        29897.41914891545,
+        28908.9617211055
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 175,
+          "centroid_svy21": [
+            29926.31833696326,
+            28898.24173097371
+          ],
+          "centroid_wgs84": [
+            103.85062726536285,
+            1.277619878766435
+          ],
+          "distance_metres": 30.82,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Siglap",
+      "coordinate": [
+        103.9300258267072,
+        1.310008694322892
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SIGLAP MRT STATION (TE28)",
+      "source_xy": [
+        38762.61177533027,
+        32479.83100472204
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 174,
+          "centroid_svy21": [
+            38746.26173718816,
+            32465.23909585588
+          ],
+          "centroid_wgs84": [
+            103.92987890883363,
+            1.3098767361346713
+          ],
+          "distance_metres": 21.91,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Simei",
+      "coordinate": [
+        103.9533772143779,
+        1.343197078518295
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SIMEI MRT STATION (EW3)",
+      "source_xy": [
+        41361.22817131225,
+        36149.75277961046
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 127,
+          "centroid_svy21": [
+            41361.217304124286,
+            36149.79297445446
+          ],
+          "centroid_wgs84": [
+            103.95337711674757,
+            1.3431974420302133
+          ],
+          "distance_metres": 0.04,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Sixth Avenue",
+      "coordinate": [
+        103.7969068382873,
+        1.330857645362268
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SIXTH AVENUE MRT STATION (DT7)",
+      "source_xy": [
+        23947.74937389884,
+        34785.02330107614
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 121,
+          "centroid_svy21": [
+            23993.78113281185,
+            34776.97414047946
+          ],
+          "centroid_wgs84": [
+            103.79732046041522,
+            1.3307848577315728
+          ],
+          "distance_metres": 46.73,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Somerset",
+      "coordinate": [
+        103.8390857531233,
+        1.300264167390052
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SOMERSET MRT STATION (NS23)",
+      "source_xy": [
+        28641.8346576076,
+        31402.12452235259
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 214,
+          "centroid_svy21": [
+            28640.68559647927,
+            31401.3999843344
+          ],
+          "centroid_wgs84": [
+            103.83907542827603,
+            1.3002576149469325
+          ],
+          "distance_metres": 1.36,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Springleaf",
+      "coordinate": [
+        103.8178569499463,
+        1.397581061268243
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "SPRINGLEAF MRT STATION (TE4)",
+      "source_xy": [
+        26279.32793639787,
+        42162.93443995342
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 65,
+          "centroid_svy21": [
+            26286.842840014302,
+            42221.24257890893
+          ],
+          "centroid_wgs84": [
+            103.81792447398784,
+            1.3981083795560536
+          ],
+          "distance_metres": 58.79,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Stadium",
+      "coordinate": [
+        103.8753377110883,
+        1.302812468470708
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "STADIUM MRT STATION (CC6)",
+      "source_xy": [
+        32676.34770508576,
+        31683.94075942039
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 40,
+          "centroid_svy21": [
+            32677.488641483866,
+            31688.544166009793
+          ],
+          "centroid_wgs84": [
+            103.87534796361363,
+            1.3028540998754146
+          ],
+          "distance_metres": 4.74,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Stevens",
+      "coordinate": [
+        103.8260244019237,
+        1.320065557506253
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "STEVENS MRT STATION (DT10)",
+      "source_xy": [
+        27188.22996438015,
+        33591.66085523553
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 143,
+          "centroid_svy21": [
+            27136.7902464664,
+            33516.49061556458
+          ],
+          "centroid_wgs84": [
+            103.82556219134045,
+            1.319385743019868
+          ],
+          "distance_metres": 91.09,
+          "distance_to_footprint_m": 46.57
+        },
+        {
+          "feature_index": 147,
+          "centroid_svy21": [
+            27188.076842750273,
+            33591.70475182285
+          ],
+          "centroid_wgs84": [
+            103.82602302604487,
+            1.3200659544874016
+          ],
+          "distance_metres": 0.16,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tai Seng",
+      "coordinate": [
+        103.8883893001908,
+        1.335141501392029
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TAI SENG MRT STATION (CC11)",
+      "source_xy": [
+        34128.79234756902,
+        35258.74881576002
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 103,
+          "centroid_svy21": [
+            34103.77098123297,
+            35293.20362284317
+          ],
+          "centroid_wgs84": [
+            103.88816447580918,
+            1.3354531033639623
+          ],
+          "distance_metres": 42.58,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tampines",
+      "coordinate": [
+        103.9430098831302,
+        1.355150411204733
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TAMPINES MRT STATION (DT32)",
+      "source_xy": [
+        40207.3952279184,
+        37471.43946002237
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 14,
+          "centroid_svy21": [
+            40446.57818861227,
+            37265.64605658383
+          ],
+          "centroid_wgs84": [
+            103.94515900798021,
+            1.3532891936017595
+          ],
+          "distance_metres": 315.53,
+          "distance_to_footprint_m": 225.7
+        },
+        {
+          "feature_index": 112,
+          "centroid_svy21": [
+            40208.07251233181,
+            37470.620368817734
+          ],
+          "centroid_wgs84": [
+            103.94301596862594,
+            1.3551430033718617
+          ],
+          "distance_metres": 1.06,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tampines East",
+      "coordinate": [
+        103.9546344624998,
+        1.356191482715451
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TAMPINES EAST MRT STATION (DT33)",
+      "source_xy": [
+        41501.07485219371,
+        37586.6177644413
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 7,
+          "centroid_svy21": [
+            41520.05057606702,
+            37588.99825392436
+          ],
+          "centroid_wgs84": [
+            103.95480497245946,
+            1.3562130023610186
+          ],
+          "distance_metres": 19.12,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tampines West",
+      "coordinate": [
+        103.9384369712212,
+        1.345515305601201
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TAMPINES WEST MRT STATION (DT31)",
+      "source_xy": [
+        39698.52758529689,
+        36406.01433311775
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 52,
+          "centroid_svy21": [
+            39697.6927967548,
+            36406.25771343945
+          ],
+          "centroid_wgs84": [
+            103.93842947024064,
+            1.3455175069678105
+          ],
+          "distance_metres": 0.87,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tan Kah Kee",
+      "coordinate": [
+        103.8077603047289,
+        1.325556235198984
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TAN KAH KEE MRT STATION (DT8)",
+      "source_xy": [
+        25155.62210952491,
+        34198.80531151034
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 114,
+          "centroid_svy21": [
+            25107.830185956234,
+            34233.56712890046
+          ],
+          "centroid_wgs84": [
+            103.8073308651868,
+            1.3258706042426367
+          ],
+          "distance_metres": 59.1,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tanah Merah",
+      "coordinate": [
+        103.9463486007975,
+        1.327187290746738
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TANAH MERAH MRT STATION (EW4)",
+      "source_xy": [
+        40579.09977936372,
+        34379.4316836372
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 69,
+          "centroid_svy21": [
+            40601.28429385827,
+            34386.818122952485
+          ],
+          "centroid_wgs84": [
+            103.94654794344736,
+            1.3272540817841356
+          ],
+          "distance_metres": 23.38,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tanjong Katong",
+      "coordinate": [
+        103.8973687420782,
+        1.299319257698992
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TANJONG KATONG MRT STATION (TE25)",
+      "source_xy": [
+        35128.21199157741,
+        31297.73085187189
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 85,
+          "centroid_svy21": [
+            35137.32698187139,
+            31302.647839004672
+          ],
+          "centroid_wgs84": [
+            103.89745064541658,
+            1.2993637230817727
+          ],
+          "distance_metres": 10.36,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tanjong Pagar",
+      "coordinate": [
+        103.8457251867589,
+        1.276561317372466
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TANJONG PAGAR MRT STATION (EW15)",
+      "source_xy": [
+        29380.75674378686,
+        28781.18833356909
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 55,
+          "centroid_svy21": [
+            29395.046243945595,
+            28776.07036365517
+          ],
+          "centroid_wgs84": [
+            103.84585358294987,
+            1.2765150316206098
+          ],
+          "distance_metres": 15.18,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tanjong Rhu",
+      "coordinate": [
+        103.8734532546209,
+        1.297265079406466
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TANJONG RHU MRT STATION (TE23)",
+      "source_xy": [
+        32466.63452703785,
+        31070.5354917869
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 11,
+          "centroid_svy21": [
+            32466.46234430531,
+            31064.94576074902
+          ],
+          "centroid_wgs84": [
+            103.87345170668743,
+            1.2972145278824423
+          ],
+          "distance_metres": 5.59,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Telok Ayer",
+      "coordinate": [
+        103.848648781083,
+        1.282068947693958
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TELOK AYER MRT STATION (DT18)",
+      "source_xy": [
+        29706.12591557391,
+        29390.19539075717
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 217,
+          "centroid_svy21": [
+            29668.739229167946,
+            29413.59685249349
+          ],
+          "centroid_wgs84": [
+            103.848312848472,
+            1.2822805842997462
+          ],
+          "distance_metres": 44.11,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Telok Blangah",
+      "coordinate": [
+        103.8097616112185,
+        1.270706477177624
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TELOK BLANGAH MRT STATION (CC28)",
+      "source_xy": [
+        25378.2908018399,
+        28133.79905159026
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 29,
+          "centroid_svy21": [
+            25375.858346161927,
+            28120.011403719953
+          ],
+          "centroid_wgs84": [
+            103.80973975589153,
+            1.2705817863242321
+          ],
+          "distance_metres": 14.0,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tiong Bahru",
+      "coordinate": [
+        103.827445112419,
+        1.286102536157761
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TIONG BAHRU MRT STATION (EW17)",
+      "source_xy": [
+        27346.33226508461,
+        29836.20442194678
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 203,
+          "centroid_svy21": [
+            27300.61683686998,
+            29849.164367042213
+          ],
+          "centroid_wgs84": [
+            103.82703434066724,
+            1.2862197403648734
+          ],
+          "distance_metres": 47.52,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Toa Payoh",
+      "coordinate": [
+        103.8475021980474,
+        1.332629280968894
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TOA PAYOH MRT STATION (NS19)",
+      "source_xy": [
+        29578.48906691279,
+        34980.89629223011
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 81,
+          "centroid_svy21": [
+            29569.47667711858,
+            34986.21620283569
+          ],
+          "centroid_wgs84": [
+            103.84742121689158,
+            1.3326773928212523
+          ],
+          "distance_metres": 10.47,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tuas Crescent",
+      "coordinate": [
+        103.6490782356262,
+        1.321026955986843
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TUAS CRESCENT MRT STATION (EW31)",
+      "source_xy": [
+        7495.837867024355,
+        33698.72631090879
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 152,
+          "centroid_svy21": [
+            7494.197848945497,
+            33701.63407698901
+          ],
+          "centroid_wgs84": [
+            103.64906349734215,
+            1.3210532515588156
+          ],
+          "distance_metres": 3.34,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tuas Link",
+      "coordinate": [
+        103.6369914251273,
+        1.340882424511064
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TUAS LINK MRT STATION (EW33)",
+      "source_xy": [
+        6150.862788063474,
+        35894.35822222754
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 142,
+          "centroid_svy21": [
+            6131.631037133397,
+            35838.79805211212
+          ],
+          "centroid_wgs84": [
+            103.63681865744921,
+            1.3403799470752327
+          ],
+          "distance_metres": 58.79,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Tuas West Road",
+      "coordinate": [
+        103.6396166487711,
+        1.329985046531018
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "TUAS WEST ROAD MRT STATION (EW32)",
+      "source_xy": [
+        6442.928611922078,
+        34689.35177385621
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 153,
+          "centroid_svy21": [
+            6444.1430972647995,
+            34688.99526033756
+          ],
+          "centroid_wgs84": [
+            103.63962756178739,
+            1.3299818232294567
+          ],
+          "distance_metres": 1.27,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Ubi",
+      "coordinate": [
+        103.8992266554387,
+        1.329974259739727
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "UBI MRT STATION (DT27)",
+      "source_xy": [
+        35334.89183336962,
+        34687.41099073924
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 35,
+          "centroid_svy21": [
+            35337.36378315257,
+            34685.310662085736
+          ],
+          "centroid_wgs84": [
+            103.89924886676648,
+            1.3299552645270356
+          ],
+          "distance_metres": 3.24,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Upper Changi",
+      "coordinate": [
+        103.9614727886333,
+        1.341739774449938
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "UPPER CHANGI MRT STATION (DT34)",
+      "source_xy": [
+        42262.18797117099,
+        35988.65688451193
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 83,
+          "centroid_svy21": [
+            42262.24455193004,
+            35988.73471765041
+          ],
+          "centroid_wgs84": [
+            103.96147329708074,
+            1.3417404783166411
+          ],
+          "distance_metres": 0.1,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Upper Thomson",
+      "coordinate": [
+        103.832898468504,
+        1.354416433654027
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "UPPER THOMSON MRT STATION (TE8)",
+      "source_xy": [
+        27953.24650307465,
+        37390.00369197503
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 120,
+          "centroid_svy21": [
+            27956.060651643093,
+            37388.74505270521
+          ],
+          "centroid_wgs84": [
+            103.83292375545018,
+            1.3544050509729382
+          ],
+          "distance_metres": 3.08,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Woodlands",
+      "coordinate": [
+        103.7860667992523,
+        1.436819629615197
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "WOODLANDS MRT STATION (NS9)",
+      "source_xy": [
+        22741.59819038119,
+        46501.78610091656
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 57,
+          "centroid_svy21": [
+            22947.547825921167,
+            46419.40354005919
+          ],
+          "centroid_wgs84": [
+            103.78791746839082,
+            1.4360746295905293
+          ],
+          "distance_metres": 221.82,
+          "distance_to_footprint_m": 73.1
+        },
+        {
+          "feature_index": 106,
+          "centroid_svy21": [
+            22752.384678503848,
+            46503.0609312373
+          ],
+          "centroid_wgs84": [
+            103.7861637259257,
+            1.4368311607305573
+          ],
+          "distance_metres": 10.86,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Woodlands North",
+      "coordinate": [
+        103.785692682441,
+        1.44829245259622
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "WOODLANDS NORTH MRT STATION (TE1)",
+      "source_xy": [
+        22699.9912448721,
+        47770.39457266964
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 109,
+          "centroid_svy21": [
+            22697.992622675738,
+            47776.76878854983
+          ],
+          "centroid_wgs84": [
+            103.78567472161538,
+            1.4483500982892412
+          ],
+          "distance_metres": 6.68,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Woodlands South",
+      "coordinate": [
+        103.7932643222093,
+        1.427396052814427
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "WOODLANDS SOUTH MRT STATION (TE3)",
+      "source_xy": [
+        23542.55456972588,
+        45459.75882158801
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 43,
+          "centroid_svy21": [
+            23612.84508036717,
+            45426.52138418568
+          ],
+          "centroid_wgs84": [
+            103.79389595226307,
+            1.4270954765065307
+          ],
+          "distance_metres": 77.75,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Woodleigh",
+      "coordinate": [
+        103.8708183091496,
+        1.339190045193896
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "WOODLEIGH MRT STATION (NE11)",
+      "source_xy": [
+        32173.31857491564,
+        35706.37936337106
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 125,
+          "centroid_svy21": [
+            32172.30368304909,
+            35708.26371612647
+          ],
+          "centroid_wgs84": [
+            103.87080919000739,
+            1.3392070867482375
+          ],
+          "distance_metres": 2.14,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Yew Tee",
+      "coordinate": [
+        103.7474051502354,
+        1.397535069362989
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "YEW TEE MRT STATION (NS5)",
+      "source_xy": [
+        18438.98311738018,
+        42158.01810216159
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 179,
+          "centroid_svy21": [
+            18438.64290757457,
+            42159.62850785774
+          ],
+          "centroid_wgs84": [
+            103.74740209264961,
+            1.3975496331645392
+          ],
+          "distance_metres": 1.65,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Yio Chu Kang",
+      "coordinate": [
+        103.8449472711801,
+        1.381755870991314
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "YIO CHU KANG MRT STATION (NS15)",
+      "source_xy": [
+        29294.12623303384,
+        40413.0626359228
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 90,
+          "centroid_svy21": [
+            29277.828426464468,
+            40413.25448849707
+          ],
+          "centroid_wgs84": [
+            103.8448008232047,
+            1.3817576067531654
+          ],
+          "distance_metres": 16.3,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "Yishun",
+      "coordinate": [
+        103.8350050472459,
+        1.42944308477332
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "YISHUN MRT STATION (NS13)",
+      "source_xy": [
+        28187.67881699279,
+        45686.07053815573
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 104,
+          "centroid_svy21": [
+            28184.019204960252,
+            45701.40360289731
+          ],
+          "centroid_wgs84": [
+            103.83497216232473,
+            1.4295817514879388
+          ],
+          "distance_metres": 15.76,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    },
+    {
+      "name": "one-north",
+      "coordinate": [
+        103.7874575052496,
+        1.299759874935558
+      ],
+      "source_id": "onemap-mrt-stations",
+      "source_feature": "ONE-NORTH MRT STATION (CC23)",
+      "source_xy": [
+        22896.07281270158,
+        31346.40809569694
+      ],
+      "anchor_type": "OneMap named station reference (not an exit); interchange uses this named platform reference",
+      "accuracy_class": "documented",
+      "access_date": "2026-09-14",
+      "conversion_error_m": 0.0,
+      "footprint_comparison": [
+        {
+          "feature_index": 56,
+          "centroid_svy21": [
+            22889.004210551124,
+            31334.975305394713
+          ],
+          "centroid_wgs84": [
+            103.78739399257225,
+            1.2996564796754784
+          ],
+          "distance_metres": 13.44,
+          "distance_to_footprint_m": 0.0
+        }
+      ],
+      "distance_to_lta_footprint_m": 0.0,
+      "review": "Different anchor types: named platform reference versus footprint centroid. Point is within 25m of matching LTA footprint; no averaging or snapping."
+    }
+  ],
+  "lines": [
+    {
+      "id": "NS",
+      "color": "#df5159",
+      "stations": [
+        "Jurong East",
+        "Bukit Batok",
+        "Bukit Gombak",
+        "Choa Chu Kang",
+        "Yew Tee",
+        "Kranji",
+        "Marsiling",
+        "Woodlands",
+        "Admiralty",
+        "Sembawang",
+        "Canberra",
+        "Yishun",
+        "Khatib",
+        "Yio Chu Kang",
+        "Ang Mo Kio",
+        "Bishan",
+        "Braddell",
+        "Toa Payoh",
+        "Novena",
+        "Newton",
+        "Orchard",
+        "Somerset",
+        "Dhoby Ghaut",
+        "City Hall",
+        "Raffles Place",
+        "Marina Bay",
+        "Marina South Pier"
+      ]
+    },
+    {
+      "id": "EW",
+      "color": "#48a175",
+      "stations": [
+        "Pasir Ris",
+        "Tampines",
+        "Simei",
+        "Tanah Merah",
+        "Bedok",
+        "Kembangan",
+        "Eunos",
+        "Paya Lebar",
+        "Aljunied",
+        "Kallang",
+        "Lavender",
+        "Bugis",
+        "City Hall",
+        "Raffles Place",
+        "Tanjong Pagar",
+        "Outram Park",
+        "Tiong Bahru",
+        "Redhill",
+        "Queenstown",
+        "Commonwealth",
+        "Buona Vista",
+        "Dover",
+        "Clementi",
+        "Jurong East",
+        "Chinese Garden",
+        "Lakeside",
+        "Boon Lay",
+        "Pioneer",
+        "Joo Koon",
+        "Gul Circle",
+        "Tuas Crescent",
+        "Tuas West Road",
+        "Tuas Link"
+      ]
+    },
+    {
+      "id": "CG",
+      "color": "#48a175",
+      "stations": [
+        "Tanah Merah",
+        "Expo",
+        "Changi Airport"
+      ]
+    },
+    {
+      "id": "NE",
+      "color": "#a87bca",
+      "stations": [
+        "HarbourFront",
+        "Outram Park",
+        "Chinatown",
+        "Clarke Quay",
+        "Dhoby Ghaut",
+        "Little India",
+        "Farrer Park",
+        "Boon Keng",
+        "Potong Pasir",
+        "Woodleigh",
+        "Serangoon",
+        "Kovan",
+        "Hougang",
+        "Buangkok",
+        "Sengkang",
+        "Punggol",
+        "Punggol Coast"
+      ]
+    },
+    {
+      "id": "CC",
+      "color": "#e8ac4d",
+      "stations": [
+        "Dhoby Ghaut",
+        "Bras Basah",
+        "Esplanade",
+        "Promenade",
+        "Nicoll Highway",
+        "Stadium",
+        "Mountbatten",
+        "Dakota",
+        "Paya Lebar",
+        "MacPherson",
+        "Tai Seng",
+        "Bartley",
+        "Serangoon",
+        "Lorong Chuan",
+        "Bishan",
+        "Marymount",
+        "Caldecott",
+        "Botanic Gardens",
+        "Farrer Road",
+        "Holland Village",
+        "Buona Vista",
+        "one-north",
+        "Kent Ridge",
+        "Haw Par Villa",
+        "Pasir Panjang",
+        "Labrador Park",
+        "Telok Blangah",
+        "HarbourFront",
+        "Keppel",
+        "Cantonment",
+        "Prince Edward Road",
+        "Marina Bay"
+      ]
+    },
+    {
+      "id": "CE",
+      "color": "#e8ac4d",
+      "stations": [
+        "Promenade",
+        "Bayfront",
+        "Marina Bay"
+      ]
+    },
+    {
+      "id": "DT",
+      "color": "#58a7e6",
+      "stations": [
+        "Bukit Panjang",
+        "Cashew",
+        "Hillview",
+        "Hume",
+        "Beauty World",
+        "King Albert Park",
+        "Sixth Avenue",
+        "Tan Kah Kee",
+        "Botanic Gardens",
+        "Stevens",
+        "Newton",
+        "Little India",
+        "Rochor",
+        "Bugis",
+        "Promenade",
+        "Bayfront",
+        "Downtown",
+        "Telok Ayer",
+        "Chinatown",
+        "Fort Canning",
+        "Bencoolen",
+        "Jalan Besar",
+        "Bendemeer",
+        "Geylang Bahru",
+        "Mattar",
+        "MacPherson",
+        "Ubi",
+        "Kaki Bukit",
+        "Bedok North",
+        "Bedok Reservoir",
+        "Tampines West",
+        "Tampines",
+        "Tampines East",
+        "Upper Changi",
+        "Expo"
+      ]
+    },
+    {
+      "id": "TE",
+      "color": "#aa8b6b",
+      "stations": [
+        "Woodlands North",
+        "Woodlands",
+        "Woodlands South",
+        "Springleaf",
+        "Lentor",
+        "Mayflower",
+        "Bright Hill",
+        "Upper Thomson",
+        "Caldecott",
+        "Stevens",
+        "Napier",
+        "Orchard Boulevard",
+        "Orchard",
+        "Great World",
+        "Havelock",
+        "Outram Park",
+        "Maxwell",
+        "Shenton Way",
+        "Marina Bay",
+        "Gardens by the Bay",
+        "Tanjong Rhu",
+        "Katong Park",
+        "Tanjong Katong",
+        "Marine Parade",
+        "Marine Terrace",
+        "Siglap",
+        "Bayshore"
+      ]
+    }
+  ]
+}

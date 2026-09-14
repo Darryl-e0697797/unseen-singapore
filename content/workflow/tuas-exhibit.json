@@ -1,0 +1,390 @@
+{
+  "research_revision": "tuas-r1",
+  "accuracy_class": "schematic",
+  "claim_ids": [
+    "tuas-visual-mechanisms"
+  ],
+  "components": [
+    {
+      "id": "today",
+      "title": "The port today",
+      "description": "An operating port is a chain of hand-offs. Follow one illustrative container between vessel, quay and yard. PSA reported 14 operating berths on 6 August 2026; this is a dated reference, not a live count.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-automation",
+        "tuas-operating",
+        "tuas-capacity"
+      ]
+    },
+    {
+      "id": "why",
+      "title": "Why move west?",
+      "description": "Consolidating container terminals creates a connected port district and releases waterfront land. The finger-pier concept makes efficient use of land and sea space. Open the map context to see Tuas alongside Pasir Panjang and the city terminals.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-rationale",
+        "tuas-consolidation",
+        "tuas-finger-piers",
+        "tuas-waterfront"
+      ]
+    },
+    {
+      "id": "foundation",
+      "title": "Prepare what lies beneath",
+      "description": "Where needed, soft ground was replaced with compacted sand. A prepared rock mound supports the caisson. TEMAROCK combined rock placement, compaction and underwater survey. This exposed profile is representative; actual ground conditions vary.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-foundation",
+        "tuas-rock-mound"
+      ]
+    },
+    {
+      "id": "fabrication",
+      "title": "Make the giant",
+      "description": "MPA describes a Phase 1 caisson envelope of about 40 \u00d7 28 \u00d7 28 metres and 15,000 tonnes. Sheltered slip-form production and automated reinforcement handling supported fabrication. Inspect simplified cells and move the formwork; cell layout and reinforcement here are illustrative.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-caisson-scale",
+        "tuas-slipform",
+        "tuas-rebar",
+        "tuas-geotextile"
+      ]
+    },
+    {
+      "id": "placement",
+      "title": "Float. Place. Retain.",
+      "description": "The caisson was fabricated nearby, towed and submerged onto a prepared foundation. Scrub this movement, then reveal how the wall retains fill and supports the waterfront. The animation explains the relationship, not a ballast, mooring or stability procedure.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-float-place",
+        "tuas-caisson-function"
+      ]
+    },
+    {
+      "id": "ground",
+      "title": "Turn fill into a platform",
+      "description": "More than half of Phase 1 fill came from reused dredged and excavated material. Preloading and drains expedited consolidation. Reveal drains and qualitative water escape, then remove the temporary surcharge. Monitoring checks ground response; animated settlement is exaggerated and has no time scale.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-reused-fill",
+        "tuas-drains",
+        "tuas-monitoring",
+        "tuas-settlement"
+      ]
+    },
+    {
+      "id": "operation",
+      "title": "Connect the working terminal",
+      "description": "Ground stability supports automated operation. Electric AGVs link quay and yard; automated yard equipment is remotely managed. Follow a schematic container hand-off. Reclamation completion and terminal readiness are separate milestones, not one construction completion date.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-automation",
+        "tuas-settlement",
+        "tuas-reclamation-complete",
+        "tuas-terminal-interface"
+      ]
+    },
+    {
+      "id": "future",
+      "title": "Build for decades",
+      "description": "Phase 1 platform elevation is reported as five metres above mean sea level, not above every tide. Environmental assessment and monitoring accompanied reclamation. Compare Phase 2 methods separately; capacity and net-zero milestones are future targets, not achieved conditions.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-elevation",
+        "tuas-environment",
+        "tuas-corals",
+        "tuas-phase2-methods",
+        "tuas-energy-target",
+        "tuas-supply-chain"
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "id": "today",
+      "title": "The port today",
+      "body": "An operating port is a chain of hand-offs. Follow one illustrative container between vessel, quay and yard. PSA reported 14 operating berths on 6 August 2026; this is a dated reference, not a live count.",
+      "camera": [
+        56,
+        43,
+        61
+      ],
+      "target": [
+        0,
+        11,
+        0
+      ],
+      "component_ids": [
+        "today"
+      ],
+      "claim_ids": [
+        "tuas-automation",
+        "tuas-operating",
+        "tuas-capacity"
+      ]
+    },
+    {
+      "id": "why",
+      "title": "Why move west?",
+      "body": "Consolidating container terminals creates a connected port district and releases waterfront land. The finger-pier concept makes efficient use of land and sea space. Open the map context to see Tuas alongside Pasir Panjang and the city terminals.",
+      "camera": [
+        58,
+        58,
+        68
+      ],
+      "target": [
+        0,
+        8,
+        0
+      ],
+      "component_ids": [
+        "why"
+      ],
+      "claim_ids": [
+        "tuas-rationale",
+        "tuas-consolidation",
+        "tuas-finger-piers",
+        "tuas-waterfront"
+      ]
+    },
+    {
+      "id": "foundation",
+      "title": "Prepare what lies beneath",
+      "body": "Where needed, soft ground was replaced with compacted sand. A prepared rock mound supports the caisson. TEMAROCK combined rock placement, compaction and underwater survey. This exposed profile is representative; actual ground conditions vary.",
+      "camera": [
+        27,
+        16,
+        31
+      ],
+      "target": [
+        0,
+        3,
+        0
+      ],
+      "component_ids": [
+        "foundation"
+      ],
+      "claim_ids": [
+        "tuas-foundation",
+        "tuas-rock-mound"
+      ]
+    },
+    {
+      "id": "fabrication",
+      "title": "Make the giant",
+      "body": "MPA describes a Phase 1 caisson envelope of about 40 \u00d7 28 \u00d7 28 metres and 15,000 tonnes. Sheltered slip-form production and automated reinforcement handling supported fabrication. Inspect simplified cells and move the formwork; cell layout and reinforcement here are illustrative.",
+      "camera": [
+        -43,
+        29,
+        29
+      ],
+      "target": [
+        -25,
+        10,
+        -11
+      ],
+      "component_ids": [
+        "fabrication"
+      ],
+      "claim_ids": [
+        "tuas-caisson-scale",
+        "tuas-slipform",
+        "tuas-rebar",
+        "tuas-geotextile"
+      ]
+    },
+    {
+      "id": "placement",
+      "title": "Float. Place. Retain.",
+      "body": "The caisson was fabricated nearby, towed and submerged onto a prepared foundation. Scrub this movement, then reveal how the wall retains fill and supports the waterfront. The animation explains the relationship, not a ballast, mooring or stability procedure.",
+      "camera": [
+        34,
+        28,
+        43
+      ],
+      "target": [
+        0,
+        7,
+        4
+      ],
+      "component_ids": [
+        "placement"
+      ],
+      "claim_ids": [
+        "tuas-float-place",
+        "tuas-caisson-function"
+      ]
+    },
+    {
+      "id": "ground",
+      "title": "Turn fill into a platform",
+      "body": "More than half of Phase 1 fill came from reused dredged and excavated material. Preloading and drains expedited consolidation. Reveal drains and qualitative water escape, then remove the temporary surcharge. Monitoring checks ground response; animated settlement is exaggerated and has no time scale.",
+      "camera": [
+        35,
+        25,
+        12
+      ],
+      "target": [
+        8,
+        8,
+        -10
+      ],
+      "component_ids": [
+        "ground"
+      ],
+      "claim_ids": [
+        "tuas-reused-fill",
+        "tuas-drains",
+        "tuas-monitoring",
+        "tuas-settlement"
+      ]
+    },
+    {
+      "id": "operation",
+      "title": "Connect the working terminal",
+      "body": "Ground stability supports automated operation. Electric AGVs link quay and yard; automated yard equipment is remotely managed. Follow a schematic container hand-off. Reclamation completion and terminal readiness are separate milestones, not one construction completion date.",
+      "camera": [
+        29,
+        27,
+        33
+      ],
+      "target": [
+        0,
+        15,
+        1
+      ],
+      "component_ids": [
+        "operation"
+      ],
+      "claim_ids": [
+        "tuas-automation",
+        "tuas-settlement",
+        "tuas-reclamation-complete",
+        "tuas-terminal-interface"
+      ]
+    },
+    {
+      "id": "future",
+      "title": "Build for decades",
+      "body": "Phase 1 platform elevation is reported as five metres above mean sea level, not above every tide. Environmental assessment and monitoring accompanied reclamation. Compare Phase 2 methods separately; capacity and net-zero milestones are future targets, not achieved conditions.",
+      "camera": [
+        53,
+        42,
+        60
+      ],
+      "target": [
+        0,
+        10,
+        0
+      ],
+      "component_ids": [
+        "future"
+      ],
+      "claim_ids": [
+        "tuas-elevation",
+        "tuas-environment",
+        "tuas-corals",
+        "tuas-phase2-methods",
+        "tuas-energy-target",
+        "tuas-supply-chain",
+        "tuas-caisson-count",
+        "tuas-area",
+        "tuas-phase2-scope",
+        "tuas-capacity",
+        "tuas-berth-target"
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "title": "Before the quay",
+      "body": "Sea and seabed context. No surveyed bathymetry.",
+      "model_stage": 0,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-visual-mechanisms"
+      ]
+    },
+    {
+      "title": "Seabed preparation",
+      "body": "Local replacement where needed, followed by a prepared rock mound.",
+      "model_stage": 1,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-foundation",
+        "tuas-rock-mound"
+      ]
+    },
+    {
+      "title": "Caisson fabrication",
+      "body": "Representative sheltered fabrication bay, cells and slipform.",
+      "model_stage": 2,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-caisson-scale",
+        "tuas-slipform",
+        "tuas-rebar"
+      ]
+    },
+    {
+      "title": "Tow",
+      "body": "A floating caisson and tug explain the marine transfer. No verified draft or tow procedure.",
+      "model_stage": 3,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-float-place"
+      ]
+    },
+    {
+      "title": "Placement",
+      "body": "Seat the caisson on the prepared foundation.",
+      "model_stage": 4,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-float-place",
+        "tuas-caisson-function"
+      ]
+    },
+    {
+      "title": "Reclamation fill",
+      "body": "Retain and reuse suitable material behind the quay.",
+      "model_stage": 5,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-reused-fill",
+        "tuas-caisson-function"
+      ]
+    },
+    {
+      "title": "Ground improvement",
+      "body": "Temporary surcharge, drains and monitoring; qualitative relationships.",
+      "model_stage": 6,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-drains",
+        "tuas-monitoring",
+        "tuas-settlement"
+      ]
+    },
+    {
+      "title": "Terminal works",
+      "body": "Deck, cranes and yard infrastructure follow civil preparation.",
+      "model_stage": 7,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-terminal-interface",
+        "tuas-automation"
+      ]
+    },
+    {
+      "title": "Operational reference",
+      "body": "Ship, AGV and yard hand-offs. A schematic cycle, not real dispatch logic.",
+      "model_stage": 8,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "tuas-automation",
+        "tuas-operating"
+      ]
+    }
+  ]
+}

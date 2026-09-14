@@ -1,0 +1,41 @@
+{
+  "name": "unseen-singapore",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @unseen/web",
+    "build": "npm run validate && npm run assets:check && npm run build --workspace @unseen/web",
+    "start": "npm run start --workspace @unseen/web",
+    "typecheck": "tsc --noEmit -p apps/web/tsconfig.json",
+    "lint": "eslint .",
+    "test": "tsx --test tests/*.test.ts",
+    "validate": "tsx scripts/validate.ts && tsx scripts/check-geography.ts && npm run workflow:check",
+    "assets:generate": "python3 pipeline/blender/run.py",
+    "assets:check": "tsx scripts/check-glb.ts",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "schemas:export": "tsx scripts/export-schemas.ts",
+    "geography:generate": "python3 pipeline/gis/buildings.py",
+    "workflow:check": "tsx scripts/check-workflow.ts",
+    "build:static": "node scripts/build-static.mjs"
+  },
+  "engines": {
+    "node": ">=24 <27"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3"
+  },
+  "type": "module"
+}

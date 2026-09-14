@@ -1,0 +1,243 @@
+[
+  {
+    "file": "world-reclamation.glb",
+    "bytes": 231188,
+    "triangles": 2892,
+    "meshes": 33,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        8.099999785423279,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-barrage.glb",
+    "bytes": 484132,
+    "triangles": 7548,
+    "meshes": 29,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        8,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-mrt.glb",
+    "bytes": 478396,
+    "triangles": 8064,
+    "meshes": 35,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        33,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-tuas.glb",
+    "bytes": 618688,
+    "triangles": 9452,
+    "meshes": 31,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        30.04392903370961,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-dtss.glb",
+    "bytes": 1621180,
+    "triangles": 31576,
+    "meshes": 22,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        38,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-newater.glb",
+    "bytes": 73836,
+    "triangles": 1124,
+    "meshes": 8,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        7,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-coast.glb",
+    "bytes": 20904,
+    "triangles": 192,
+    "meshes": 9,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        6,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-caverns.glb",
+    "bytes": 150800,
+    "triangles": 3284,
+    "meshes": 8,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        16,
+        21
+      ]
+    }
+  },
+  {
+    "file": "world-power.glb",
+    "bytes": 239872,
+    "triangles": 4912,
+    "meshes": 8,
+    "stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bounds": {
+      "min": [
+        -35,
+        -3.5,
+        -21
+      ],
+      "max": [
+        35,
+        14,
+        21
+      ]
+    }
+  }
+]

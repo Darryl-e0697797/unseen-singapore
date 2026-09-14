@@ -1,0 +1,244 @@
+{
+  "research_revision": "barrage-r1",
+  "accuracy_class": "schematic",
+  "claim_ids": ["barrage-teaching-model"],
+  "components": [
+    {
+      "id": "reservoir",
+      "title": "Reservoir",
+      "description": "Stores collected rainwater; this is not drinking water directly from the lake.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-catchment"]
+    },
+    {
+      "id": "sea",
+      "title": "Sea",
+      "description": "The tide changes the water level outside the barrier.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-high-tide"]
+    },
+    {
+      "id": "gate",
+      "title": "Crest gate",
+      "description": "A movable steel barrier. Lowering it allows excess water out when sea level permits.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-gates"]
+    },
+    {
+      "id": "bay",
+      "title": "Gate bay",
+      "description": "The supporting structure holds the gate. Internal shape here is schematic.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-teaching-model"]
+    },
+    {
+      "id": "bridge",
+      "title": "Bridge",
+      "description": "The public crossing above the barrier.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-gates"]
+    },
+    {
+      "id": "hall",
+      "title": "Pump hall",
+      "description": "The building houses the permanent drainage equipment.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-pumps"]
+    },
+    {
+      "id": "pump",
+      "title": "Drainage pump",
+      "description": "Moves excess reservoir water to sea when gravity drainage is unavailable. The cutaway is a generic axial-flow explanation.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-pumps"]
+    },
+    {
+      "id": "motor",
+      "title": "Electric motor",
+      "description": "Drives the pump shaft. PUB lists a 1600 kW motor per drainage pump.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-motor"]
+    },
+    {
+      "id": "roof",
+      "title": "Green roof",
+      "description": "A public landscape that also insulates the building below.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-public-roof"]
+    },
+    {
+      "id": "enclosure",
+      "title": "Temporary enclosure",
+      "description": "Sheet-pile walls separate a construction work area from the surrounding water. This is not a surveyed cofferdam layout.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-cofferdam"]
+    },
+    {
+      "id": "temporary",
+      "title": "Construction pump",
+      "description": "Removes water while building. It is separate from the seven permanent drainage pumps.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-temporary-pumping"]
+    },
+    {
+      "id": "future",
+      "title": "Possible gap treatment",
+      "description": "PUB describes possible beams and seals for future sea levels. This ghosted shape is envisioned, not a final design.",
+      "accuracy_class": "envisioned",
+      "claim_ids": ["barrage-future-gap"]
+    }
+  ],
+  "stops": [
+    {
+      "id": "today",
+      "title": "A park that manages water",
+      "body": "A public roof sits beside working water infrastructure. Find the reservoir, the sea, nine gate bays and the pump hall. The overall scene compresses distance to make their relationships readable.",
+      "camera": [62, 44, 68],
+      "target": [0, 3, 0],
+      "component_ids": ["reservoir", "sea", "gate", "bridge", "hall", "roof"],
+      "claim_ids": ["barrage-purpose", "barrage-channel", "barrage-public-roof"]
+    },
+    {
+      "id": "why",
+      "title": "Why build here?",
+      "body": "The vision depended on cleaner waterways and improving treatment technology. Follow the urban catchment on the map: a reservoir captures rain, but that water still needs treatment before drinking.",
+      "camera": [42, 60, 58],
+      "target": [0, 2, -5],
+      "component_ids": ["reservoir", "roof"],
+      "claim_ids": [
+        "barrage-rationale",
+        "barrage-catchment",
+        "barrage-water-loop",
+        "barrage-historic-view"
+      ]
+    },
+    {
+      "id": "dry",
+      "title": "Building in water",
+      "body": "A temporary enclosure makes a dry working area possible. Scrub to remove water and expose the illustrative work floor. The work sequence and dimensions are conceptual, not the contractor\u2019s historical programme.",
+      "camera": [30, 30, 42],
+      "target": [0, 2, 0],
+      "component_ids": ["enclosure", "temporary"],
+      "claim_ids": ["barrage-cofferdam", "barrage-temporary-pumping", "barrage-teaching-model"]
+    },
+    {
+      "id": "assembly",
+      "title": "Putting it together",
+      "body": "Reveal the supporting structure, place equipment and complete the crossing. This sequence explains interfaces; it does not establish the actual order or duration of each construction package.",
+      "camera": [54, 35, 60],
+      "target": [0, 3, 0],
+      "component_ids": ["gate", "bay", "bridge", "hall", "pump"],
+      "claim_ids": ["barrage-gates", "barrage-pumps", "barrage-teaching-model"]
+    },
+    {
+      "id": "gravity",
+      "title": "Rain at low tide",
+      "body": "When the reservoir can drain towards the lower sea, crest gates lower to release excess water. Compare the two water levels and follow the arrows. The gate does not lift vertically like a sluice.",
+      "camera": [26, 21, 36],
+      "target": [0, 3, 0],
+      "component_ids": ["reservoir", "sea", "gate", "bay"],
+      "claim_ids": ["barrage-gravity", "barrage-controls", "barrage-teaching-model"]
+    },
+    {
+      "id": "pumping",
+      "title": "Rain at high tide",
+      "body": "High sea level prevents the low-tide release mode. The tidal barrier stays closed while drainage pumps move excess rainwater out. The enlarged pump section is displaced beside the gate for teaching; its internal shape is illustrative.",
+      "camera": [39, 26, 42],
+      "target": [9, 4, 0],
+      "component_ids": ["reservoir", "sea", "gate", "pump", "motor"],
+      "claim_ids": ["barrage-high-tide", "barrage-pumps", "barrage-motor", "barrage-teaching-model"]
+    },
+    {
+      "id": "fresh",
+      "title": "Becoming freshwater",
+      "body": "Opening the Barrage and commissioning a freshwater reservoir were different milestones. Rain gradually replaced saline water; this was not a desalination plant installed in the gate.",
+      "camera": [50, 42, 60],
+      "target": [0, 3, 0],
+      "component_ids": ["reservoir", "gate"],
+      "claim_ids": ["barrage-opening", "barrage-freshwater", "barrage-water-loop"]
+    },
+    {
+      "id": "dependable",
+      "title": "Keeping it dependable",
+      "body": "Weather, reservoir level and tide inform operation. There is no fixed gate-opening timetable. Equipment inspection and availability matter; this exhibit does not reproduce PUB operating thresholds or isolation procedures.",
+      "camera": [39, 26, 42],
+      "target": [9, 4, 0],
+      "component_ids": ["gate", "hall", "pump", "motor"],
+      "claim_ids": ["barrage-controls", "barrage-pumps"]
+    },
+    {
+      "id": "future",
+      "title": "Facing future seas",
+      "body": "PUB announced a future retrofit in 2025. Compare the current barrier with an optional, ghosted gap-treatment concept. This is not a completed upgrade or a promised 2050 delivery date.",
+      "camera": [54, 35, 62],
+      "target": [0, 3, 0],
+      "component_ids": ["reservoir", "sea", "gate", "bridge", "future"],
+      "claim_ids": ["barrage-retrofit", "barrage-future-gap"]
+    }
+  ],
+  "stages": [
+    {
+      "title": "Water and site",
+      "body": "Existing water context; current geography is a reference.",
+      "model_stage": 0,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-channel", "barrage-teaching-model"]
+    },
+    {
+      "title": "Temporary enclosure",
+      "body": "Illustrative sheet-pile work area.",
+      "model_stage": 1,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-cofferdam"]
+    },
+    {
+      "title": "Remove construction water",
+      "body": "Temporary dewatering, separate from permanent drainage.",
+      "model_stage": 2,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-temporary-pumping"]
+    },
+    {
+      "title": "Supporting structure",
+      "body": "Schematic structural interfaces.",
+      "model_stage": 3,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-teaching-model"]
+    },
+    {
+      "title": "Place the gates",
+      "body": "Nine gate bays; conceptual assembly, not a contract programme.",
+      "model_stage": 4,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-gates", "barrage-teaching-model"]
+    },
+    {
+      "title": "Install pumping equipment",
+      "body": "Seven permanent drainage pumps.",
+      "model_stage": 5,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-pumps"]
+    },
+    {
+      "title": "Complete public crossing",
+      "body": "Bridge and landscaped roof.",
+      "model_stage": 6,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-gates", "barrage-public-roof"]
+    },
+    {
+      "title": "Commission and operate",
+      "body": "2008 opening differs from 2010 freshwater commissioning.",
+      "model_stage": 7,
+      "accuracy_class": "schematic",
+      "claim_ids": ["barrage-opening", "barrage-freshwater"]
+    },
+    {
+      "title": "Future proposal",
+      "body": "Optional envisioned gap treatment, not built works.",
+      "model_stage": 8,
+      "accuracy_class": "envisioned",
+      "claim_ids": ["barrage-retrofit", "barrage-future-gap"]
+    }
+  ]
+}

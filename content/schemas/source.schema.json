@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{1,79}$"
+    },
+    "organisation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "format": "starts_with",
+      "pattern": "^https:\\/\\/.*"
+    },
+    "access_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+    },
+    "publication_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date",
+          "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "update_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date",
+          "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "licence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "terms_url": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "redistribution_status": {
+      "type": "string",
+      "enum": [
+        "permitted",
+        "restricted",
+        "unverified"
+      ]
+    },
+    "intended_use": {
+      "type": "string",
+      "minLength": 1
+    },
+    "asset_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]{1,79}$"
+      }
+    },
+    "reliability_level": {
+      "type": "string",
+      "enum": [
+        "primary",
+        "peer-reviewed",
+        "secondary"
+      ]
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "source_id",
+    "organisation",
+    "title",
+    "url",
+    "access_date",
+    "publication_date",
+    "update_date",
+    "licence",
+    "terms_url",
+    "redistribution_status",
+    "intended_use",
+    "asset_ids",
+    "reliability_level",
+    "notes"
+  ],
+  "additionalProperties": false
+}

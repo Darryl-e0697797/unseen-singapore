@@ -1,0 +1,270 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "asset_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{1,79}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "system": {
+      "type": "string",
+      "enum": [
+        "surface",
+        "dtss",
+        "mrt"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "accuracy_class": {
+      "type": "string",
+      "enum": [
+        "documented",
+        "reconstructed",
+        "schematic",
+        "envisioned"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]{1,79}$"
+      }
+    },
+    "geometry_origin": {
+      "type": "string",
+      "enum": [
+        "original",
+        "derived"
+      ]
+    },
+    "geometry_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]{1,79}$"
+      }
+    },
+    "geometry_file": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^\\/models\\/[a-z0-9-]+\\.glb$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "coordinate_space": {
+      "type": "string",
+      "enum": [
+        "local-schematic",
+        "svy21-local"
+      ]
+    },
+    "coordinates": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "items": false,
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "bounds": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "items": false,
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "max": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "items": false,
+          "minItems": 3,
+          "maxItems": 3
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false
+    },
+    "lods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^\\/models\\/[a-z0-9-]+\\.glb$"
+          },
+          "max_distance_m": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "level",
+          "file",
+          "max_distance_m"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "temporal": {
+      "type": "object",
+      "properties": {
+        "valid_from": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "valid_to": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "era": {
+          "type": "string",
+          "enum": [
+            "historical",
+            "present",
+            "future"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "operating",
+            "under-construction",
+            "planned",
+            "decommissioned",
+            "representative",
+            "scenario"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "scenario_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]{1,79}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "valid_from",
+        "valid_to",
+        "era",
+        "status",
+        "confidence",
+        "scenario_id"
+      ],
+      "additionalProperties": false
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "public_description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "engineering_description": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "asset_id",
+    "name",
+    "system",
+    "category",
+    "accuracy_class",
+    "source_ids",
+    "geometry_origin",
+    "geometry_source_ids",
+    "geometry_file",
+    "coordinate_space",
+    "coordinates",
+    "bounds",
+    "lods",
+    "temporal",
+    "description",
+    "public_description",
+    "engineering_description"
+  ],
+  "additionalProperties": false
+}

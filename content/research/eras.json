@@ -1,0 +1,51 @@
+[
+  {
+    "year": 1958,
+    "label": "1950s",
+    "title": "Before the megaprojects",
+    "body": "The 1950s planning record culminates in approval of the first Master Plan in 1958. Modern projects remain visible in the catalogue as pre-project entries, not as built geometry.",
+    "source_ids": [
+      "ura-history"
+    ]
+  },
+  {
+    "year": 1965,
+    "label": "1965",
+    "title": "A foundation for growth",
+    "body": "The 1963 East Coast pilot preceded the major reclamation programme starting in 1966. This snapshot separates early land-making from the much later MRT, DTSS and Tuas systems.",
+    "source_ids": [
+      "nlb-reclamation"
+    ]
+  },
+  {
+    "year": 2000,
+    "label": "2000",
+    "title": "From experiments to systems",
+    "body": "NEWater reaches demonstration scale while initial DTSS tunnel contracts are awarded. Existing rail and reclaimed districts coexist with projects still in development.",
+    "source_ids": [
+      "pub-newater",
+      "nas-dtss-2001"
+    ]
+  },
+  {
+    "year": 2026,
+    "label": "2026",
+    "title": "Operating, building, planning",
+    "body": "Status as researched on 14 September 2026. Tuas operates while expanding; DTSS Phase 2 is not yet fully commissioned; Long Island preparatory works are still scheduled ahead.",
+    "source_ids": [
+      "mpa-tuas",
+      "pub-dtss-current",
+      "ura-long-island"
+    ]
+  },
+  {
+    "year": 2050,
+    "label": "2050",
+    "title": "A horizon, not a promise",
+    "body": "Master Plan 2025 guides roughly 10\u201315 years; long-term planning and project targets extend further. This view distinguishes official ambitions from independent continuity assumptions. No invented 2050 as-built city.",
+    "source_ids": [
+      "ura-masterplan",
+      "ura-longterm"
+    ]
+  }
+]

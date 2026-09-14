@@ -1,0 +1,100 @@
+[
+  {
+    "asset_id": "dtss-section",
+    "name": "Representative deep-tunnel section",
+    "system": "dtss",
+    "category": "teaching-model",
+    "accuracy_class": "schematic",
+    "source_ids": ["pub-dtss"],
+    "geometry_file": "/models/dtss-section.glb",
+    "coordinate_space": "local-schematic",
+    "coordinates": [0, 0, 0],
+    "bounds": {
+      "min": [-51, -23, -4],
+      "max": [51, 1, 4]
+    },
+    "lods": [
+      {
+        "level": 0,
+        "file": "/models/dtss-section.glb",
+        "max_distance_m": 180
+      },
+      {
+        "level": 1,
+        "file": "/models/dtss-section-low.glb",
+        "max_distance_m": 600
+      }
+    ],
+    "temporal": {
+      "valid_from": null,
+      "valid_to": null,
+      "era": "present",
+      "status": "representative",
+      "confidence": "low",
+      "scenario_id": null
+    },
+    "description": "Original cutaway geometry explains collection and conveyance. Position, shaft arrangement and dimensions are illustrative.",
+    "public_description": "Original cutaway geometry explains collection and conveyance. Position, shaft arrangement and dimensions are illustrative.",
+    "engineering_description": "Original cutaway geometry explains collection and conveyance. Position, shaft arrangement and dimensions are illustrative. No validated hydraulic, structural or transport simulation is performed.",
+    "geometry_origin": "original",
+    "geometry_source_ids": []
+  },
+  {
+    "asset_id": "mrt-context",
+    "name": "Representative rail context",
+    "system": "mrt",
+    "category": "teaching-model",
+    "accuracy_class": "schematic",
+    "source_ids": ["lta-downtown"],
+    "geometry_file": null,
+    "coordinate_space": "local-schematic",
+    "coordinates": [0, 0, 0],
+    "bounds": {
+      "min": [-57, -10, -12],
+      "max": [57, -4, -4]
+    },
+    "lods": [],
+    "temporal": {
+      "valid_from": null,
+      "valid_to": null,
+      "era": "present",
+      "status": "representative",
+      "confidence": "low",
+      "scenario_id": null
+    },
+    "description": "A separate schematic transport corridor provides context. It is not a particular line or station.",
+    "public_description": "A separate schematic transport corridor provides context. It is not a particular line or station.",
+    "engineering_description": "A separate schematic transport corridor provides context. It is not a particular line or station. No validated hydraulic, structural or transport simulation is performed.",
+    "geometry_origin": "original",
+    "geometry_source_ids": []
+  },
+  {
+    "asset_id": "surface-context",
+    "name": "Singapore-inspired surface model",
+    "system": "surface",
+    "category": "teaching-model",
+    "accuracy_class": "schematic",
+    "source_ids": [],
+    "geometry_file": null,
+    "coordinate_space": "local-schematic",
+    "coordinates": [0, 0, 0],
+    "bounds": {
+      "min": [-66, -26, -46],
+      "max": [66, 36, 46]
+    },
+    "lods": [],
+    "temporal": {
+      "valid_from": null,
+      "valid_to": null,
+      "era": "present",
+      "status": "representative",
+      "confidence": "low",
+      "scenario_id": null
+    },
+    "description": "Architectural masses and landmark-like forms establish Singapore context. Footprints and heights are not surveyed.",
+    "public_description": "Architectural masses and landmark-like forms establish Singapore context. Footprints and heights are not surveyed.",
+    "engineering_description": "Architectural masses and landmark-like forms establish Singapore context. Footprints and heights are not surveyed. No validated hydraulic, structural or transport simulation is performed.",
+    "geometry_origin": "original",
+    "geometry_source_ids": []
+  }
+]

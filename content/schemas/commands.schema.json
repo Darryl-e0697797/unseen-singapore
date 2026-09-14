@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "maxItems": 16,
+  "type": "array",
+  "items": {
+    "oneOf": [
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "resetScene"
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "focusAsset"
+          },
+          "asset_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{1,79}$"
+          }
+        },
+        "required": [
+          "type",
+          "asset_id"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "setLayerVisibility"
+          },
+          "layer": {
+            "type": "string",
+            "enum": [
+              "surface",
+              "dtss",
+              "mrt"
+            ]
+          },
+          "visible": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "type",
+          "layer",
+          "visible"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "setCamera"
+          },
+          "preset": {
+            "type": "string",
+            "enum": [
+              "overview",
+              "underground",
+              "tunnel",
+              "rail"
+            ]
+          }
+        },
+        "required": [
+          "type",
+          "preset"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "showSection"
+          },
+          "enabled": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "type",
+          "enabled"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "traceSystem"
+          },
+          "system": {
+            "type": "string",
+            "const": "dtss"
+          },
+          "enabled": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "type",
+          "system",
+          "enabled"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "showAnnotation"
+          },
+          "annotation_id": {
+            "type": "string",
+            "enum": [
+              "purpose",
+              "flow",
+              "depth",
+              "rail"
+            ]
+          }
+        },
+        "required": [
+          "type",
+          "annotation_id"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "showSource"
+          },
+          "source_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{1,79}$"
+          }
+        },
+        "required": [
+          "type",
+          "source_id"
+        ],
+        "additionalProperties": false
+      },
+      {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "setEra"
+          },
+          "era": {
+            "type": "string",
+            "const": "present"
+          }
+        },
+        "required": [
+          "type",
+          "era"
+        ],
+        "additionalProperties": false
+      }
+    ]
+  }
+}

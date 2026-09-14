@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "pub-dtss",
+    "organisation": "PUB, Singapore\u2019s National Water Agency",
+    "title": "Deep Tunnel Sewerage System",
+    "url": "https://www.pub.gov.sg/Professionals/Requirements/Used-Water/DTSS",
+    "access_date": "2026-09-14",
+    "publication_date": null,
+    "licence": "PUB proprietary materials; limited personal/non-commercial viewing permission, no redistribution grant",
+    "terms_url": "https://www.pub.gov.sg/termsofuse",
+    "redistribution_status": "restricted",
+    "intended_use": "Cite original factual summaries only. No agency text, maps or images bundled.",
+    "asset_ids": ["dtss-section"],
+    "reliability_level": "primary",
+    "notes": "Phase 1 completed in 2008. Phase 2 including Tuas WRP scheduled to commission in phases from 2027. Access date is not publication date. Geometry is independently authored schematic, not derived alignment. Terms reviewed: public website/media reuse and linking requirements need review before public release. No source media bundled.",
+    "update_date": "2026-03-03"
+  },
+  {
+    "source_id": "lta-downtown",
+    "organisation": "Land Transport Authority",
+    "title": "Downtown Line \u2014 engineering",
+    "url": "https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/rail_network/downtown_line.html",
+    "access_date": "2026-09-14",
+    "publication_date": null,
+    "licence": "Agency website terms; media reuse not cleared",
+    "terms_url": null,
+    "redistribution_status": "unverified",
+    "intended_use": "Cite an original explanation of underground construction constraints. No maps or media redistributed.",
+    "asset_ids": ["mrt-context"],
+    "reliability_level": "primary",
+    "notes": "Context on building below existing infrastructure. No network alignments, station coordinates or dimensions extracted into the model.",
+    "update_date": null
+  }
+]

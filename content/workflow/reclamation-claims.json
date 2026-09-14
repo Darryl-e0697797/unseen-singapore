@@ -1,0 +1,402 @@
+{
+  "revision": "reclamation-r1",
+  "project_id": "reclamation",
+  "claims": [
+    {
+      "claim_id": "reclamation-present",
+      "project_id": "reclamation",
+      "statement": "The northwest Tekong polder adds about 800 ha; sand use was reduced by close to half.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-pub",
+          "locator": "Opening and paragraph 2"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Geometry is schematic, not surveyed. Public summary does not establish exact component dimensions."
+    },
+    {
+      "claim_id": "reclamation-purpose",
+      "project_id": "reclamation",
+      "statement": "Additional local manoeuvre-training space supports SAF needs and releases mainland land for other uses.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-purpose",
+          "locator": "Main response paragraph"
+        },
+        {
+          "source_id": "reclamation-src-pub",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "No assertion of specific base relocations or present training operations."
+    },
+    {
+      "claim_id": "reclamation-levels",
+      "project_id": "reclamation",
+      "statement": "Dike length is 10 km, crest up to +6 m MSL, and polder land about −1.2 m MSL.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-pub",
+          "locator": "3A, robust coastal dike"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Rounded public levels, not uniform surveyed elevations. MSL is not chart datum."
+    },
+    {
+      "claim_id": "reclamation-water",
+      "project_id": "reclamation",
+      "statement": "Published drainage length is 45 km; pond area 116 ha and storage up to 5 million cubic metres.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-pub",
+          "locator": "3B and 3C"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Whole-system public quantities; do not derive exact pond depth or conveyance capacity."
+    },
+    {
+      "claim_id": "reclamation-pumps",
+      "project_id": "reclamation",
+      "statement": "Two pumping stations have distinct recirculation and sea-discharge functions.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-pub",
+          "locator": "3D"
+        },
+        {
+          "source_id": "reclamation-src-construction",
+          "locator": "Concrete structures / Development"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Two stations corroborated by builder; exact division of functions sourced to PUB. No installed pump count inferred."
+    },
+    {
+      "claim_id": "reclamation-trigger",
+      "project_id": "reclamation",
+      "statement": "Sea discharge responds to the pond reaching its preset operating level.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-diagram",
+          "locator": "PDF p1, callout 4"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "No numeric threshold, pump capacity or automatic-control algorithm is public here."
+    },
+    {
+      "claim_id": "reclamation-network",
+      "project_id": "reclamation",
+      "statement": "Main, secondary, cut-off and seepage drains have separate roles; inlet and outlet structures also appear.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-diagram",
+          "locator": "PDF p1, legend and inlet/outlet captions"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Do not send every external catchment branch through the pond. No claim of complete GIS topology."
+    },
+    {
+      "claim_id": "reclamation-operator",
+      "project_id": "reclamation",
+      "statement": "PUB operates and maintains the dike and drainage infrastructure.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-diagram",
+          "locator": "PDF p1, introduction"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Geometry is schematic, not surveyed. Public summary does not establish exact component dimensions."
+    },
+    {
+      "claim_id": "reclamation-barrier",
+      "project_id": "reclamation",
+      "statement": "A cement-bentonite wall limits seepage; a separate drain collects saline ingress for removal.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-facts",
+          "locator": "PDF p2, A"
+        },
+        {
+          "source_id": "reclamation-src-construction",
+          "locator": "Soil balance, wall paragraph"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Wall corroborated; separated seepage routing is agency-only. Not perfectly impermeable; no thickness/depth invented."
+    },
+    {
+      "claim_id": "reclamation-surfaces",
+      "project_id": "reclamation",
+      "statement": "Rock protects the seaward face; grass protects the landward slope against erosion.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-facts",
+          "locator": "PDF pp3–4, B"
+        },
+        {
+          "source_id": "reclamation-src-construction",
+          "locator": "Soil balance, revetment paragraph"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Geometry is schematic, not surveyed. Public summary does not establish exact component dimensions."
+    },
+    {
+      "claim_id": "reclamation-outlets",
+      "project_id": "reclamation",
+      "statement": "Sheet-pile cofferdams provided dry workspaces for outlets before the corresponding dike segment was built.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-facts",
+          "locator": "PDF pp4–6, outlet structures"
+        }
+      ],
+      "phase": "construction",
+      "limitations": "Local dependency, not a claim all outlets preceded every dike section. Generic bracing and depth."
+    },
+    {
+      "claim_id": "reclamation-temporary",
+      "project_id": "reclamation",
+      "statement": "Temporary pumps supported construction; cofferdams were removed after permanent protection was established.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-facts",
+          "locator": "PDF p6, continuation of outlet construction"
+        }
+      ],
+      "phase": "construction",
+      "limitations": "Geometry is schematic, not surveyed. Public summary does not establish exact component dimensions."
+    },
+    {
+      "claim_id": "reclamation-monitoring",
+      "project_id": "reclamation",
+      "statement": "Automated monitoring supports PUB operation of the drainage system.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-facts",
+          "locator": "PDF p6, B"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "No real telemetry, control-room replica, sensor positions or operational thresholds."
+    },
+    {
+      "claim_id": "reclamation-ground",
+      "project_id": "reclamation",
+      "statement": "Vertical drains and temporary surcharge accelerated clay consolidation; surveys and investigations checked ground conditions.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-construction",
+          "locator": "Initial phase and Soil balance"
+        }
+      ],
+      "phase": "construction",
+      "limitations": "Contractor-only mechanism account. Compress time visibly; no simulated soil test or exact settlement."
+    },
+    {
+      "claim_id": "reclamation-marine",
+      "project_id": "reclamation",
+      "statement": "Pond dredging and dike upgrades formed part of the marine works.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-construction",
+          "locator": "Opening and dredging paragraphs"
+        },
+        {
+          "source_id": "reclamation-src-award",
+          "locator": "Scope paragraph"
+        }
+      ],
+      "phase": "construction",
+      "limitations": "Same contractor publications, not independent corroboration. No exact fleet allocation or historic dredging tracks."
+    },
+    {
+      "claim_id": "reclamation-logistics",
+      "project_id": "reclamation",
+      "statement": "Landlocked barges were retrieved using airbags and jacks, moved on modular transporters and relaunched.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-logistics",
+          "locator": "Case body, retrieval and launch sequence"
+        }
+      ],
+      "phase": "construction",
+      "limitations": "Single-source specialist account. Optional small schematic inset; no certified lifting plan, load or exact route."
+    },
+    {
+      "claim_id": "reclamation-contract",
+      "project_id": "reclamation",
+      "statement": "HDB awarded the Areas A/C polder works to the Boskalis–Penta-Ocean joint venture in 2018.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-penta",
+          "locator": "Award paragraph and Construction outline"
+        },
+        {
+          "source_id": "reclamation-src-award",
+          "locator": "Opening / scope"
+        }
+      ],
+      "phase": "planning/construction",
+      "limitations": "Two JV partners confirm their own contract; not independent adjudication. Scope excludes other Tekong reclamation."
+    },
+    {
+      "claim_id": "reclamation-design",
+      "project_id": "reclamation",
+      "statement": "Surbana Jurong reports a 2017 appointment and collaboration with Royal HaskoningDHV on design and delivery.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-designer",
+          "locator": "Appointment and services paragraphs"
+        }
+      ],
+      "phase": "planning",
+      "limitations": "Related-company source. Do not infer every consultant responsibility or reproduce confidential design details."
+    },
+    {
+      "claim_id": "reclamation-completion",
+      "project_id": "reclamation",
+      "statement": "Main works finished in December 2024; further testing and commissioning followed in 2025.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-annual",
+          "locator": "PDF p36, Public Infrastructure Projects / Land Reclamation"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Distinguish construction completion, testing and public announcement. No exact military-use opening date established."
+    },
+    {
+      "claim_id": "reclamation-history",
+      "project_id": "reclamation",
+      "statement": "NLB records Tekong reclamation in 1981–1985 and a broader expansion approved in 2000.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-history",
+          "locator": "Paragraphs beginning MPA also undertook and In 2000"
+        }
+      ],
+      "phase": "historical",
+      "limitations": "Institutional historical synthesis. Earlier programme is not the later polder contract."
+    },
+    {
+      "claim_id": "reclamation-preproject",
+      "project_id": "reclamation",
+      "statement": "1958 and 1965 are pre-polder context; no contemporary polder geometry is asserted.",
+      "accuracy_class": "reconstructed",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-history",
+          "locator": "Tekong historical sequence"
+        },
+        {
+          "source_id": "reclamation-src-penta",
+          "locator": "2018 contract award"
+        }
+      ],
+      "phase": "historical",
+      "limitations": "Chronological interpretation. No historical coastline dataset has been established for rendering."
+    },
+    {
+      "claim_id": "reclamation-environment",
+      "project_id": "reclamation",
+      "statement": "Design avoided reclaiming Pulau Unum, retaining a water channel and considering mangrove conservation.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-environment",
+          "locator": "Creating Spaces for Growth, Pulau Unum paragraph"
+        }
+      ],
+      "phase": "planning/environment",
+      "limitations": "Interview evidence of design measures, not proof of zero ecological impact or measured outcomes."
+    },
+    {
+      "claim_id": "reclamation-future",
+      "project_id": "reclamation",
+      "statement": "A higher dike crest is an adaptation option; no dated Tekong 2050 construction commitment is established.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-environment",
+          "locator": "Sustainability in the Present and Beyond"
+        },
+        {
+          "source_id": "reclamation-src-pub",
+          "locator": "3A"
+        }
+      ],
+      "phase": "future context",
+      "limitations": "2050 geometry, if shown, is explicitly envisioned; no climate prediction or guaranteed protection."
+    },
+    {
+      "claim_id": "reclamation-teaching",
+      "project_id": "reclamation",
+      "statement": "Cutaway spacing, material reveals, animated water and construction playback are authored teaching illustrations.",
+      "accuracy_class": "schematic",
+      "verification": "illustrative",
+      "evidence": [
+        {
+          "source_id": "reclamation-src-facts",
+          "locator": "PDF p2, illustration caption"
+        },
+        {
+          "source_id": "reclamation-src-construction",
+          "locator": "Construction categories"
+        }
+      ],
+      "phase": "completed infrastructure",
+      "limitations": "Not a digital twin, hydraulic/geotechnical simulator or contractor programme. Evidence supports concepts, not authored shapes."
+    }
+  ]
+}

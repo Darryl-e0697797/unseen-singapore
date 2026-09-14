@@ -1,0 +1,25 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.DS_Store
+assets/source/*
+!assets/source/.gitkeep
+assets/generated/*
+!assets/generated/.gitkeep
+*.blend1
+*.tsbuildinfo
+playwright-report/
+test-results/
+__pycache__/
+
+.venv/
+
+apps/web/public/vendor/maplibre/
+# Reviewed MRT dataset inputs, redistributed with source attribution and ODL terms.
+!assets/source/TrainStation_Mar2026.zip
+!assets/source/mrt-onemap-references.json
+
+.next-static/
+apps/web/out/
+release-artifacts/

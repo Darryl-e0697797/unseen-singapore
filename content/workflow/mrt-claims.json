@@ -1,0 +1,402 @@
+{
+  "revision": "mrt-r1",
+  "project_id": "mrt",
+  "claims": [
+    {
+      "claim_id": "mrt-opening",
+      "project_id": "mrt",
+      "statement": "MRT passenger service began on 7 November 1987, initially connecting Yio Chu Kang and Toa Payoh.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "mrt-src-history",
+          "locator": "PDF p1, inauguration heading"
+        },
+        {
+          "source_id": "mrt-src-nsl",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "phase": "History",
+      "limitations": "Do not repeat the 1986 statement in the TBM article."
+    },
+    {
+      "claim_id": "mrt-rationale",
+      "project_id": "mrt",
+      "statement": "The 1982 decision linked transport capacity with scarce road space, new-town centres and Marina South development; an all-bus alternative had been studied.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-decision",
+          "locator": "PDF pp1–3, all-bus assessment and land-use rationale"
+        }
+      ],
+      "phase": "1982 planning",
+      "limitations": "Historical policy rationale, not a current financial model or proof all bus systems are inadequate."
+    },
+    {
+      "claim_id": "mrt-preproject",
+      "project_id": "mrt",
+      "statement": "The 1950s and 1965 views precede operating MRT; conceptual planning existed in the 1960s.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "mrt-src-history",
+          "locator": "PDF p1, conceptual stages and town planners of the 1960s"
+        }
+      ],
+      "phase": "1950s / 1965",
+      "limitations": "No exact 1965 alignment inferred; label pre-service context."
+    },
+    {
+      "claim_id": "mrt-era2000",
+      "project_id": "mrt",
+      "statement": "By 2000 the original MRT was operating; Circle Line proposals were evolving and its architectural competition took place that year.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "mrt-src-history",
+          "locator": "PDF p1"
+        },
+        {
+          "source_id": "mrt-src-ccl",
+          "locator": "Design and Architecture; Construction Challenges"
+        }
+      ],
+      "phase": "2000",
+      "limitations": "This is a contextual snapshot, not a fully reconstructed year-2000 station map."
+    },
+    {
+      "claim_id": "mrt-dtl-purpose",
+      "project_id": "mrt",
+      "statement": "The Downtown Line links previously unserved neighbourhoods with central Singapore; its principal stages opened in 2013, 2015 and 2017.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-dtl",
+          "locator": "Opening description and Stage 1–3 dates"
+        }
+      ],
+      "phase": "Operating DTL",
+      "limitations": "Use actual stage dates, not forecast dates in older construction publications."
+    },
+    {
+      "claim_id": "mrt-current-loop",
+      "project_id": "mrt",
+      "statement": "Circle Line Stage 6 opened for passenger service on 12 July 2026.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "mrt-src-ccl6",
+          "locator": "Latest Updates"
+        },
+        {
+          "source_id": "mrt-src-ccl",
+          "locator": "Train and Station Features"
+        }
+      ],
+      "phase": "2026 operating",
+      "limitations": "Two pages from the same agency; corroboration is not independent review."
+    },
+    {
+      "claim_id": "mrt-future-status",
+      "project_id": "mrt",
+      "statement": "The March 2026 update targets TEL5/DTL3e for the second half of 2026 and moves JRL Stage 1 to mid-2028.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-future",
+          "locator": "Paragraphs 3 and 6"
+        }
+      ],
+      "phase": "Dated future targets",
+      "limitations": "No TEL5/DTL3e completed opening verified in this pass. Refresh before build/release; never convert target to operating status."
+    },
+    {
+      "claim_id": "mrt-2050",
+      "project_id": "mrt",
+      "statement": "The 2050 scene is an envisioned continuation, not a verified 2050 MRT alignment.",
+      "accuracy_class": "envisioned",
+      "verification": "illustrative",
+      "evidence": [
+        {
+          "source_id": "mrt-src-future",
+          "locator": "Rail development and engineering-study announcements"
+        }
+      ],
+      "phase": "2050 scenario",
+      "limitations": "Only dated official programmes may be named; no invented stations or routes."
+    },
+    {
+      "claim_id": "mrt-investigation",
+      "project_id": "mrt",
+      "statement": "DTL support and TBM choices responded to geology; pre-tender work included geotechnical baselines, building inspections and safety review.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-geotechnics",
+          "locator": "PDF p1 introduction; pp3–4 TBM selection and conclusions"
+        }
+      ],
+      "phase": "DTL construction",
+      "limitations": "Do not manufacture borehole logs, thresholds or a uniform island-wide soil profile."
+    },
+    {
+      "claim_id": "mrt-wall",
+      "project_id": "mrt",
+      "statement": "A diaphragm-wall panel sequence uses guide walls, slurry-supported excavation, a lowered reinforcement cage and concrete placement.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-topdown",
+          "locator": "PDF p2, Installation of retaining wall steps 1–5"
+        }
+      ],
+      "phase": "Generic wall example / NEL guide",
+      "limitations": "Original schematic, not Kovan as-built dimensions; slurry is temporary construction support."
+    },
+    {
+      "claim_id": "mrt-topdown",
+      "project_id": "mrt",
+      "statement": "Top-down excavation installs retaining walls first, builds the roof with access openings, and proceeds down to the base before closing the structure.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-topdown",
+          "locator": "PDF p1, steps 1–6"
+        }
+      ],
+      "phase": "Generic station method",
+      "limitations": "Not every station uses top-down; preserve temporary support during excavation."
+    },
+    {
+      "claim_id": "mrt-bottomup",
+      "project_id": "mrt",
+      "statement": "Bottom-up work excavates in supported stages, then constructs the base and successive levels upwards before reinstatement.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-bottomup",
+          "locator": "PDF p1, steps 1–6"
+        }
+      ],
+      "phase": "Generic method comparison",
+      "limitations": "Alternative sequence, not additional stages appended to top-down."
+    },
+    {
+      "claim_id": "mrt-epb",
+      "project_id": "mrt",
+      "statement": "An earth-pressure-balance TBM uses excavated material at the face; controlled extraction and advance regulate support, with a screw conveying spoil rearward.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "mrt-src-geotechnics",
+          "locator": "PDF p3, comparison of EPBM and slurry machine"
+        },
+        {
+          "source_id": "mrt-src-epb",
+          "locator": "Operating principles: screw conveyor and advance-rate control"
+        }
+      ],
+      "phase": "Generic EPB mechanism",
+      "limitations": "Corroborated mechanism only; no pressure settings, simulated stability or named site machine asserted."
+    },
+    {
+      "claim_id": "mrt-rings",
+      "project_id": "mrt",
+      "statement": "Precast concrete segments form the permanent bored-tunnel lining; joints, connections and waterproofing are part of the lining system.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "mrt-src-lining",
+          "locator": "PDF pp1–2, abstract and general arrangement"
+        },
+        {
+          "source_id": "mrt-src-tbm",
+          "locator": "Safe shelter in the cool tunnels"
+        }
+      ],
+      "phase": "MRT bored tunnels",
+      "limitations": "Ring arrangement varies; illustrative assembly must not assert universal segment count."
+    },
+    {
+      "claim_id": "mrt-grout",
+      "project_id": "mrt",
+      "statement": "The annular space outside the installed lining is filled with grout in the manufacturer’s EPB description.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-epb",
+          "locator": "Numbered component 9, backfill"
+        }
+      ],
+      "phase": "Generic EPB mechanism",
+      "limitations": "Annular grout is distinct from wall-trench bentonite and from ground treatment."
+    },
+    {
+      "claim_id": "mrt-logistics",
+      "project_id": "mrt",
+      "statement": "Segment quality checks run from fabrication yard to underground installation; construction tunnels receive ventilation from the surface.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-tbm",
+          "locator": "Safe shelter in the cool tunnels"
+        }
+      ],
+      "phase": "Construction logistics",
+      "limitations": "No exact yard location, fleet size or ventilation layout modelled."
+    },
+    {
+      "claim_id": "mrt-monitoring",
+      "project_id": "mrt",
+      "statement": "Temporary support and nearby structures are instrumented; DTL construction near operating lines used continuous monitoring.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "mrt-src-topdown",
+          "locator": "PDF p2, Safety Measures"
+        },
+        {
+          "source_id": "mrt-src-dtl",
+          "locator": "Engineering Marvels, proximity to live MRT lines"
+        }
+      ],
+      "phase": "Construction protection",
+      "limitations": "No numeric alarm thresholds or predicted settlement; same-agency corroboration."
+    },
+    {
+      "claim_id": "mrt-rochor",
+      "project_id": "mrt",
+      "statement": "Rochor construction used staged road and canal diversions to maintain access and drainage beside deep works.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-rochor",
+          "locator": "PDF p1 / printed pp10–11, Rochor questions"
+        }
+      ],
+      "phase": "DTL2 Rochor case",
+      "limitations": "Context card only; do not move this canal into a fictitious Bencoolen site."
+    },
+    {
+      "claim_id": "mrt-freeze",
+      "project_id": "mrt",
+      "statement": "At Marina Bay, freezing supported a lower TEL tunnel excavation; the upper tunnel used different treatment. Frozen ground limited groundwater entry during the works.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-freeze",
+          "locator": "PDF pp7–9, Why ground freezing; subsequent upper tunnel; mechanism diagram"
+        }
+      ],
+      "phase": "TEL Marina Bay historical case",
+      "limitations": "Separate scene. Ice is temporary and removed from operating state; no temperature or heave simulation."
+    },
+    {
+      "claim_id": "mrt-environment",
+      "project_id": "mrt",
+      "statement": "CRL alignment assessment considered environmental effects and mitigation alongside engineering and journey implications.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-environment",
+          "locator": "Two-phase EIA process and key points"
+        }
+      ],
+      "phase": "CRL planning comparison",
+      "limitations": "Not a claim of zero impact; source is client summary. No ecological simulation or route geometry imported."
+    },
+    {
+      "claim_id": "mrt-testing",
+      "project_id": "mrt",
+      "statement": "Commissioning integrates trains with signalling and communications; testing requires dedicated capacity and engineering access.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "mrt-src-testing",
+          "locator": "Paragraphs 2–5"
+        }
+      ],
+      "phase": "Testing and commissioning",
+      "limitations": "No exact commissioning duration or sequence applied to every line."
+    },
+    {
+      "claim_id": "mrt-renewal",
+      "project_id": "mrt",
+      "statement": "Operating rail requires continued renewal of track, power and signalling, often within restricted engineering hours.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "mrt-src-renewal",
+          "locator": "Paragraphs 6–15"
+        },
+        {
+          "source_id": "mrt-src-nsl",
+          "locator": "Train and Station Features, six core systems"
+        }
+      ],
+      "phase": "NSEWL renewal case",
+      "limitations": "Do not imply every line has identical power or signalling hardware."
+    },
+    {
+      "claim_id": "mrt-map",
+      "project_id": "mrt",
+      "statement": "The agency system map supports network orientation, not surveyed underground routes.",
+      "accuracy_class": "schematic",
+      "verification": "illustrative",
+      "evidence": [
+        {
+          "source_id": "mrt-src-map",
+          "locator": "Single-page system map, version in filename"
+        }
+      ],
+      "phase": "Map context",
+      "limitations": "Generalised corridors and approximate station anchors only; present-day base remains labelled."
+    },
+    {
+      "claim_id": "mrt-visual",
+      "project_id": "mrt",
+      "statement": "The proposed station, EPB assembly and separate freezing scene are original teaching compositions with compressed spacing and qualitative controls.",
+      "accuracy_class": "schematic",
+      "verification": "illustrative",
+      "evidence": [
+        {
+          "source_id": "mrt-src-topdown",
+          "locator": "PDF pp1–2, method basis"
+        },
+        {
+          "source_id": "mrt-src-epb",
+          "locator": "Operating-principle components"
+        },
+        {
+          "source_id": "mrt-src-freeze",
+          "locator": "PDF pp7–9"
+        }
+      ],
+      "phase": "Proposed exhibit",
+      "limitations": "No real site adjacency, geological survey, operational digital twin or engineering simulation asserted."
+    }
+  ]
+}

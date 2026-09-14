@@ -1,0 +1,11 @@
+{
+  "environment": "Local M4 Pro, Chrome, 1440x1000. Localhost production server; not throttled and not representative low-end hardware.",
+  "interactiveMs": 429,
+  "totalRequestedJsGzipBytes": 503820,
+  "frameIntervalMedianMs": 16.699999999999818,
+  "frameIntervalP95Ms": 16.799999999999727,
+  "high": "120 draws · 9,490 triangles",
+  "low": "74 draws · 3,198 triangles",
+  "gpuMemory": "Not measured",
+  "ordinaryLaptopPerformance": "Not measured"
+}

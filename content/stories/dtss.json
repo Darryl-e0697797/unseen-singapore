@@ -1,0 +1,159 @@
+[
+  {
+    "story_id": "why-dtss",
+    "title": "A city above. A system below.",
+    "accuracy_class": "documented",
+    "source_ids": ["pub-dtss"],
+    "asset_ids": ["dtss-section"],
+    "narratives": {
+      "public": "Singapore\u2019s used water needs a dependable route to treatment. The DTSS brings it to centralised reclamation plants by gravity, supporting water reuse and reducing the land needed for used-water infrastructure.",
+      "student": "Link sewers collect used water and feed deep tunnels. Gravity carries it towards reclamation plants. Consolidating treatment connects used-water management with Singapore\u2019s water-reuse strategy.",
+      "engineer": "The collection network uses gravity conveyance to centralise treatment. The engineering story concerns long-term reliability and land requirements. This section does not specify an alignment, invert level, gradient or hydraulic capacity.",
+      "planning": "Centralising treatment can release land while supporting water reuse. Planning must also account for long asset lifetimes and staged delivery. PUB describes Phase 2 commissioning in phases from 2027; it is not shown here as an operating 2026 network."
+    },
+    "commands": [
+      {
+        "type": "resetScene"
+      },
+      {
+        "type": "showSection",
+        "enabled": true
+      },
+      {
+        "type": "setCamera",
+        "preset": "underground"
+      },
+      {
+        "type": "focusAsset",
+        "asset_id": "dtss-section"
+      },
+      {
+        "type": "showAnnotation",
+        "annotation_id": "purpose"
+      },
+      {
+        "type": "showSource",
+        "source_id": "pub-dtss"
+      }
+    ]
+  },
+  {
+    "story_id": "follow-water",
+    "title": "Follow one drop.",
+    "accuracy_class": "documented",
+    "source_ids": ["pub-dtss"],
+    "asset_ids": ["dtss-section"],
+    "narratives": {
+      "public": "Used water travels from local collection into deep tunnels and on to reclamation plants. After treatment, some continues to further purification for reuse; excess treated effluent has a separate discharge pathway.",
+      "student": "Think in stages: collect, convey, treat, then reuse or discharge. The moving marker explains direction only. Treatment and further purification are distinct processes; the deep tunnel itself does not purify water.",
+      "engineer": "This is a connectivity diagram. Marker speed is arbitrary, and pipe size, slope and roughness are not calibrated. It cannot determine flow rate, residence time or surcharge. Treatment and reuse/discharge are distinct downstream stages.",
+      "planning": "Collection and treatment form part of a wider water system. Reuse requires additional purification downstream of reclamation. The story keeps these stages separate so conveyance is not mistaken for treatment."
+    },
+    "commands": [
+      {
+        "type": "resetScene"
+      },
+      {
+        "type": "showSection",
+        "enabled": true
+      },
+      {
+        "type": "setCamera",
+        "preset": "underground"
+      },
+      {
+        "type": "focusAsset",
+        "asset_id": "dtss-section"
+      },
+      {
+        "type": "showAnnotation",
+        "annotation_id": "flow"
+      },
+      {
+        "type": "showSource",
+        "source_id": "pub-dtss"
+      },
+      {
+        "type": "traceSystem",
+        "system": "dtss",
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "story_id": "why-depth",
+    "title": "Depth makes room for a system.",
+    "accuracy_class": "documented",
+    "source_ids": ["pub-dtss"],
+    "asset_ids": ["dtss-section"],
+    "narratives": {
+      "public": "Going underground allows used water to move across a dense city while keeping space above available for other uses. Gravity is central to the DTSS conveyance story.",
+      "student": "A gravity network needs a suitable fall towards its destination. Depth is one part of arranging that route beneath a city. This model exaggerates separation to make the systems readable.",
+      "engineer": "Depth alone does not establish gravity flow: invert levels, gradients and boundary conditions matter. This teaching section contains none of the survey or hydraulic inputs needed to check a design.",
+      "planning": "Underground conveyance and centralised treatment link infrastructure choices to land use. This diagram explains the relationship but cannot assess a particular corridor or its construction impacts."
+    },
+    "commands": [
+      {
+        "type": "resetScene"
+      },
+      {
+        "type": "showSection",
+        "enabled": true
+      },
+      {
+        "type": "setCamera",
+        "preset": "tunnel"
+      },
+      {
+        "type": "focusAsset",
+        "asset_id": "dtss-section"
+      },
+      {
+        "type": "showAnnotation",
+        "annotation_id": "depth"
+      },
+      {
+        "type": "showSource",
+        "source_id": "pub-dtss"
+      }
+    ]
+  },
+  {
+    "story_id": "rail-context",
+    "title": "Another city, beneath the city.",
+    "accuracy_class": "documented",
+    "source_ids": ["lta-downtown"],
+    "asset_ids": ["mrt-context"],
+    "narratives": {
+      "public": "Rail is a separate underground system with its own spatial demands. LTA describes the challenges of building the Downtown Line around existing infrastructure. The ochre corridor here is representative.",
+      "student": "Underground projects must account for what is already above and below them. Existing rail, buildings and ground conditions constrain construction. The two systems in this model are not shown at their actual relative positions.",
+      "engineer": "LTA\u2019s Downtown Line account describes complex construction near existing infrastructure. The diagram contains no authoritative clearances or protection zones. It cannot be used for clash detection or excavation planning.",
+      "planning": "Below-ground space is a shared planning resource. Transport and used-water systems illustrate the need to coordinate long-term infrastructure. A schematic relationship is not evidence of a viable alignment."
+    },
+    "commands": [
+      {
+        "type": "resetScene"
+      },
+      {
+        "type": "showSection",
+        "enabled": true
+      },
+      {
+        "type": "setCamera",
+        "preset": "rail"
+      },
+      {
+        "type": "focusAsset",
+        "asset_id": "mrt-context"
+      },
+      {
+        "type": "showAnnotation",
+        "annotation_id": "rail"
+      },
+      {
+        "type": "showSource",
+        "source_id": "lta-downtown"
+      }
+    ]
+  }
+]

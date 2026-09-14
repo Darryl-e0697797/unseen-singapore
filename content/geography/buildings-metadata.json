@@ -1,0 +1,25 @@
+{
+  "source_id": "osm-cbd-buildings",
+  "licence": "ODbL-1.0",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "licence_url": "https://www.openstreetmap.org/copyright",
+  "source_timestamp": null,
+  "source_endpoint": "https://api.openstreetmap.org/api/0.6/map?bbox=103.845,1.276,103.866,1.3",
+  "access_date": "2026-09-14",
+  "query_bbox": [
+    103.845,
+    1.276,
+    103.866,
+    1.3
+  ],
+  "input_sha256": "3cafb8882379d1c9a87a6d3d5c8fd7136b241d51c70b1e4cf931c06661bc5527",
+  "output_sha256": "aab6ead3e6f8d4318c9f8768d10c20b8b6e4c277b4133a595feb05b09f1cff1a",
+  "features": 1865,
+  "bytes": 817736,
+  "height_basis_counts": {
+    "osm-height": 1456,
+    "levels-estimate": 131,
+    "illustrative-default": 278
+  },
+  "note": "Community-mapped footprint context, partial CBD coverage; multipolygon relations/building parts not included. Heights are tagged, estimated from levels, or explicitly illustrative. Not an authoritative 3D model."
+}

@@ -1,0 +1,80 @@
+{
+  "coordinate_space": "local-schematic",
+  "unit": "metre",
+  "accuracy_class": "schematic",
+  "geometry_origin": "original",
+  "files": [
+    {
+      "project_id": "reclamation",
+      "file": "world-reclamation.glb",
+      "bytes": 231188,
+      "triangles": 2892,
+      "sha256": "cdaf475e53f732d1931f577d303ce6ee8d8d33d72972becf55d090ac22d4bdf5",
+      "stages": 9
+    },
+    {
+      "project_id": "barrage",
+      "file": "world-barrage.glb",
+      "bytes": 484132,
+      "triangles": 7548,
+      "sha256": "5dabc35221d16f996048b181314a3f2c60d23d5710e8ba7430c334afaad81f2c",
+      "stages": 9
+    },
+    {
+      "project_id": "mrt",
+      "file": "world-mrt.glb",
+      "bytes": 478396,
+      "triangles": 8064,
+      "sha256": "61f36b3b9c02a108166a9b44b40fdab22207bffae66e92c70d75fe97cb602fcd",
+      "stages": 9
+    },
+    {
+      "project_id": "tuas",
+      "file": "world-tuas.glb",
+      "bytes": 618688,
+      "triangles": 9452,
+      "sha256": "bf7b42a124601471823cddbde7dcb19f159cd20928b801ba14e031e7cc175193",
+      "stages": 9
+    },
+    {
+      "project_id": "dtss",
+      "file": "world-dtss.glb",
+      "bytes": 1621180,
+      "triangles": 31576,
+      "sha256": "320ba7faf829dfc9258c8d30dffcba6652e09146bca1a79c2b693a182cb163b8",
+      "stages": 5
+    },
+    {
+      "project_id": "newater",
+      "file": "world-newater.glb",
+      "bytes": 73836,
+      "triangles": 1124,
+      "sha256": "755749d02609d299379aa9bc5588b8f09578497f27e649f880350cbaa73d4d6c",
+      "stages": 5
+    },
+    {
+      "project_id": "coast",
+      "file": "world-coast.glb",
+      "bytes": 20904,
+      "triangles": 192,
+      "sha256": "bfa5bd909afcadf98fa986d41356acd058ddba2bdd1b09dca9fc0a5216003d18",
+      "stages": 5
+    },
+    {
+      "project_id": "caverns",
+      "file": "world-caverns.glb",
+      "bytes": 150800,
+      "triangles": 3284,
+      "sha256": "a5ee29e08f7cfc384152153a207a00e73d1d9b855ffcf1ff65eeb844c7a76f4f",
+      "stages": 5
+    },
+    {
+      "project_id": "power",
+      "file": "world-power.glb",
+      "bytes": 239872,
+      "triangles": 4912,
+      "sha256": "893e8c87c1d34461dea07307e059a30b9c65cfe9a3c1df02f2f9aabc3f418096",
+      "stages": 5
+    }
+  ]
+}

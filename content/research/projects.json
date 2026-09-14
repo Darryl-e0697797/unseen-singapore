@@ -1,0 +1,1363 @@
+[
+  {
+    "project_id": "dtss",
+    "title": "Deep Tunnel Sewerage System",
+    "short_title": "The deep-water highway",
+    "theme": "Used water",
+    "anchor": [
+      10000,
+      -5000
+    ],
+    "color": "#70b9b1",
+    "current_status": "Phase 1 operating \u00b7 Phase 2 being completed",
+    "metric": {
+      "value": "48 km",
+      "label": "Phase 1 deep tunnel \u00b7 completed 2008"
+    },
+    "summary": "A gravity-led collection system connects used water to centralised reclamation. The engineering extends far beyond digging a large pipe.",
+    "source_ids": [
+      "pub-dtss-current",
+      "pub-dtss-innovation",
+      "nas-dtss-2001"
+    ],
+    "model_file": "/models/world-dtss.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why build it?",
+        "body": "The existing collection system occupied land through distributed treatment and pumping infrastructure. DTSS reorganises that system around deep gravity conveyance and centralised reclamation. The basic purpose is dependable collection, with land-use and water-reuse benefits.",
+        "source_ids": [
+          "pub-dtss-current"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "How the idea became a programme",
+        "body": "An archived January 2001 briefing describes six design-and-build tunnel contracts awarded between November 1999 and March 2000. This is evidence of a programme broken into deliverable tunnel packages, with plants, link sewers and outfalls developed alongside them. Its original schedules describe expectations at that time, not today\u2019s status.",
+        "source_ids": [
+          "nas-dtss-2001"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The construction sequence",
+        "body": "The historical T-04 account describes a guided tunnel-boring machine, precast segment erection during the drive, then a cast-in-place inner lining and corrosion membrane. In the exhibit these become separate stages. Geometry, durations and machine speed are schematic; the animation does not recreate a particular contract.",
+        "source_ids": [
+          "nas-dtss-2001"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Innovation inside the lining",
+        "body": "PUB\u2019s Phase 2 account identifies corrosion-resistant concrete, isolation gates, fibre-optic structural monitoring and air jumpers. These address durability, maintainability and air management. Finishing the excavation is therefore not the same milestone as having a commissioned conveyance system.",
+        "source_ids": [
+          "pub-dtss-innovation"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The planning trade-off",
+        "body": "A useful design review asks what can be maintained while the system remains in service, how assets age and how construction interfaces are handed over. These are explanatory questions, not extracted contract requirements. PUB currently schedules Phase 2 commissioning in phases from 2027.",
+        "source_ids": [
+          "pub-dtss-current"
+        ],
+        "kind": "interpretation"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Investigate & divide the works",
+        "body": "Establish interfaces between shafts, tunnel contracts and downstream treatment."
+      },
+      {
+        "title": "Launch & excavate",
+        "body": "Representative TBM advances from an access shaft."
+      },
+      {
+        "title": "Assemble structural rings",
+        "body": "Precast lining follows the excavation."
+      },
+      {
+        "title": "Protect & instrument",
+        "body": "Add the schematic inner lining and monitoring layer."
+      },
+      {
+        "title": "Connect & commission",
+        "body": "Link collection, conveyance and treatment. Excavation alone is not operation."
+      }
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "title": "Tunnel design-and-build contracts awarded",
+        "source_id": "nas-dtss-2001",
+        "target": false
+      },
+      {
+        "year": 2008,
+        "title": "Phase 1 completed",
+        "source_id": "pub-dtss-current",
+        "target": false
+      },
+      {
+        "year": 2023,
+        "title": "Phase 2 tunnelling completed",
+        "source_id": "pub-dtss-innovation",
+        "target": false
+      },
+      {
+        "year": 2027,
+        "title": "Phased Phase 2 commissioning scheduled from",
+        "source_id": "pub-dtss-current",
+        "target": true
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "This DTSS programme did not exist; do not project its modern tunnel into 1950s Singapore.",
+        "source_ids": [
+          "nas-dtss-2001"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "Before the DTSS programme. Earlier sanitation is a different infrastructure history.",
+        "source_ids": [
+          "nas-dtss-2001"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "construction",
+        "summary": "Initial tunnel contracts were awarded in 1999\u20132000.",
+        "source_ids": [
+          "nas-dtss-2001"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "mixed",
+        "summary": "Phase 1 is complete; Phase 2 has further works before phased commissioning.",
+        "source_ids": [
+          "pub-dtss-current"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "Long-lived operation is a scenario; 2050 performance and capacity are not verified here.",
+        "source_ids": [
+          "pub-dtss-current"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "mrt",
+    "title": "MRT & underground construction",
+    "short_title": "Building beneath a living city",
+    "theme": "Mobility",
+    "anchor": [
+      1500,
+      2500
+    ],
+    "color": "#d4ac70",
+    "current_status": "Operating network \u00b7 expansion continues",
+    "metric": {
+      "value": "1987",
+      "label": "First MRT public service"
+    },
+    "summary": "A transport system whose hardest work is often building safely around the city that already exists.",
+    "source_ids": [
+      "lta-tbm",
+      "lta-tel",
+      "mot-mrt-history"
+    ],
+    "model_file": "/models/world-mrt.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why rail, why underground?",
+        "body": "The MRT began public service in November 1987. Its engineering story is also one of renewal: the Ministry of Transport\u2019s account describes completion of work on the original North-South-East-West system. A network must be maintainable as well as expandable.",
+        "source_ids": [
+          "mot-mrt-history"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Investigate before choosing a machine",
+        "body": "LTA distinguishes geology-dependent TBM selection. Slurry shields use slurry at the face; earth-pressure-balance machines use excavated material for support. Treating every tunnel as the same machine travelling through the same soil misses the central engineering choice.",
+        "source_ids": [
+          "lta-tbm"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Keep the existing city working",
+        "body": "LTA describes extensive investigation and instrumentation when tunnelling beneath existing structures. The construction model separates excavation, segment installation and monitoring. Its clearance is invented for legibility and cannot support clash detection.",
+        "source_ids": [
+          "lta-tbm"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "When ordinary methods are insufficient",
+        "body": "TEL construction used ground freezing at Marina Bay to stabilise permeable ground before tunnelling, and a retractable micro-TBM for the Orchard Boulevard underpass. These are site-specific methods, not a claim that all MRT tunnels were built this way.",
+        "source_ids": [
+          "lta-tel"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Planning is a sequence of constraints",
+        "body": "Ground behaviour, access for logistics, protection of neighbouring structures, passenger operations and railway systems integration must be considered together. This is an engineering interpretation of the documented examples; the exhibit is not a site method statement.",
+        "source_ids": [
+          "lta-tel"
+        ],
+        "kind": "interpretation"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Investigate ground & neighbours",
+        "body": "Ground and existing infrastructure constrain the method."
+      },
+      {
+        "title": "Build access & support",
+        "body": "Provide work access and representative retaining structures."
+      },
+      {
+        "title": "Drive the tunnel",
+        "body": "Advance a representative shield while supporting the face."
+      },
+      {
+        "title": "Install segments & systems",
+        "body": "Separate civil lining from the railway fit-out."
+      },
+      {
+        "title": "Test & operate",
+        "body": "Systems integration and commissioning precede passenger operation."
+      }
+    ],
+    "events": [
+      {
+        "year": 1987,
+        "title": "First MRT service",
+        "source_id": "mot-mrt-history",
+        "target": false
+      },
+      {
+        "year": 2022,
+        "title": "TEL Stage 3 opens",
+        "source_id": "lta-tel",
+        "target": false
+      },
+      {
+        "year": 2024,
+        "title": "TEL Stage 4 opens",
+        "source_id": "lta-tel",
+        "target": false
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "No MRT passenger system in this period.",
+        "source_ids": [
+          "mot-mrt-history"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "Before the 1987 opening of MRT services.",
+        "source_ids": [
+          "mot-mrt-history"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "operating",
+        "summary": "MRT services had begun; this exhibit does not reconstruct the exact 2000 network.",
+        "source_ids": [
+          "mot-mrt-history"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "mixed",
+        "summary": "Operating railways and new construction coexist.",
+        "source_ids": [
+          "lta-tel"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "A future network is a planning lens, not an invented 2050 alignment.",
+        "source_ids": [
+          "lta-tel"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "tuas",
+    "title": "Tuas Port",
+    "short_title": "Making ground for global trade",
+    "theme": "Port",
+    "anchor": [
+      -22500,
+      8500
+    ],
+    "color": "#e09a6c",
+    "current_status": "Operating berths \u00b7 phased expansion",
+    "metric": {
+      "value": "65m TEU",
+      "label": "Annual capacity target at full completion"
+    },
+    "summary": "Marine construction, ground improvement and automation are one connected design problem.",
+    "source_ids": [
+      "mpa-tuas",
+      "mpa-tuas-innovation",
+      "mpa-tuas-phase2"
+    ],
+    "model_file": "/models/world-tuas.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why move and consolidate?",
+        "body": "MPA records the 2012 decision to consolidate container activities at Tuas. Tuas opened in September 2022, while full development remains a 2040s target. Consolidation and capacity expansion are the programme rationale; today\u2019s operating terminal is not the completed future port.",
+        "source_ids": [
+          "mpa-tuas"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Make the ground suit the operation",
+        "body": "MPA reports that more than half the Phase 1 fill used recycled material, including dredged and excavated material. Clay-bearing fill required treatment to achieve ground stability compatible with automated guided vehicles. Operations therefore influence the civil works beneath them.",
+        "source_ids": [
+          "mpa-tuas-innovation"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The caisson journey",
+        "body": "Phase 1 caissons were made at a nearby casting yard, towed and submerged on prepared seabed foundations. They retain the reclamation and support wharf structures. The construction scrubber separates these dependencies; it is a representative sequence, not a lifting or marine-operation plan.",
+        "source_ids": [
+          "mpa-tuas-innovation"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "From civil works to automated port",
+        "body": "MPA describes electrified automated yard cranes and AGVs, with remote operational management and digital systems. The port must coordinate ships, berth equipment, yard storage and vehicle movement; automation is an integrated operating system rather than a single robot.",
+        "source_ids": [
+          "mpa-tuas"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Schedule and interface discipline",
+        "body": "Phase 2 was planned as a separate reclamation package. Earlier and later sources give different wharf/seawall figures: those metrics and project revisions should not be casually mixed. Use current phase-specific evidence, and keep reclamation completion separate from berth operationalisation.",
+        "source_ids": [
+          "mpa-tuas-phase2"
+        ],
+        "kind": "interpretation"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Prepare the seabed",
+        "body": "Representative dredging and foundation preparation."
+      },
+      {
+        "title": "Fabricate caissons",
+        "body": "Cellular concrete units are made in a casting yard."
+      },
+      {
+        "title": "Tow & place",
+        "body": "Move and settle units onto the prepared foundation."
+      },
+      {
+        "title": "Reclaim & improve",
+        "body": "Fill behind the retaining line; stabilise ground."
+      },
+      {
+        "title": "Equip the terminal",
+        "body": "Add wharf, cranes, yard and vehicle systems."
+      }
+    ],
+    "events": [
+      {
+        "year": 2012,
+        "title": "Consolidation plan announced",
+        "source_id": "mpa-tuas",
+        "target": false
+      },
+      {
+        "year": 2015,
+        "title": "Phase 1 reclamation starts",
+        "source_id": "mpa-tuas",
+        "target": false
+      },
+      {
+        "year": 2021,
+        "title": "Phase 1 reclamation completed; initial berths operate",
+        "source_id": "mpa-tuas",
+        "target": false
+      },
+      {
+        "year": 2022,
+        "title": "Official opening",
+        "source_id": "mpa-tuas",
+        "target": false
+      },
+      {
+        "year": 2040,
+        "title": "Full development targeted during the 2040s",
+        "source_id": "mpa-tuas",
+        "target": true
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "Tuas Port is not the 1950s Port of Singapore.",
+        "source_ids": [
+          "mpa-tuas"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "Before the modern Tuas consolidation programme.",
+        "source_ids": [
+          "mpa-tuas"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "pre-project",
+        "summary": "Before the 2012 Tuas consolidation announcement.",
+        "source_ids": [
+          "mpa-tuas"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "mixed",
+        "summary": "Operating berths within a port still being developed in phases.",
+        "source_ids": [
+          "mpa-tuas"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "official-target",
+        "summary": "The 2040s completion and 2050 net-zero ambition are targets, not observed outcomes.",
+        "source_ids": [
+          "mpa-tuas"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "newater",
+    "title": "NEWater & the water loop",
+    "short_title": "Turning used water into a resource",
+    "theme": "Water",
+    "anchor": [
+      14500,
+      1500
+    ],
+    "color": "#72bcd5",
+    "current_status": "Operating treatment and reuse systems",
+    "metric": {
+      "value": "2000 \u2192 2003",
+      "label": "Demonstration to first factories"
+    },
+    "summary": "A technology had to become reliable, affordable and trusted before it could become a national water source.",
+    "source_ids": [
+      "pub-newater",
+      "pub-newater-innovation",
+      "pub-history"
+    ],
+    "model_file": "/models/world-newater.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why revisit an old idea?",
+        "body": "PUB\u2019s account traces reclaimed-water research to the 1970s. Early feasibility was limited by cost and reliability. Improved membrane performance led to a fresh assessment in 1998 and a full-scale demonstration plant in 2000.",
+        "source_ids": [
+          "pub-newater"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Three barriers, distinct jobs",
+        "body": "Conventional NEWater purification uses microfiltration or ultrafiltration, reverse osmosis, then ultraviolet disinfection. It starts with treated used water. The exhibit separates each barrier; deep-tunnel conveyance is not itself purification.",
+        "source_ids": [
+          "pub-newater"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Pilot, validate, then scale",
+        "body": "The first Bedok and Kranji factories were commissioned in February 2003. The story should show the demonstration and validation stage before the production-scale facility, rather than implying a technology jumps straight from invention into the national system.",
+        "source_ids": [
+          "pub-history"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Innovation continues after launch",
+        "body": "PUB describes membrane bioreactors combining processes and later exploration of flow-reversal technology to improve reverse-osmosis recovery. The technology path is ongoing; an improvement reported in a trial is not automatically present at every plant.",
+        "source_ids": [
+          "pub-newater-innovation"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The simple purpose, and the trade-offs",
+        "body": "Reuse makes a previously discarded stream useful again. A full engineering appraisal also asks about energy, membrane fouling, recovery, residuals and quality assurance. These are analysis topics; this exhibit does not calculate plant performance or certify water quality.",
+        "source_ids": [
+          "pub-newater-innovation"
+        ],
+        "kind": "interpretation"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Demonstrate & validate",
+        "body": "Establish a treatment train and testing programme."
+      },
+      {
+        "title": "Provide treated-water feed",
+        "body": "Separate upstream reclamation from further purification."
+      },
+      {
+        "title": "Filter",
+        "body": "Schematic membrane filtration removes larger material."
+      },
+      {
+        "title": "Reverse osmosis",
+        "body": "Pressure-driven membrane separation; no numeric process simulation."
+      },
+      {
+        "title": "Disinfect & distribute",
+        "body": "Ultraviolet barrier and reviewed reuse pathways."
+      }
+    ],
+    "events": [
+      {
+        "year": 1998,
+        "title": "Membrane reassessment team formed",
+        "source_id": "pub-newater",
+        "target": false
+      },
+      {
+        "year": 2000,
+        "title": "Demonstration plant",
+        "source_id": "pub-newater",
+        "target": false
+      },
+      {
+        "year": 2003,
+        "title": "First factories commissioned",
+        "source_id": "pub-history",
+        "target": false
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "NEWater is not present in this period.",
+        "source_ids": [
+          "pub-newater"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "Before the later reclaimed-water research programme.",
+        "source_ids": [
+          "pub-newater"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "demonstration",
+        "summary": "Demonstration plant tests membrane purification at scale.",
+        "source_ids": [
+          "pub-newater"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "operating",
+        "summary": "NEWater is an operating part of the water loop.",
+        "source_ids": [
+          "pub-newater"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "Future energy and recovery improvements are possibilities, not assumed achieved results.",
+        "source_ids": [
+          "pub-newater-innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "barrage",
+    "title": "Marina Barrage",
+    "short_title": "One structure, three purposes",
+    "theme": "Water",
+    "anchor": [
+      5000,
+      9000
+    ],
+    "color": "#88c7c0",
+    "current_status": "Operating barrage and reservoir",
+    "metric": {
+      "value": "9 gates",
+      "label": "Crest gates for low-tide stormwater release"
+    },
+    "summary": "A boundary between sea and reservoir also becomes flood infrastructure and public space.",
+    "source_ids": [
+      "pub-barrage",
+      "pub-catchment",
+      "pub-coastal"
+    ],
+    "model_file": "/models/world-barrage.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why dam an urban channel?",
+        "body": "Marina Barrage combines water supply, flood management and recreation. PUB records its opening in October 2008 and freshwater reservoir commissioning in November 2010. Physical completion and the freshwater transition were separate milestones.",
+        "source_ids": [
+          "pub-barrage"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The tide changes the operating mode",
+        "body": "During heavy rain at low tide, crest gates release excess stormwater. High tide can require pumping instead. The model lets the gate line and pump hall be inspected separately; it demonstrates relationships without predicting a flood.",
+        "source_ids": [
+          "pub-barrage"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Think beyond the structure",
+        "body": "Local-catchment water depends on the land draining towards the reservoir. A barrage is therefore part of a catchment system, not an isolated wall. The broader water story connects collection, storage, treatment and supply.",
+        "source_ids": [
+          "pub-catchment"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Construction and transition",
+        "body": "The schematic work packages are foundations and supports, gate installation, pumping facilities, mechanical/electrical integration and the transition to freshwater operation. Only the documented milestones are dated; the exhibit does not invent the original contractor\u2019s sequence or cofferdam design.",
+        "source_ids": [
+          "pub-barrage"
+        ],
+        "kind": "interpretation"
+      },
+      {
+        "title": "Designing for future conditions",
+        "body": "PUB\u2019s current coastal-protection material discusses possible Marina Barrage modifications to maintain the line of defence as sea levels rise. Such modifications remain planning/design content; they are not represented as completed upgrades.",
+        "source_ids": [
+          "pub-coastal"
+        ],
+        "kind": "documented"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Establish the crossing",
+        "body": "Representative foundations and supports."
+      },
+      {
+        "title": "Build the gate line",
+        "body": "Place the nine schematic gate bays."
+      },
+      {
+        "title": "Add pumping systems",
+        "body": "Show the separate high-tide discharge pathway."
+      },
+      {
+        "title": "Integrate & test",
+        "body": "Controls and mechanical/electrical systems must function together."
+      },
+      {
+        "title": "Operate the reservoir",
+        "body": "Opening in 2008 and freshwater commissioning in 2010 are distinct."
+      }
+    ],
+    "events": [
+      {
+        "year": 2008,
+        "title": "Barrage officially opened",
+        "source_id": "pub-barrage",
+        "target": false
+      },
+      {
+        "year": 2010,
+        "title": "Freshwater reservoir commissioned",
+        "source_id": "pub-barrage",
+        "target": false
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "No Marina Barrage in this period.",
+        "source_ids": [
+          "pub-barrage"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "Before this barrage and freshwater reservoir.",
+        "source_ids": [
+          "pub-barrage"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "pre-operation",
+        "summary": "Before the documented 2008 opening.",
+        "source_ids": [
+          "pub-barrage"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "operating",
+        "summary": "Operating barrage; adaptation is a separate planning issue.",
+        "source_ids": [
+          "pub-barrage",
+          "pub-coastal"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "Adapted future operation is illustrative; modifications are not assumed complete.",
+        "source_ids": [
+          "pub-coastal"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "reclamation",
+    "title": "Reclamation & the polder",
+    "short_title": "Creating land, managing water",
+    "theme": "Land",
+    "anchor": [
+      20000,
+      -9000
+    ],
+    "color": "#b8bd83",
+    "current_status": "Reclaimed districts \u00b7 first polder main works complete",
+    "metric": {
+      "value": "~800 ha",
+      "label": "Pulau Tekong polder \u00b7 reported by HDB"
+    },
+    "summary": "Land creation is a long-term water-management commitment, not simply pouring sand into the sea.",
+    "source_ids": [
+      "nlb-reclamation",
+      "hdb-polder",
+      "nlb-siglap"
+    ],
+    "model_file": "/models/world-reclamation.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why make more land?",
+        "body": "NLB describes East Coast Reclamation starting in 1966 after a 1963 pilot, creating space for development over multiple phases. The reclamation story includes homes and public space, but also changes to existing coastal communities.",
+        "source_ids": [
+          "nlb-reclamation"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The social landscape also changes",
+        "body": "NLB\u2019s Siglap history records impacts on seafront fishing villages and later resettlement. An engineering documentary should explain displaced uses alongside the new land it celebrates. A new coastline is not an impact-free addition.",
+        "source_ids": [
+          "nlb-siglap"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "A different approach: empoldering",
+        "body": "HDB reported completion of the first polder\u2019s main works in 2025. Unlike filling all land above surrounding sea level, it uses a coastal dike enclosing low-lying land. HDB reports sand savings of close to half relative to the traditional method.",
+        "source_ids": [
+          "hdb-polder"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The water system is permanent infrastructure",
+        "body": "The polder requires drainage, a stormwater pond and pumping stations. The dike first encloses the area so water levels can be controlled. This model is a generic civil-engineering section: no operational military layout or precise internal access arrangement is depicted.",
+        "source_ids": [
+          "hdb-polder"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "From resource saving to whole-life responsibility",
+        "body": "The design question shifts from only material volume to long-term water management, maintenance and adaptation. That is an analytical consequence of the documented method. No site-specific stability, seepage or flood calculation is provided.",
+        "source_ids": [
+          "hdb-polder"
+        ],
+        "kind": "interpretation"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Define & investigate",
+        "body": "Study ground, coastal conditions and impacts."
+      },
+      {
+        "title": "Construct the perimeter",
+        "body": "Representative retaining dike closes the polder."
+      },
+      {
+        "title": "Control the water",
+        "body": "Provide drainage, pond and pump interfaces."
+      },
+      {
+        "title": "Form & improve the land",
+        "body": "Prepare the enclosed land; illustrative levels only."
+      },
+      {
+        "title": "Maintain the system",
+        "body": "Drainage and protection remain operating obligations."
+      }
+    ],
+    "events": [
+      {
+        "year": 1963,
+        "title": "East Coast pilot",
+        "source_id": "nlb-reclamation",
+        "target": false
+      },
+      {
+        "year": 1966,
+        "title": "Major East Coast works start",
+        "source_id": "nlb-reclamation",
+        "target": false
+      },
+      {
+        "year": 2025,
+        "title": "First polder main works reported complete",
+        "source_id": "hdb-polder",
+        "target": false
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "context",
+        "summary": "Earlier coastal reclamation existed; modern East Coast and polder exhibits are not 1950s geometry.",
+        "source_ids": [
+          "nlb-siglap"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "planning",
+        "summary": "After the East Coast pilot; before the 1966 major works.",
+        "source_ids": [
+          "nlb-reclamation"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "operating",
+        "summary": "East Coast reclamation had reshaped districts; polder technology belongs to a later project.",
+        "source_ids": [
+          "nlb-reclamation"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "operating",
+        "summary": "HDB has reported main construction completion for the first polder.",
+        "source_ids": [
+          "hdb-polder"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "Future reclamation methods and footprints require separate approval and evidence.",
+        "source_ids": [
+          "hdb-polder"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "coast",
+    "title": "Coastal resilience & Long Island",
+    "short_title": "Planning for a changing sea",
+    "theme": "Resilience",
+    "anchor": [
+      12500,
+      7500
+    ],
+    "color": "#d6bd8b",
+    "current_status": "Studies underway \u00b7 preparatory works planned",
+    "metric": {
+      "value": "2050 \u2260 deadline",
+      "label": "A planning lens, not a promised completion"
+    },
+    "summary": "A coastal line of defence must also account for rainwater, existing uses and future adaptation.",
+    "source_ids": [
+      "ura-long-island",
+      "pub-coastal",
+      "pub-coastal-studies"
+    ],
+    "model_file": "/models/world-coast.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why combine coast and inland water?",
+        "body": "PUB studies use coastal and inland flood analysis together, then compare site-specific protection options. A barrier against the sea must not be mistaken for a solution to all rainwater drainage. Different stretches need different responses.",
+        "source_ids": [
+          "pub-coastal-studies"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "An evolving concept",
+        "body": "URA traces the Long Island concept to 1991 and a later climate-resilience framing. Current proposals link reclaimed land, coastal defence and a reservoir. The concept has evolved; an old plan is not the final constructed geometry.",
+        "source_ids": [
+          "ura-long-island"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "A genuine alternative was considered",
+        "body": "URA discusses the alternative of an East Coast seawall with separate tidal gates and pumping stations. It identifies park-space and construction-disruption concerns. This is a documented planning trade-off, not proof that one design is optimal under every possible criterion.",
+        "source_ids": [
+          "ura-long-island"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "What is actually happening in 2026?",
+        "body": "URA\u2019s September 2026 page schedules first preparatory works from end-2026, west of Bedok Jetty. Preparatory work is explicitly different from the main reclamation and its area is not the eventual island profile. As of this research date it is planned, not already completed.",
+        "source_ids": [
+          "ura-long-island"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Do not turn the future into a certainty",
+        "body": "The design process includes engineering, environmental studies and stakeholder input. PUB also describes site-specific shoreline and setback solutions. The 2050 exhibit is labelled a concept; it neither predicts flood extent nor supplies a verified future coastline.",
+        "source_ids": [
+          "pub-coastal"
+        ],
+        "kind": "documented"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Assess combined hazards",
+        "body": "Connect sea-level and inland-drainage questions."
+      },
+      {
+        "title": "Compare alternatives",
+        "body": "Consider protection, land use, access and environmental impacts."
+      },
+      {
+        "title": "Prepare the works",
+        "body": "Illustrative enabling stage; not the final island footprint."
+      },
+      {
+        "title": "Build integrated protection",
+        "body": "Conceptual barriers and water-management components."
+      },
+      {
+        "title": "Adapt over time",
+        "body": "Future configuration is scenario content, not an as-built record."
+      }
+    ],
+    "events": [
+      {
+        "year": 1991,
+        "title": "Early Long Island concept",
+        "source_id": "ura-long-island",
+        "target": false
+      },
+      {
+        "year": 2021,
+        "title": "City\u2013East Coast study begins",
+        "source_id": "pub-coastal-studies",
+        "target": false
+      },
+      {
+        "year": 2024,
+        "title": "Long Island technical studies begin",
+        "source_id": "ura-long-island",
+        "target": false
+      },
+      {
+        "year": 2026,
+        "title": "First preparatory works planned from year end",
+        "source_id": "ura-long-island",
+        "target": true
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "Before the contemporary coastal-resilience programme.",
+        "source_ids": [
+          "pub-coastal-studies"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "Before the later Long Island concept.",
+        "source_ids": [
+          "ura-long-island"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "planning",
+        "summary": "An earlier Long Island concept existed; no built island is implied.",
+        "source_ids": [
+          "ura-long-island"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "planning",
+        "summary": "Studies underway; preparatory works scheduled from end-2026.",
+        "source_ids": [
+          "ura-long-island"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "Possible integrated protection. No confirmed common 2050 completion date.",
+        "source_ids": [
+          "ura-long-island"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "caverns",
+    "title": "Jurong Rock Caverns",
+    "short_title": "Finding space inside the rock",
+    "theme": "Underground space",
+    "anchor": [
+      -15000,
+      9500
+    ],
+    "color": "#a7afd1",
+    "current_status": "Commercial underground storage",
+    "metric": {
+      "value": "150 m",
+      "label": "Depth below ground reported by JTC"
+    },
+    "summary": "A different answer to land scarcity: move a major storage function into deep rock.",
+    "source_ids": [
+      "jtc-caverns",
+      "jtc-engineering",
+      "jtc-cavern-paper"
+    ],
+    "model_file": "/models/world-caverns.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why go beneath the seabed?",
+        "body": "JTC describes underground liquid-hydrocarbon storage beneath Jurong Island, with capacity of 1.47 million cubic metres. It reports approximately 60 hectares of surface land saved for other uses. This is a storage facility, not a public underground city.",
+        "source_ids": [
+          "jtc-caverns"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "A project measured in planning years",
+        "body": "JTC\u2019s engineering account describes a 15-year programme: six years of planning/design and nine of construction, with the first two caverns operational in 2014. The extraordinary part is the sequence of risk reduction before usable storage existed.",
+        "source_ids": [
+          "jtc-engineering"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "The rock is part of the system",
+        "body": "The engineering presentation documents access shafts, cavern spaces and supporting works. The original model shows a rock envelope and a cavern void as different objects so the viewer can examine their relationship. It is not a reconstruction of an operational layout.",
+        "source_ids": [
+          "jtc-cavern-paper"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Construction work packages",
+        "body": "A conceptual breakdown separates investigation, access shafts, staged excavation/support, facility systems and commissioning. This is an explanatory work breakdown informed by the project material, not the original contractor\u2019s detailed method statement or worksite instructions.",
+        "source_ids": [
+          "jtc-cavern-paper"
+        ],
+        "kind": "interpretation"
+      },
+      {
+        "title": "What the model cannot establish",
+        "body": "The exhibit does not establish rock quality, containment performance, groundwater behaviour or fire-engineering compliance. Those require engineering data and validated analysis. Depth and storage capacity are sourced facts; the explorable cavern is schematic.",
+        "source_ids": [
+          "jtc-caverns"
+        ],
+        "kind": "interpretation"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Investigate & design",
+        "body": "Reduce uncertainty before committing to underground space."
+      },
+      {
+        "title": "Create access",
+        "body": "Representative shafts and access tunnel."
+      },
+      {
+        "title": "Excavate & support",
+        "body": "Reveal the conceptual cavern void within the rock."
+      },
+      {
+        "title": "Fit out",
+        "body": "Separate civil space from storage and operating systems."
+      },
+      {
+        "title": "Commission",
+        "body": "A long construction programme ends with tested facilities."
+      }
+    ],
+    "events": [
+      {
+        "year": 2014,
+        "title": "First two caverns operational",
+        "source_id": "jtc-engineering",
+        "target": false
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "Before this modern underground storage project.",
+        "source_ids": [
+          "jtc-engineering"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "No Jurong Rock Caverns facility in this period.",
+        "source_ids": [
+          "jtc-engineering"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "pre-operation",
+        "summary": "Before first cavern operations in 2014; no completed facility is implied.",
+        "source_ids": [
+          "jtc-engineering"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "operating",
+        "summary": "JTC lists the commercial storage facility as operating infrastructure.",
+        "source_ids": [
+          "jtc-caverns"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "Continued use is an illustrative future assumption, not a verified 2050 operating state.",
+        "source_ids": [
+          "jtc-caverns"
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": "power",
+    "title": "Transmission cable tunnels",
+    "short_title": "A serviceable spine for electricity",
+    "theme": "Energy",
+    "anchor": [
+      -4500,
+      -4500
+    ],
+    "color": "#cbad7b",
+    "current_status": "Underground transmission infrastructure",
+    "metric": {
+      "value": "40 km",
+      "label": "Tunnel system reported complete in 2019"
+    },
+    "summary": "Long-lived underground space allows electricity assets to be renewed with fewer surface disruptions.",
+    "source_ids": [
+      "sp-tunnels",
+      "sp-report",
+      "sp-protection"
+    ],
+    "model_file": "/models/world-power.glb",
+    "accuracy_class": "schematic",
+    "location_note": "Approximate thematic marker; model scale and placement are exaggerated. Not a survey location or underground alignment.",
+    "chapters": [
+      {
+        "title": "Why a tunnel for cables?",
+        "body": "SP Group describes the tunnels as a way to install, repair, replace and upgrade transmission assets with less inconvenience at the surface. The civil space outlives individual cables, allowing network renewal to be planned differently.",
+        "source_ids": [
+          "sp-tunnels"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "From construction to completed network",
+        "body": "An earlier SP account dates construction to 2012. Its FY2024/25 report confirms completion in 2019 of 40 kilometres of transmission tunnels. The later report resolves the earlier forward-looking schedule.",
+        "source_ids": [
+          "sp-tunnels",
+          "sp-report"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "An underground working environment",
+        "body": "The exhibit separates a tunnel envelope, access shaft and cable racks. Its arrangement is original and intentionally generic: it contains no exact cable routes, substation connections or utility positions. It explains access for maintenance rather than claiming an as-built electrical design.",
+        "source_ids": [
+          "sp-tunnels"
+        ],
+        "kind": "interpretation"
+      },
+      {
+        "title": "Protection remains necessary",
+        "body": "SP\u2019s account of earthworks surveillance describes the need to detect and protect existing services around construction. Going underground does not remove the need for coordination and protection of other infrastructure.",
+        "source_ids": [
+          "sp-protection"
+        ],
+        "kind": "documented"
+      },
+      {
+        "title": "Planning across different asset lives",
+        "body": "A useful planning question is how long-lived civil infrastructure accommodates equipment replacement and evolving demand. That is an interpretation of SP\u2019s renewal rationale. Cable rating, thermal design, operating redundancy and exact inspection arrangements are outside this model.",
+        "source_ids": [
+          "sp-report"
+        ],
+        "kind": "interpretation"
+      }
+    ],
+    "stages": [
+      {
+        "title": "Plan network renewal",
+        "body": "Coordinate future demand and replacement needs."
+      },
+      {
+        "title": "Construct access shafts",
+        "body": "Original representative shaft arrangement."
+      },
+      {
+        "title": "Excavate the civil space",
+        "body": "Create the long-lived tunnel envelope."
+      },
+      {
+        "title": "Install racks & cables",
+        "body": "Fit-out is distinct from the civil tunnel."
+      },
+      {
+        "title": "Inspect & renew",
+        "body": "Maintenance is part of the reason for creating accessible space."
+      }
+    ],
+    "events": [
+      {
+        "year": 2012,
+        "title": "Tunnel construction starts",
+        "source_id": "sp-tunnels",
+        "target": false
+      },
+      {
+        "year": 2019,
+        "title": "40 km tunnel system complete",
+        "source_id": "sp-report",
+        "target": false
+      }
+    ],
+    "snapshots": [
+      {
+        "year": 1958,
+        "status": "pre-project",
+        "summary": "Before this transmission tunnel programme. Electricity existed through other infrastructure.",
+        "source_ids": [
+          "sp-tunnels"
+        ]
+      },
+      {
+        "year": 1965,
+        "status": "pre-project",
+        "summary": "No claim that the modern tunnel system existed in 1965.",
+        "source_ids": [
+          "sp-tunnels"
+        ]
+      },
+      {
+        "year": 2000,
+        "status": "pre-project",
+        "summary": "Before the 2012 construction programme.",
+        "source_ids": [
+          "sp-tunnels"
+        ]
+      },
+      {
+        "year": 2026,
+        "status": "operating",
+        "summary": "Completed tunnel infrastructure supports transmission and renewal.",
+        "source_ids": [
+          "sp-report"
+        ]
+      },
+      {
+        "year": 2050,
+        "status": "scenario",
+        "summary": "Future cable use is a scenario; network topology is not predicted.",
+        "source_ids": [
+          "sp-report"
+        ]
+      }
+    ]
+  }
+]

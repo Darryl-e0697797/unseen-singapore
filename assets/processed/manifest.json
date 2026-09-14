@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "blender_version": "5.2.1 LTS",
+  "coordinate_space": "local-schematic",
+  "unit": "metre",
+  "accuracy_class": "schematic",
+  "files": [
+    {
+      "file": "dtss-section.glb",
+      "bytes": 97068,
+      "sha256": "b33bfe6ce76b77a7e761bf1093a5e76266fbc4acbdf15448b597a07f7ba515ea",
+      "lod": 0
+    },
+    {
+      "file": "dtss-section-low.glb",
+      "bytes": 45952,
+      "sha256": "6f26dc273a180dad71bd305742be112fda439850ebf610b321e7995915a50703",
+      "lod": 1
+    }
+  ]
+}

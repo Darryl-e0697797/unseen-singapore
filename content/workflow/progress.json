@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "project_id": "dtss",
+      "stage": "accepted",
+      "research_revision": null,
+      "research_approval": null,
+      "acceptance": {
+        "date": "2026-09-14",
+        "quote": "I am satisfied with DTSS already, record the lessons learnt and prompts I gave on my expectations of each engineering marvel detailed build before starting of each of the detailed build",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": null
+      },
+      "accepted_build_commit": "c5fbd27",
+      "start_authorisation": null,
+      "baseline_model_sha256": "320ba7faf829dfc9258c8d30dffcba6652e09146bca1a79c2b693a182cb163b8"
+    },
+    {
+      "project_id": "tuas",
+      "stage": "accepted",
+      "research_revision": "tuas-r1",
+      "research_approval": {
+        "date": "2026-09-14",
+        "quote": "Approve",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "tuas-r1"
+      },
+      "acceptance": {
+        "date": "2026-09-14",
+        "quote": "and also Approve Tuas Mega Port build.",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "tuas-r1"
+      },
+      "accepted_build_commit": "af06f0cf8e6400ddf903bfabcbcfc27fceb02b09",
+      "start_authorisation": {
+        "date": "2026-09-14",
+        "quote": "**DTSS remains accepted. Tuas Port is next.**",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": null
+      },
+      "baseline_model_sha256": "2176c329445ecb9816f2e951c3145889e71b8d2d4e8e8c69fa284ab74f675b54"
+    },
+    {
+      "project_id": "mrt",
+      "stage": "accepted",
+      "research_revision": "mrt-r1",
+      "research_approval": {
+        "date": "2026-09-14",
+        "quote": "Approved",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "mrt-r1"
+      },
+      "acceptance": {
+        "date": "2026-09-14",
+        "quote": "Approve, continue with Marina Barrage",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "mrt-r1"
+      },
+      "accepted_build_commit": "4f8593e1abd76c37823becef8b209390d90cd698",
+      "start_authorisation": {
+        "date": "2026-09-14",
+        "quote": "Go, start the MRT & underground construction",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": null
+      },
+      "baseline_model_sha256": "f890700191dcab9f54166f1d8ac7228d2984f678e213bddb7a0697adfb0a3090"
+    },
+    {
+      "project_id": "barrage",
+      "stage": "accepted",
+      "research_revision": "barrage-r1",
+      "research_approval": {
+        "date": "2026-09-14",
+        "quote": "Approve",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "barrage-r1"
+      },
+      "acceptance": {
+        "date": "2026-09-15",
+        "quote": "Approve",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "barrage-r1"
+      },
+      "accepted_build_commit": "9cfbe5d74f90e729cd47a3c9822543bc1bb5c4f9",
+      "start_authorisation": {
+        "date": "2026-09-14",
+        "quote": "Approve, continue with Marina Barrage",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": null
+      },
+      "baseline_model_sha256": "bcb2c635b8b38ff9f170db7171f01bac81945e835fb45676639ed1834f856604"
+    },
+    {
+      "project_id": "reclamation",
+      "stage": "accepted",
+      "research_revision": "reclamation-r1",
+      "research_approval": {
+        "date": "2026-09-15",
+        "quote": "approve",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "reclamation-r1"
+      },
+      "acceptance": {
+        "date": "2026-09-15",
+        "quote": "Approve",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "reclamation-r1"
+      },
+      "accepted_build_commit": "9ec97c063a44866de08a3872d544e3721b644f2d",
+      "start_authorisation": {
+        "date": "2026-09-15",
+        "quote": "move on to Pulau Tekong Land reclamation.",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": null
+      },
+      "baseline_model_sha256": "c29ad160baf73fc498192bd337a7f28e86ad5812b62d2aae14f7e4fc04870152"
+    },
+    {
+      "project_id": "caverns",
+      "stage": "queued",
+      "research_revision": null,
+      "research_approval": null,
+      "acceptance": null,
+      "accepted_build_commit": null,
+      "start_authorisation": null,
+      "baseline_model_sha256": "a5ee29e08f7cfc384152153a207a00e73d1d9b855ffcf1ff65eeb844c7a76f4f"
+    },
+    {
+      "project_id": "newater",
+      "stage": "queued",
+      "research_revision": null,
+      "research_approval": null,
+      "acceptance": null,
+      "accepted_build_commit": null,
+      "start_authorisation": null,
+      "baseline_model_sha256": "755749d02609d299379aa9bc5588b8f09578497f27e649f880350cbaa73d4d6c"
+    },
+    {
+      "project_id": "power",
+      "stage": "queued",
+      "research_revision": null,
+      "research_approval": null,
+      "acceptance": null,
+      "accepted_build_commit": null,
+      "start_authorisation": null,
+      "baseline_model_sha256": "893e8c87c1d34461dea07307e059a30b9c65cfe9a3c1df02f2f9aabc3f418096"
+    },
+    {
+      "project_id": "coast",
+      "stage": "queued",
+      "research_revision": null,
+      "research_approval": null,
+      "acceptance": null,
+      "accepted_build_commit": null,
+      "start_authorisation": null,
+      "baseline_model_sha256": "bfa5bd909afcadf98fa986d41356acd058ddba2bdd1b09dca9fc0a5216003d18"
+    }
+  ]
+}

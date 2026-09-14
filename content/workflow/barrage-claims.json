@@ -1,0 +1,342 @@
+{
+  "revision": "barrage-r1",
+  "project_id": "barrage",
+  "claims": [
+    {
+      "claim_id": "barrage-purpose",
+      "project_id": "barrage",
+      "statement": "Marina Barrage combines water storage, flood alleviation and public recreation.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "barrage-src-overview",
+          "locator": "Three benefits"
+        },
+        {
+          "source_id": "barrage-src-builder",
+          "locator": "Marina Barrage (2008)"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Physical representation will be schematic; this is not a surveyed model."
+    },
+    {
+      "claim_id": "barrage-channel",
+      "project_id": "barrage",
+      "statement": "PUB describes a 350 m wide Marina Channel spanned by the barrage.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "barrage-src-overview",
+          "locator": "Introduction"
+        },
+        {
+          "source_id": "barrage-src-builder",
+          "locator": "Marina Barrage (2008)"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Physical representation will be schematic; this is not a surveyed model."
+    },
+    {
+      "claim_id": "barrage-gates",
+      "project_id": "barrage",
+      "statement": "There are nine steel crest gates; PUB describes each as 30 m long and 5 m tall.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-brochure",
+          "locator": "PDF page 1, The Barrage / Marina Bridge"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Rounded public dimensions; do not infer a 270 m total structure length or fabricate fabrication tolerances."
+    },
+    {
+      "claim_id": "barrage-pumps",
+      "project_id": "barrage",
+      "statement": "Seven vertical-shaft axial-flow drainage pumps are rated at 40 cubic metres per second each; PUB gives 280 combined with all seven operating.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "barrage-src-brochure",
+          "locator": "PDF page 1, Drainage Pumps"
+        },
+        {
+          "source_id": "barrage-src-builder",
+          "locator": "Marina Barrage (2008)"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Axial-flow type is single-source PUB; installed capacity is not guaranteed discharge at arbitrary head or a claim all pumps run continuously."
+    },
+    {
+      "claim_id": "barrage-motor",
+      "project_id": "barrage",
+      "statement": "PUB lists a 1600 kW electric motor for each drainage pump.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-brochure",
+          "locator": "PDF page 1, Drainage Pumps"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Historical published specification, not a live equipment audit; no full-load energy calculator inferred."
+    },
+    {
+      "claim_id": "barrage-gravity",
+      "project_id": "barrage",
+      "statement": "In heavy rain at low tide, gates release excess reservoir water to sea; PUB describes the gates as lowering.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "barrage-src-overview",
+          "locator": "Flood control"
+        },
+        {
+          "source_id": "barrage-src-brochure",
+          "locator": "PDF page 1, The Barrage / Marina Bridge"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Both sources are PUB, not independent corroboration. Avoid reversed gate motion."
+    },
+    {
+      "claim_id": "barrage-high-tide",
+      "project_id": "barrage",
+      "statement": "Pumps discharge excess stormwater when high tide prevents the low-tide gravity-release mode.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "barrage-src-overview",
+          "locator": "Flood control"
+        },
+        {
+          "source_id": "barrage-src-builder",
+          "locator": "Marina Barrage (2008)"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Teaching states are simplified; not actual dispatch instructions."
+    },
+    {
+      "claim_id": "barrage-controls",
+      "project_id": "barrage",
+      "statement": "Gate operation depends on weather, reservoir level and tide, with no predetermined opening schedule.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-faq",
+          "locator": "Question about crest-gate opening schedule"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "No operator thresholds, telemetry, pump dispatch algorithm or live control simulation available."
+    },
+    {
+      "claim_id": "barrage-catchment",
+      "project_id": "barrage",
+      "statement": "The Marina catchment is about 10,000 hectares; PUB identifies upstream rivers and canals feeding it.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "barrage-src-overview",
+          "locator": "Water supply"
+        },
+        {
+          "source_id": "barrage-src-catchment",
+          "locator": "Marina Reservoir waterways"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Catchment land area, not reservoir water surface. Both sources same agency; no exact GIS boundary licensed."
+    },
+    {
+      "claim_id": "barrage-water-loop",
+      "project_id": "barrage",
+      "statement": "Collected stormwater requires treatment for drinking; it is separate from the used-water sewer system.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-catchment",
+          "locator": "Rainwater collection and separate used-water system"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "Drainage pumps shown discharge to sea; no fictional pipe into DTSS or direct drinking-water outlet."
+    },
+    {
+      "claim_id": "barrage-opening",
+      "project_id": "barrage",
+      "statement": "Construction began in 2005; the Barrage opened on 31 October 2008.",
+      "accuracy_class": "documented",
+      "verification": "corroborated",
+      "evidence": [
+        {
+          "source_id": "barrage-src-history",
+          "locator": "PDF page 26 / printed 33, Marina Barrage"
+        },
+        {
+          "source_id": "barrage-src-builder",
+          "locator": "Marina Barrage (2008)"
+        }
+      ],
+      "phase": "construction/opening",
+      "limitations": "Physical representation will be schematic; this is not a surveyed model."
+    },
+    {
+      "claim_id": "barrage-freshwater",
+      "project_id": "barrage",
+      "statement": "Natural desalting began in April 2009; Marina Reservoir was commissioned as freshwater on 20 November 2010.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "barrage-src-overview",
+          "locator": "Water supply"
+        },
+        {
+          "source_id": "barrage-src-history",
+          "locator": "PDF page 26 / printed 33"
+        }
+      ],
+      "phase": "commissioning",
+      "limitations": "2010 date corroborated; April 2009 single-source PUB. Desalting by rain replacement differs from a desalination plant."
+    },
+    {
+      "claim_id": "barrage-rationale",
+      "project_id": "barrage",
+      "statement": "The late-1980s vision faced water-quality and treatment constraints; river cleanup and improved membrane treatment helped make urban-catchment water feasible.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-history",
+          "locator": "PDF pages 26\u201327 / printed 33\u201335"
+        }
+      ],
+      "phase": "planning",
+      "limitations": "Retrospective government history, not a contemporary alternatives appraisal or proof of a specific gate procurement decision."
+    },
+    {
+      "claim_id": "barrage-public-roof",
+      "project_id": "barrage",
+      "statement": "The landscaped green roof provides recreation and building insulation.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-brochure",
+          "locator": "PDF page 1, Green Roof"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "No claim solar panels run the drainage pumps; omit dated largest-solar-park superlative."
+    },
+    {
+      "claim_id": "barrage-temporary-pumping",
+      "project_id": "barrage",
+      "statement": "Tsurumi reports supplying construction dewatering and slurry pumps from 2005.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-dewatering",
+          "locator": "Case study introduction and equipment table"
+        }
+      ],
+      "phase": "construction",
+      "limitations": "Supplier account only; these are temporary construction pumps, not the seven permanent drainage pumps."
+    },
+    {
+      "claim_id": "barrage-cofferdam",
+      "project_id": "barrage",
+      "statement": "The project-authored paper describes a sand-filled double-sheet-pile marine cofferdam.",
+      "accuracy_class": "documented",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "barrage-src-paper",
+          "locator": "Indexed abstract, temporary works paragraph; full primary-host text inaccessible"
+        }
+      ],
+      "phase": "construction",
+      "limitations": "Concept only. No verified detailed layout, exact depths, two-phase gate allocation, tie-rod sizes or excavation sequence approved for factual reconstruction."
+    },
+    {
+      "claim_id": "barrage-retrofit",
+      "project_id": "barrage",
+      "statement": "PUB announced a Marina Barrage retrofit for future sea-level rise in 2025.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-future",
+          "locator": "Greater Southern Waterfront / Marina Barrage retrofit"
+        }
+      ],
+      "phase": "future proposal",
+      "limitations": "Documented proposal, not completed works or a confirmed 2050 delivery date."
+    },
+    {
+      "claim_id": "barrage-future-gap",
+      "project_id": "barrage",
+      "statement": "PUB identifies possible beams and seals between crest gates and bridge as a future adaptation.",
+      "accuracy_class": "documented",
+      "verification": "single-source",
+      "evidence": [
+        {
+          "source_id": "barrage-src-future-plan",
+          "locator": "Upgrading Marina Barrage for future sea levels"
+        }
+      ],
+      "phase": "future proposal",
+      "limitations": "Conditional concept; any ghosted geometry labelled envisioned, not final design."
+    },
+    {
+      "claim_id": "barrage-teaching-model",
+      "project_id": "barrage",
+      "statement": "Rain, relative water levels and animated arrows will illustrate drainage choices qualitatively.",
+      "accuracy_class": "schematic",
+      "verification": "illustrative",
+      "evidence": [
+        {
+          "source_id": "barrage-src-overview",
+          "locator": "Flood control"
+        },
+        {
+          "source_id": "barrage-src-faq",
+          "locator": "Crest-gate schedule"
+        }
+      ],
+      "phase": "operating",
+      "limitations": "No flood depths, CFD, salinity kinetics, exact operating thresholds or geographic inundation prediction."
+    },
+    {
+      "claim_id": "barrage-historic-view",
+      "project_id": "barrage",
+      "statement": "1958, 1965 and 2000 precede the documented 2005 construction start.",
+      "accuracy_class": "reconstructed",
+      "verification": "qualified",
+      "evidence": [
+        {
+          "source_id": "barrage-src-history",
+          "locator": "PDF page 26, construction dates"
+        }
+      ],
+      "phase": "pre-project",
+      "limitations": "Temporal inference only. Current coastline remains explicitly modern context; no invented historic shoreline."
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "research_revision": "mrt-r1",
+  "accuracy_class": "schematic",
+  "claim_ids": [
+    "mrt-visual"
+  ],
+  "components": [
+    {
+      "id": "part-1",
+      "title": "Station access",
+      "description": "Follow the route from the street down to the platform. The building is a teaching composition, not a replica of one station.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-visual"
+      ]
+    },
+    {
+      "id": "part-2",
+      "title": "Retaining wall",
+      "description": "This concrete wall holds the soil beside the excavation. It goes in before the station is dug out.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-wall"
+      ]
+    },
+    {
+      "id": "part-3",
+      "title": "Temporary braces",
+      "description": "These temporary supports brace the walls during excavation. They disappear as permanent structure takes over.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-topdown"
+      ]
+    },
+    {
+      "id": "part-4",
+      "title": "Roof and floor slabs",
+      "description": "These permanent levels divide the station and support the structure. In top-down work, the roof is built early.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-topdown"
+      ]
+    },
+    {
+      "id": "part-5",
+      "title": "Work opening",
+      "description": "Workers and equipment use openings in the roof while digging underneath. The openings close before the finished state.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-topdown"
+      ]
+    },
+    {
+      "id": "part-6",
+      "title": "Boring machine",
+      "description": "The cutter excavates while material in the chamber supports the face. This is an earth-pressure-balance example.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-epb"
+      ]
+    },
+    {
+      "id": "part-7",
+      "title": "Spoil conveyor",
+      "description": "The screw moves spoil out of the chamber; a conveyor carries it rearward. Removal and advance must work together.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-epb"
+      ]
+    },
+    {
+      "id": "part-8",
+      "title": "Tunnel rings",
+      "description": "Precast concrete pieces are assembled into the permanent tunnel lining. The segment arrangement here is illustrative.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-rings"
+      ]
+    },
+    {
+      "id": "part-9",
+      "title": "Annular grout",
+      "description": "Grout fills the space between the excavation and the outside of the lining. It is separate from the soil-support slurry used for wall construction.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-grout"
+      ]
+    },
+    {
+      "id": "part-10",
+      "title": "Monitoring instruments",
+      "description": "Instruments track effects on supports, ground and neighbouring structures. These markers do not show live measurements.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-monitoring"
+      ]
+    },
+    {
+      "id": "part-11",
+      "title": "Freeze pipes and frozen ground",
+      "description": "At Marina Bay, temporary freezing supported one TEL tunnel excavation. This separate historical example does not apply to all MRT tunnels.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-freeze"
+      ]
+    },
+    {
+      "id": "part-12",
+      "title": "Railway systems",
+      "description": "Track, power, signalling and trains need integration and testing before service, and continued inspection and renewal afterwards.",
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-testing"
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "id": "stop-0",
+      "title": "The journey today",
+      "body": "Start above ground, then follow the station down to the platform. This is a completed teaching section, with construction equipment removed.",
+      "camera": [
+        55,
+        43,
+        65
+      ],
+      "target": [
+        0,
+        11,
+        0
+      ],
+      "component_ids": [
+        "part-1",
+        "part-4",
+        "part-8",
+        "part-12"
+      ],
+      "claim_ids": [
+        "mrt-visual",
+        "mrt-dtl-purpose"
+      ]
+    },
+    {
+      "id": "stop-1",
+      "title": "Why a railway?",
+      "body": "Rail connects homes and jobs while freeing scarce surface space. Explore the geographic network and the historic decision before returning underground.",
+      "camera": [
+        55,
+        43,
+        65
+      ],
+      "target": [
+        0,
+        11,
+        0
+      ],
+      "component_ids": [
+        "part-1"
+      ],
+      "claim_ids": [
+        "mrt-rationale",
+        "mrt-opening",
+        "mrt-current-loop"
+      ]
+    },
+    {
+      "id": "stop-2",
+      "title": "Find room underground",
+      "body": "Foundations, utilities and operating rail constrain the work. Investigation informs the method; these layers are schematic, not borehole records.",
+      "camera": [
+        46,
+        37,
+        52
+      ],
+      "target": [
+        0,
+        15,
+        -2
+      ],
+      "component_ids": [
+        "part-2",
+        "part-10"
+      ],
+      "claim_ids": [
+        "mrt-investigation"
+      ]
+    },
+    {
+      "id": "stop-3",
+      "title": "Hold the ground",
+      "body": "Create a wall panel before excavating the station. Scrub from the supported trench to reinforcement and the completed panel.",
+      "camera": [
+        15,
+        28,
+        44
+      ],
+      "target": [
+        -13,
+        13,
+        0
+      ],
+      "component_ids": [
+        "part-2",
+        "part-3"
+      ],
+      "claim_ids": [
+        "mrt-wall",
+        "mrt-bottomup"
+      ]
+    },
+    {
+      "id": "stop-4",
+      "title": "Build beneath the roof",
+      "body": "Compare two supported sequences. Top-down builds the roof early; bottom-up builds upward after excavation. Neither is universal.",
+      "camera": [
+        43,
+        33,
+        58
+      ],
+      "target": [
+        -5,
+        12,
+        0
+      ],
+      "component_ids": [
+        "part-2",
+        "part-3",
+        "part-4",
+        "part-5"
+      ],
+      "claim_ids": [
+        "mrt-topdown",
+        "mrt-bottomup"
+      ]
+    },
+    {
+      "id": "stop-5",
+      "title": "Bore and line",
+      "body": "Look inside the EPB machine. Control the illustrative advance, inspect spoil removal, then assemble the lining and fill the outside gap.",
+      "camera": [
+        43,
+        15,
+        30
+      ],
+      "target": [
+        22,
+        5,
+        0
+      ],
+      "component_ids": [
+        "part-6",
+        "part-7",
+        "part-8",
+        "part-9"
+      ],
+      "claim_ids": [
+        "mrt-epb",
+        "mrt-rings",
+        "mrt-grout",
+        "mrt-logistics"
+      ]
+    },
+    {
+      "id": "stop-6",
+      "title": "Protect the city",
+      "body": "Support and monitoring work together. At Rochor, road and canal diversions maintained access and drainage during the works.",
+      "camera": [
+        36,
+        36,
+        54
+      ],
+      "target": [
+        -4,
+        16,
+        0
+      ],
+      "component_ids": [
+        "part-2",
+        "part-3",
+        "part-10"
+      ],
+      "claim_ids": [
+        "mrt-monitoring",
+        "mrt-rochor",
+        "mrt-topdown"
+      ]
+    },
+    {
+      "id": "stop-7",
+      "title": "A temporary frozen barrier",
+      "body": "Separate case: Marina Bay TEL. Frozen zones around pipes supported a lower tunnel excavation; the upper tunnel used different treatment.",
+      "camera": [
+        41,
+        30,
+        49
+      ],
+      "target": [
+        0,
+        10,
+        0
+      ],
+      "component_ids": [
+        "part-11"
+      ],
+      "claim_ids": [
+        "mrt-freeze"
+      ]
+    },
+    {
+      "id": "stop-8",
+      "title": "From concrete to service",
+      "body": "A finished civil structure is not yet a railway. Inspect the railway systems, then return to the completed station. Testing and maintenance continue the story.",
+      "camera": [
+        38,
+        23,
+        50
+      ],
+      "target": [
+        -5,
+        8,
+        0
+      ],
+      "component_ids": [
+        "part-1",
+        "part-8",
+        "part-12"
+      ],
+      "claim_ids": [
+        "mrt-testing",
+        "mrt-renewal"
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "title": "Prepare and investigate",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 0,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-investigation",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Install retaining walls",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 1,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-wall",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Excavate with support",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 2,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-topdown",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Build the roof opening",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 3,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-topdown",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Build intermediate levels",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 4,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-topdown",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Complete the base",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 5,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-topdown",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Tunnel workstream",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 6,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-epb",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Fit out and test",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 7,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-testing",
+        "mrt-visual"
+      ]
+    },
+    {
+      "title": "Open for passengers",
+      "body": "Compressed teaching sequence; workstreams overlap in real projects.",
+      "model_stage": 8,
+      "accuracy_class": "schematic",
+      "claim_ids": [
+        "mrt-visual",
+        "mrt-visual"
+      ]
+    }
+  ]
+}

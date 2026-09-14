@@ -1,0 +1,253 @@
+{
+  "research_revision": "reclamation-r1",
+  "accuracy_class": "schematic",
+  "claim_ids": ["reclamation-teaching"],
+  "components": [
+    {
+      "id": "sea",
+      "title": "Sea",
+      "description": "The outside water level is the reference for understanding the lower land.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-levels"]
+    },
+    {
+      "id": "land",
+      "title": "Low-lying land",
+      "description": "Usable ground inside the enclosing dike. The section exaggerates height differences.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-present", "reclamation-levels"]
+    },
+    {
+      "id": "dike",
+      "title": "Coastal dike",
+      "description": "An embankment separates the sea from the interior. Its cross-section here is illustrative.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-levels"]
+    },
+    {
+      "id": "rock",
+      "title": "Rock facing",
+      "description": "The seaward facing protects the embankment from wave action.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-surfaces"]
+    },
+    {
+      "id": "grass",
+      "title": "Planted slope",
+      "description": "Vegetation helps protect the landward soil against erosion.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-surfaces"]
+    },
+    {
+      "id": "wall",
+      "title": "Inner barrier wall",
+      "description": "Cement-bentonite limits seawater seepage; it does not make the ground perfectly impermeable.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-barrier"]
+    },
+    {
+      "id": "seepage",
+      "title": "Seepage collector",
+      "description": "Collects saline ingress separately from the freshwater drainage system.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-barrier"]
+    },
+    {
+      "id": "drains",
+      "title": "Interior drainage",
+      "description": "Conveys runoff and recirculated water. Only representative branches are drawn.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-network"]
+    },
+    {
+      "id": "pond",
+      "title": "Storage pond",
+      "description": "Buffers stormwater before discharge. The shape and level here are schematic.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-water"]
+    },
+    {
+      "id": "central",
+      "title": "Central pumping station",
+      "description": "Recirculates pond water through the drains during dry weather. This is not the sea-discharge station.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-pumps"]
+    },
+    {
+      "id": "discharge",
+      "title": "Drainage pumping station",
+      "description": "Moves excess water to sea when the pond reaches its operating level. No real thresholds are shown.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-pumps", "reclamation-trigger"]
+    },
+    {
+      "id": "outlet",
+      "title": "Inlet / outlet structures",
+      "description": "Connect specific drainage pathways. Cut-off drainage is distinct from the pond route.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-network", "reclamation-outlets"]
+    },
+    {
+      "id": "enclosure",
+      "title": "Temporary work enclosure",
+      "description": "Sheet piles keep a local construction area dry; removed after permanent protection is established.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-outlets", "reclamation-temporary"]
+    },
+    {
+      "id": "ground",
+      "title": "Ground preparation",
+      "description": "Vertical drainage and temporary loading help consolidate soft soil. Time and settlement are exaggerated.",
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-ground"]
+    }
+  ],
+  "stops": [
+    {
+      "id": "today",
+      "title": "Land below the sea",
+      "body": "How can dry land sit below the sea? Follow the reference line across the dike to the lower interior. This is a compressed teaching landscape, not a surveyed section.",
+      "camera": [62, 42, 63],
+      "target": [0, 2, 0],
+      "component_ids": ["sea", "land", "dike", "pond", "central", "discharge"],
+      "claim_ids": ["reclamation-present", "reclamation-levels", "reclamation-teaching"]
+    },
+    {
+      "id": "why",
+      "title": "A different way to make land",
+      "body": "Compare a low polder with a conceptual higher infill platform. The trade-off is less fill and a continuing need to manage water. No quantity or cost calculation is implied.",
+      "camera": [40, 20, 60],
+      "target": [0, 2, 0],
+      "component_ids": ["sea", "land", "dike"],
+      "claim_ids": ["reclamation-purpose", "reclamation-present", "reclamation-design"]
+    },
+    {
+      "id": "ground",
+      "title": "Make the ground ready",
+      "body": "Drains and temporary surcharge help soft clay consolidate. Scrub to reveal the preparation and settlement. Surveys and investigations check the result; this is not a soil simulation.",
+      "camera": [30, 24, 35],
+      "target": [8, 0, 0],
+      "component_ids": ["land", "ground"],
+      "claim_ids": ["reclamation-ground", "reclamation-marine"]
+    },
+    {
+      "id": "work",
+      "title": "Build where the water is",
+      "body": "Create a local dry work cell, place the outlet, then complete its enclosing dike segment. Remove the temporary works once permanent protection is in place. This is a local dependency, not the whole contract schedule.",
+      "camera": [28, 24, 40],
+      "target": [-10, 1, 0],
+      "component_ids": ["sea", "outlet", "enclosure"],
+      "claim_ids": ["reclamation-outlets", "reclamation-temporary", "reclamation-contract"]
+    },
+    {
+      "id": "section",
+      "title": "Inside the dike",
+      "body": "Peel the section open. Facing materials protect the embankment, while the inner barrier limits seepage. Saline ingress has its own collection path.",
+      "camera": [19, 18, 42],
+      "target": [-10, 2, 0],
+      "component_ids": ["dike", "rock", "grass", "wall", "seepage"],
+      "claim_ids": ["reclamation-barrier", "reclamation-surfaces"]
+    },
+    {
+      "id": "network",
+      "title": "A landscape with plumbing",
+      "body": "Trace representative interior drains into storage. The cut-off route and saline seepage collector stay separate. Lines end at labelled destinations; smaller branches are omitted.",
+      "camera": [36, 66, 48],
+      "target": [4, 1, 0],
+      "component_ids": ["seepage", "drains", "pond", "outlet"],
+      "claim_ids": ["reclamation-water", "reclamation-network"]
+    },
+    {
+      "id": "pumps",
+      "title": "Two different pumping jobs",
+      "body": "Choose dry weather or a pond-at-operating-level state. One station recirculates water; the other discharges excess water to sea. Buildings represent stations, not an installed pump inventory.",
+      "camera": [47, 33, 49],
+      "target": [4, 2, 0],
+      "component_ids": ["drains", "pond", "central", "discharge"],
+      "claim_ids": ["reclamation-pumps", "reclamation-trigger"]
+    },
+    {
+      "id": "care",
+      "title": "Finish, check and maintain",
+      "body": "Main works finished in December 2024, with further testing and commissioning in 2025. Monitoring and maintenance continue after construction; no live telemetry is connected.",
+      "camera": [60, 40, 59],
+      "target": [0, 2, 0],
+      "component_ids": ["dike", "pond", "central", "discharge"],
+      "claim_ids": ["reclamation-completion", "reclamation-operator", "reclamation-monitoring"]
+    },
+    {
+      "id": "future",
+      "title": "Adapt without raising everything",
+      "body": "Explore a possible higher crest without claiming a scheduled 2050 project. The translucent addition is envisioned. The broader planning story also includes preserving Pulau Unum and water exchange around it.",
+      "camera": [45, 26, 59],
+      "target": [-5, 2, 0],
+      "component_ids": ["sea", "land", "dike"],
+      "claim_ids": ["reclamation-future", "reclamation-environment"]
+    }
+  ],
+  "stages": [
+    {
+      "title": "Marine preparation",
+      "body": "Site and water context.",
+      "model_stage": 0,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-marine"]
+    },
+    {
+      "title": "Local dry work cell",
+      "body": "Temporary enclosure and dewatering.",
+      "model_stage": 1,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-outlets", "reclamation-temporary"]
+    },
+    {
+      "title": "Outlet construction",
+      "body": "Build below water inside the enclosure.",
+      "model_stage": 2,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-outlets"]
+    },
+    {
+      "title": "Permanent protection",
+      "body": "Close the corresponding dike segment; remove temporary works.",
+      "model_stage": 3,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-barrier", "reclamation-surfaces", "reclamation-levels"]
+    },
+    {
+      "title": "Ground preparation",
+      "body": "Ground improvement and earthworks; schematic ordering.",
+      "model_stage": 4,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-ground"]
+    },
+    {
+      "title": "Drainage and storage",
+      "body": "Representative drainage routes and storage.",
+      "model_stage": 5,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-water", "reclamation-network"]
+    },
+    {
+      "title": "Water-management stations",
+      "body": "Separate recirculation and discharge functions.",
+      "model_stage": 6,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-pumps", "reclamation-trigger"]
+    },
+    {
+      "title": "Testing and operation",
+      "body": "Commissioning milestones and continuing care.",
+      "model_stage": 7,
+      "accuracy_class": "schematic",
+      "claim_ids": ["reclamation-completion", "reclamation-operator", "reclamation-monitoring"]
+    },
+    {
+      "title": "Future context",
+      "body": "Optional envisioned crest addition.",
+      "model_stage": 8,
+      "accuracy_class": "envisioned",
+      "claim_ids": ["reclamation-future"]
+    }
+  ]
+}

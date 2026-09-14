@@ -1,0 +1,58 @@
+{
+  "accuracy_class": "reconstructed",
+  "source_ids": [
+    "reclamation-src-pub",
+    "reclamation-src-diagram"
+  ],
+  "access_date": "2026-09-15",
+  "note": "Approximate public-source context, manually registered against live OneMap photographic tiles. Not surveyed drainage GIS; tile vintages differ. No station pins or complete perimeter asserted.",
+  "dike_context": [
+    [
+      104.015394,
+      1.408752
+    ],
+    [
+      104.011647,
+      1.411906
+    ],
+    [
+      104.009478,
+      1.420776
+    ],
+    [
+      104.01145,
+      1.428661
+    ],
+    [
+      104.021309,
+      1.435561
+    ],
+    [
+      104.040042,
+      1.439996
+    ],
+    [
+      104.044479,
+      1.436546
+    ],
+    [
+      104.051873,
+      1.431618
+    ],
+    [
+      104.053845,
+      1.428169
+    ]
+  ],
+  "pond_anchor": [
+    104.03462,
+    1.429154
+  ],
+  "polder_anchor": [
+    104.019338,
+    1.417819
+  ],
+  "basemap_reference_source_id": "onemap-basemap",
+  "redistribution_status": "unverified",
+  "licensing_note": "Original generalised context registered visually against streamed imagery; no tile imagery embedded. Review derivative context publication rights before public release."
+}
