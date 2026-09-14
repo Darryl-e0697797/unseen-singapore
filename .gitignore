@@ -23,3 +23,7 @@ apps/web/public/vendor/maplibre/
 .next-static/
 apps/web/out/
 release-artifacts/
+
+/out/
+
+/out/

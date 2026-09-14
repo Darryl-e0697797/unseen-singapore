@@ -9,6 +9,7 @@ export default defineConfig([
     '**/.next/**',
     '**/.next-static/**',
     'apps/web/out/**',
+    'out/**',
     '**/next-env.d.ts',
     'test-results/**',
     'apps/web/public/vendor/**',
