@@ -6,7 +6,7 @@ test('reveal, questions, camera, tracing, layers, sources and reset', async ({ p
   page.on('console', (m) => {
     if (m.type() === 'error') errors.push(m.text());
   });
-  await page.goto('/');
+  await page.goto('/portfolio/');
   const scene = page.getByTestId('scene'),
     canvas = page.locator('canvas');
   await expect(canvas).toHaveAttribute('data-camera-position', /.+/);
@@ -48,7 +48,7 @@ test('reveal, questions, camera, tracing, layers, sources and reset', async ({ p
 test('mobile, reduced motion and reading mode', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  await page.goto('/');
+  await page.goto('/portfolio/');
   await expect(page.getByRole('button', { name: 'Low graphics quality' })).toHaveAttribute(
     'aria-pressed',
     'true',
@@ -69,7 +69,7 @@ test('mobile, reduced motion and reading mode', async ({ page }) => {
 });
 test('failed GLB leaves the sourced chapter available', async ({ page }) => {
   await page.route('**/models/*.glb', (route) => route.abort());
-  await page.goto('/');
+  await page.goto('/portfolio/');
   await expect(page.getByRole('heading', { name: 'The story is still here.' })).toBeVisible({
     timeout: 30000,
   });
@@ -79,7 +79,7 @@ test('failed GLB leaves the sourced chapter available', async ({ page }) => {
   await expect(page.locator('#sources a')).toHaveCount(2);
 });
 test('keyboard controls do not require the canvas', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/portfolio/');
   await page.getByRole('button', { name: 'Reveal the unseen', exact: true }).focus();
   await page.keyboard.press('Enter');
   await expect(page.getByTestId('scene')).toHaveAttribute('data-reveal', 'true');
