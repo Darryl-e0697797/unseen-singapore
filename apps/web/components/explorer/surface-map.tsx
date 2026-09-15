@@ -1,6 +1,6 @@
 'use client';
 import { hasDetailedDemo, detailedDemoCount, demoLabel } from './demo-readiness';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import * as maplibregl from 'maplibre-gl';
 import { type Map as LibreMap, type StyleSpecification, type RasterTileSource } from 'maplibre-gl';
 import { projects, type Project, type ProjectId, type Year } from '@unseen/world';
@@ -52,6 +52,7 @@ const groups: Record<string, ProjectId[]> = {
   land: ['tuas', 'reclamation', 'coast'],
   underground: ['dtss', 'mrt', 'caverns', 'power'],
 };
+const subscribeControls = () => () => {};
 export default function SurfaceMap({
   initialProject,
   year,
@@ -67,6 +68,7 @@ export default function SurfaceMap({
   onCatalog: () => void;
   reduceMotion: boolean;
 }) {
+  const controlsReady = useSyncExternalStore(subscribeControls, () => true, () => false);
   const container = useRef<HTMLDivElement>(null),
     map = useRef<LibreMap | null>(null),
     markers = useRef<maplibregl.Marker[]>([]),
@@ -540,6 +542,8 @@ export default function SurfaceMap({
     <section
       className={`geographic-surface ${selected === 'dtss' ? 'show-dtss-network' : selected === 'mrt' ? 'show-mrt-network' : selected === 'barrage' ? 'show-barrage-network' : selected === 'reclamation' ? 'show-reclamation-network' : ''}`}
       hidden={hidden}
+      inert={!controlsReady}
+      data-controls-ready={controlsReady}
       aria-label="Singapore surface atlas"
     >
       <div className="geographic-map" ref={container} />

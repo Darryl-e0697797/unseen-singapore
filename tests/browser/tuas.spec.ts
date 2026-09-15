@@ -41,7 +41,9 @@ test('Tuas native context and mobile cutaway remain usable', async ({ page }) =>
   await page.setViewportSize({ width: 390, height: 844 });
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/explore');
+  await expect(page.locator('.geographic-surface')).toHaveAttribute('data-controls-ready', 'true');
   await page.getByRole('textbox', { name: 'Find an engineering project' }).fill('Tuas');
+  await expect(page.locator('.surface-projects > button')).toHaveCount(1);
   await page.locator('.surface-projects > button').click();
   await expect(page.locator('.tuas-map-marker')).toHaveCount(4);
   await page.getByRole('button', { name: /Enter.*story|Enter.*engineering/i }).click();

@@ -43,8 +43,9 @@ export default function TuasJourney({
   useEffect(() => {
     if (!running) return;
     if (value.progress >= 100) return;
+    const started = performance.now();
     const timer = setTimeout(
-      () => onChange({ ...value, progress: Math.min(100, value.progress + 0.25) }),
+      () => onChange({ ...value, progress: Math.min(100, value.progress + (performance.now() - started) * (0.25 / 16)) }),
       16,
     );
     return () => clearTimeout(timer);
