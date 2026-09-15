@@ -303,7 +303,8 @@ export default function SurfaceMap({
       m.setMinZoom(
         m.getMinZoom() < 11 ? 9.5 : surfaceFraming(el.clientWidth, el.clientHeight).minZoom,
       );
-      m.setPitch(surfacePitch(m.getZoom(), m.getPitch(), el.clientWidth, el.clientHeight));
+      const nextPitch = surfacePitch(m.getZoom(), m.getPitch(), el.clientWidth, el.clientHeight);
+      if (Math.abs(nextPitch - m.getPitch()) > 0.01) m.setPitch(nextPitch);
     });
     m.on('moveend', () => {
       const c = m.getCenter();
@@ -468,8 +469,10 @@ export default function SurfaceMap({
     const m = map.current;
     if (hidden) m?.stop();
     if (m?.getLayer('onemap-plan')) m.setLayoutProperty('onemap-plan', 'visibility', hidden ? 'none' : 'visible');
-    if (!hidden) m?.resize();
   }, [hidden, readyVersion]);
+  useEffect(() => {
+    if (!hidden) map.current?.resize();
+  }, [hidden]);
   function returnToOverview() {
     pendingFocus.current = null;
     const start = mapViews.marina;
