@@ -1,4 +1,1 @@
-import Experience from '../components/experience';
-export default function Page() {
-  return <Experience />;
-}
+export { default, metadata } from './explore/page';
