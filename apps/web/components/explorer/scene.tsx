@@ -1,7 +1,8 @@
 'use client';
+import { useModel } from './use-model';
 import { Suspense, useEffect, useMemo, useRef } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { Html, OrbitControls, useGLTF, Line } from '@react-three/drei';
+import { Html, OrbitControls, Line } from '@react-three/drei';
 import {
   Color,
   DoubleSide,
@@ -207,7 +208,7 @@ function Model({
   stage: number;
   mode: WorldState['mode'];
 }) {
-  const { scene } = useGLTF(project.model_file);
+  const { scene } = useModel(project.model_file);
   const { gl } = useThree();
   useEffect(() => {
     gl.domElement.setAttribute('data-model-loaded', project.project_id);

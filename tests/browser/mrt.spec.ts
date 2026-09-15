@@ -61,7 +61,7 @@ test('MRT native map anchors and mobile return', async ({ page }) => {
 test('MRT asset failure preserves its numbered guide and historical state hides modern geometry', async ({
   page,
 }) => {
-  await page.route('**/models/world-mrt.glb', (r) => r.abort());
+  await page.route('**/models/world-mrt.glb{,.pack.gz}', (r) => r.abort());
   await page.goto('/explore');
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'MRT' }).click();

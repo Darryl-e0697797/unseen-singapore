@@ -46,7 +46,7 @@ test('geographic surface renders buildings, changes projection, and clears Tuas 
 
 test('mobile map remains usable when building data fails', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.route('**/geography/cbd-buildings.geojson', (route) => route.abort());
+  await page.route('**/geography/cbd-buildings.{geojson,json}', (route) => route.abort());
   await page.goto('/explore');
   await expect(page.locator('.geographic-map canvas')).toHaveAttribute(
     'data-surface-loaded',

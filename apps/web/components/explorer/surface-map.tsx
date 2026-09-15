@@ -355,7 +355,7 @@ export default function SurfaceMap({
             .addTo(m),
         );
       }
-      fetch('/geography/cbd-buildings.geojson', { signal: controller.signal })
+      fetch('/geography/cbd-buildings.json', { signal: controller.signal })
         .then((r) => {
           if (!r.ok) throw new Error('Building layer unavailable');
           return r.json();
@@ -456,12 +456,15 @@ export default function SurfaceMap({
       m.setLayoutProperty(
         'cbd-massing',
         'visibility',
-        buildings && pitched && year === 2026 ? 'visible' : 'none',
+        !hidden && buildings && pitched && year === 2026 ? 'visible' : 'none',
       );
-  }, [buildings, buildingsReady, pitched, year]);
+  }, [hidden, buildings, buildingsReady, pitched, year]);
   useEffect(() => {
-    if (!hidden) map.current?.resize();
-  }, [hidden]);
+    const m = map.current;
+    if (hidden) m?.stop();
+    if (m?.getLayer('onemap-plan')) m.setLayoutProperty('onemap-plan', 'visibility', hidden ? 'none' : 'visible');
+    if (!hidden) m?.resize();
+  }, [hidden, readyVersion]);
   function returnToOverview() {
     const start = mapViews.marina;
     setSelected(null);

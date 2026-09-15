@@ -77,7 +77,7 @@ test('Barrage mobile map selection, future and historical state', async ({ page 
   await expect(page.locator('.barrage-map-marker')).toHaveCount(0);
 });
 test('Barrage asset failure retains readable engineering and evidence', async ({ page }) => {
-  await page.route('**/models/world-barrage.glb', (r) => r.abort());
+  await page.route('**/models/world-barrage.glb{,.pack.gz}', (r) => r.abort());
   await page.goto('/explore');
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'Marina Barrage' }).click();

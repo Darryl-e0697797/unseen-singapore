@@ -65,7 +65,7 @@ test('all nine models load, flight exits, sources remain available on mobile', a
   expect(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)).toBe(false);
 });
 test('failed world asset preserves the complete research interface', async ({ page }) => {
-  await page.route('**/models/world-tuas.glb', (r) => r.abort());
+  await page.route('**/models/world-tuas.glb{,.pack.gz}', (r) => r.abort());
   await page.goto('/explore');
   await page.getByRole('button', { name: 'Begin at Tuas Port' }).click();
   await expect(page.getByText('The story is still here.')).toBeVisible();

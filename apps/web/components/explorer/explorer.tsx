@@ -2,6 +2,8 @@
 import { hasDetailedDemo, detailedDemoCount, demoLabel } from './demo-readiness';
 import { constructionStages } from '@unseen/world';
 import dynamic from 'next/dynamic';
+import { preload } from 'react-dom';
+import { modelUrl } from './model-url';
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore, type FormEvent } from 'react';
 import {
@@ -125,6 +127,8 @@ export default function Explorer() {
   }, [playing]);
   const select = useCallback(
     (project: Project) => {
+      preload(modelUrl(project.model_file), { as: 'fetch', crossOrigin: 'anonymous', fetchPriority: 'high' });
+      void loadScene();
       dispatch([{ type: 'focus', project: project.project_id }]);
       setChapter(0);
       setDtssFocus(0);

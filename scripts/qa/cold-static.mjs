@@ -23,6 +23,7 @@ await page.waitForFunction(() => document.querySelector('.world-canvas canvas')?
 const result = {
   environment: 'Local Chrome, static server, cold page cache, CDP 1.6 Mbps down / 750 Kbps up / 150 ms latency; worker throttling not independently verified. CPU/GPU is local hardware, not real-phone evidence.',
   usefulTextMs, controlsReadyMs, storyReadyAfterSelectionMs: Math.round(performance.now() - enter), errors,
+  resources: await page.evaluate(() => performance.getEntriesByType('resource').map((entry) => { const r = entry; return { path: new URL(r.name).pathname, startMs: Math.round(r.startTime), durationMs: Math.round(r.duration), transferredBytes: r.transferSize }; })),
 };
 writeFileSync('docs/qa/release/cold-static.json', JSON.stringify(result, null, 2) + '\n');
 console.log(result);

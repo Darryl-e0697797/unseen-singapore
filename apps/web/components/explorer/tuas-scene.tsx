@@ -1,6 +1,7 @@
 'use client';
+import { useModel } from './use-model';
 import { useEffect, useMemo, useRef } from 'react';
-import { Html, Line, useGLTF } from '@react-three/drei';
+import { Html, Line } from '@react-three/drei';
 import { useThree, useFrame } from '@react-three/fiber';
 import { Mesh, MeshStandardMaterial, Vector3 } from 'three';
 import type { Line2 } from 'three-stdlib';
@@ -72,7 +73,7 @@ export default function TuasScene({
   stage: number;
   mode: string;
 }) {
-  const { scene } = useGLTF('/models/world-tuas.glb');
+  const { scene } = useModel('/models/world-tuas.glb');
   const { gl, invalidate } = useThree();
   const clone = useMemo(() => {
     const s = scene.clone(true);

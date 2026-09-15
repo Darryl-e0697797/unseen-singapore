@@ -1,6 +1,7 @@
 'use client';
+import { useModel } from './use-model';
 import { useEffect, useMemo } from 'react';
-import { Html, Line, useGLTF } from '@react-three/drei';
+import { Html, Line } from '@react-three/drei';
 import { useThree } from '@react-three/fiber';
 import { Mesh, MeshStandardMaterial, Vector3 } from 'three';
 import { mrtLabels, mrtRoleVisible, mrtStage, type MrtControls } from './mrt-controls';
@@ -17,7 +18,7 @@ export default function MrtScene({
   year: number;
   onInspect: (id: number) => void;
 }) {
-  const { scene } = useGLTF('/models/world-mrt.glb'),
+  const { scene } = useModel('/models/world-mrt.glb'),
     { gl, invalidate } = useThree();
   const model = useMemo(() => {
     const c = scene.clone(true);
