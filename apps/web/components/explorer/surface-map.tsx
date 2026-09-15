@@ -69,6 +69,7 @@ export default function SurfaceMap({
   reduceMotion: boolean;
 }) {
   const controlsReady = useSyncExternalStore(subscribeControls, () => true, () => false);
+  const pendingFocus = useRef<ProjectId | null>(null);
   const container = useRef<HTMLDivElement>(null),
     map = useRef<LibreMap | null>(null),
     markers = useRef<maplibregl.Marker[]>([]),
@@ -100,6 +101,7 @@ export default function SurfaceMap({
     motion.current = reduceMotion;
   }, [onEnter, reduceMotion]);
   const visit = useCallback((id: ProjectId) => {
+    pendingFocus.current = id;
     setSelected(id);
     // Preserve the approved network fit extents in selected-project context.
     map.current?.setMinZoom(9.5);
@@ -217,6 +219,9 @@ export default function SurfaceMap({
       },
     });
   }, []);
+  useEffect(() => {
+    if (readyVersion > 0 && pendingFocus.current) visit(pendingFocus.current);
+  }, [readyVersion, visit]);
   useEffect(() => {
     if (!initialProject || readyVersion === 0 || hidden) return;
     const frame = requestAnimationFrame(() => visit(initialProject));
@@ -466,6 +471,7 @@ export default function SurfaceMap({
     if (!hidden) m?.resize();
   }, [hidden, readyVersion]);
   function returnToOverview() {
+    pendingFocus.current = null;
     const start = mapViews.marina;
     setSelected(null);
     setFilter('all');
@@ -485,6 +491,7 @@ export default function SurfaceMap({
     });
   }
   function bookmark(key: keyof typeof mapViews) {
+    pendingFocus.current = null;
     const v = mapViews[key];
     setView(v.label);
     setSelected(null);
