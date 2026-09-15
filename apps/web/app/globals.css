@@ -995,3 +995,5 @@ h1 em {
     animation: none !important;
   }
 }
+
+.portfolio-progress{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;padding:28px 0 40px;margin:0 0 28px;border-top:1px solid #93a38b;border-bottom:1px solid #93a38b;color:#284b42}.portfolio-progress h2{font:28px Georgia,serif;margin:12px 0}.portfolio-progress p{font-size:13px;line-height:1.8;max-width:44ch}.portfolio-progress a{display:inline-block;margin-top:12px;color:#254f43;font-size:13px;text-underline-offset:5px}@media(max-width:760px){.portfolio-progress{grid-template-columns:1fr;gap:20px;padding:24px 0}.portfolio-progress h2{font-size:25px}}
