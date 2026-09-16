@@ -21,3 +21,7 @@ The user chose to continue normal browser testing because the nearby iPhone uses
 Additional checks live in `tests/browser/mobile-compatibility.spec.ts`. Run `npx playwright test --config scripts/qa/mobile-compatibility.config.ts` for Chrome touch emulation and Playwright WebKit iPhone emulation. Coverage includes touch navigation to the film, actual video time advancement, loaded captions, rotation, clipboard-denial fallback, and readable server-rendered content/native video controls with JavaScript disabled. WebKit emulation is not an actual iPhone or LinkedIn WebView test.
 
 Result: 6/6 compatibility checks passed on the local static export on 2026-09-16 (WebKit iPhone profile: 3/3; Chrome touch: 3/3). Screenshots are `docs/qa/mobile-gateway/webkit-iphone.png` and `chrome-touch.png`. Targeted lint and type checking passed. No application fix was required.
+
+## Published — 2026-09-16
+
+Supersedes the earlier local-only status: the user accepted the preview and authorised deployment. The gateway is now public at https://unseen-singapore.darrylkai.chatgpt.site (Sites version 5). Seven public-origin checks passed in WebKit/Chrome touch and desktop. Physical-phone preview acceptance was reported by the user; actual LinkedIn in-app-browser behaviour remains unverified.

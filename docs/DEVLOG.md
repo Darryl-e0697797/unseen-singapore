@@ -216,3 +216,20 @@ User clarified all nine builds have useful detail. Renamed public levels to Deta
 ## 2026-09-15 — Static release preparation
 
 Created private GitHub repository and configured origin without uploading source. Added separate static export and preview-origin support; updated README, Sites handoff, code license, attribution inventory, contribution guide and CI source/static-build checks. Inspected OneMap official terms; derivative/satellite permissions remain unresolved. Measured cold-network loading: atlas text 13.51 s and selected Tekong model 14.51 s, both over target. No budget waiver, video capture, public-source upload or deployment.
+
+
+## 2026-09-16 — Mobile entry gateway
+
+Added a lightweight, statically rendered entry for phone/touch visitors at `/` and `/explore`. The explorer is imported only for large fine-pointer displays or an explicit full-experience request. Rotation does not automatically launch the world. The gateway contains the actual 60-second film (720p, about 3 MB, tap-to-play with `preload=none`, inline controls and English captions), an approximately 56 KB poster, five readable exhibit summaries, desktop guidance, copy-link with denied-clipboard fallback, and optional entry/return. No app models or engineering facts were changed. Existing mobile scene regressions now explicitly opt into the full world.
+
+Validation includes narrow-width overflow, no unsolicited map/model/video requests, video playback/caption loading, clipboard, explicit entry/return, media failure and reduced motion. Physical iPhone/Android and LinkedIn in-app-browser playback/performance remain unmeasured; browser emulation is not real-device evidence. Public Sites deployment is unchanged by this local work.
+
+Final gateway verification: static production export passed all 40 browser tests, including all nine model regressions and six gateway tests. All 36 unit tests, type checking and production/static builds passed. Lint has no errors; one pre-existing unused-variable warning remains in the showcase build-proof script. The development-server run had one DTSS timeout during concurrent source edits; the same test passed in the final production export without changes to DTSS. The three viewport checks were repeated only to capture local resource timing evidence.
+
+## 2026-09-16 — Normal mobile browser compatibility checks
+
+At the user's direction, continued with browser testing instead of physical-phone testing (different Apple Accounts prevent the available mirroring setup). All six added compatibility checks passed against the existing production static export: three in Playwright WebKit with an iPhone profile and three in Chrome touch emulation. Checked touch navigation, actual video playback advancement, loaded captions, rotation, clipboard denial and content/native video availability with JavaScript disabled. Targeted lint and type checking passed. No production app changes were needed. Physical iPhone and LinkedIn in-app-browser compatibility remain unverified; public deployment remains unchanged.
+
+## 2026-09-16 — Mobile gateway published
+
+Following “Looks good. Deploy to the ChatGPT site”, deployed the exact validated gateway to the existing public Sites address. Version 5 succeeded; seven target-origin checks passed, including mobile video playback/captions and desktop atlas catalogue behaviour. No access-policy changes, GitHub main changes or social posts were made. See SITES-HANDOFF.md for rollback/source identifiers.

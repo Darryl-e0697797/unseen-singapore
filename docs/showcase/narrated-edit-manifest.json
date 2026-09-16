@@ -1,0 +1,88 @@
+[
+  {
+    "clip": "opening",
+    "duration": 5,
+    "title": "What holds Singapore together?",
+    "detail": "Five engineering stories. One interactive world.",
+    "source": "editorial title over actual app screenshot"
+  },
+  {
+    "clip": "overview-final",
+    "duration": 8,
+    "title": "Start with the city. Then look closer.",
+    "detail": "Nine exhibits \u00b7 Five detailed construction journeys",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 265
+  },
+  {
+    "clip": "dtss-entry",
+    "duration": 6,
+    "title": "Follow a system beneath Singapore.",
+    "detail": "DTSS \u00b7 Geographic context leads into the underground story",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 644
+  },
+  {
+    "clip": "dtss",
+    "duration": 10,
+    "title": "Inside the tunnel: boring, rings and protection.",
+    "detail": "Numbered components explain their purpose \u00b7 Illustrative cutaway",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 1378
+  },
+  {
+    "clip": "tuas-motion",
+    "duration": 10,
+    "title": "Float. Place. Retain.",
+    "detail": "Tuas Port \u00b7 A schematic caisson placement sequence",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 388
+  },
+  {
+    "clip": "mrt",
+    "duration": 8,
+    "title": "Build beneath a living city.",
+    "detail": "Bore and line the tunnel \u00b7 Explore its numbered components",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 394
+  },
+  {
+    "clip": "barrage-final",
+    "duration": 14,
+    "title": "The tide changes how excess water leaves.",
+    "detail": "Marina Barrage \u00b7 Low-tide gates and high-tide pumping",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 322
+  },
+  {
+    "clip": "tekong",
+    "duration": 14,
+    "title": "Land below sea level needs water management.",
+    "detail": "Pulau Tekong \u00b7 Explore the dike, drainage and pumping story",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 197
+  },
+  {
+    "clip": "return-map",
+    "duration": 6,
+    "title": "Five stories. One connected city.",
+    "detail": "Human-directed \u00b7 Built with GPT-6 Astra",
+    "source": "actual browser frames",
+    "capture": "http://127.0.0.1:3001/explore",
+    "rawFrames": 20
+  },
+  {
+    "clip": "ending",
+    "duration": 7,
+    "title": "Go beneath the surface.",
+    "detail": "unseen-singapore.darrylkai.chatgpt.site",
+    "source": "editorial title over actual app screenshot"
+  }
+]
