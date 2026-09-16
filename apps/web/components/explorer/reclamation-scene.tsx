@@ -1,6 +1,7 @@
 'use client';
+import { useModel } from './use-model';
 import { useMemo, useEffect } from 'react';
-import { useGLTF, Html, Line } from '@react-three/drei';
+import { Html, Line } from '@react-three/drei';
 import { useThree } from '@react-three/fiber';
 import { Mesh, MeshStandardMaterial, Vector3 } from 'three';
 import {
@@ -22,7 +23,7 @@ export default function ReclamationScene({
   mode: string;
   stage: number;
 }) {
-  const { scene } = useGLTF('/models/world-reclamation.glb');
+  const { scene } = useModel('/models/world-reclamation.glb');
   const { gl, invalidate } = useThree();
   const model = useMemo(() => {
     const s = scene.clone(true);

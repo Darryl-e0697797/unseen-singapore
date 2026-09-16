@@ -1,0 +1,47 @@
+1
+00:00:00,700 --> 00:00:02,281
+What holds Singapore together?
+
+2
+00:00:05,400 --> 00:00:10,872
+Unseen takes you from the city above into five engineering stories below, and along its shores.
+
+3
+00:00:13,400 --> 00:00:15,971
+How does used water move beneath a whole city?
+
+4
+00:00:19,400 --> 00:00:26,271
+The deep tunnel system uses gravity. Explore the boring machine, then the concrete rings and protective lining.
+
+5
+00:00:29,300 --> 00:00:36,654
+How do you build a waterfront? At Tuas, follow a concrete caisson into position, to help retain reclaimed fill.
+
+6
+00:00:39,300 --> 00:00:44,065
+How do you tunnel beneath a living city? Watch excavation and lining work together.
+
+7
+00:00:47,300 --> 00:00:49,476
+How does the barrage respond to rain?
+
+8
+00:00:51,000 --> 00:00:53,755
+At low tide, gates release excess water.
+
+9
+00:00:55,600 --> 00:00:58,030
+At high tide, pumps move it to sea.
+
+10
+00:01:01,300 --> 00:01:10,082
+How can land sit below sea level? At Pulau Tekong, a dike protects the land, while drainage, storage and pumping manage water inside.
+
+11
+00:01:15,400 --> 00:01:20,378
+Five connected stories. Built with human direction and GPT six Astra.
+
+12
+00:01:21,300 --> 00:01:27,105
+These are teaching models, with sources inside. Explore Unseen Singapore for yourself.

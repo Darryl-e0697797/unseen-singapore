@@ -1,4 +1,4 @@
-import Explorer from '../../components/explorer/explorer';
+import MobileGateway from '../../components/mobile-gateway';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Enter the engineering world — UNSEEN Singapore',
@@ -6,5 +6,5 @@ export const metadata: Metadata = {
     'Nine engineering stories. Five eras. Explore the structures, construction sequences and decisions that shaped Singapore.',
 };
 export default function Page() {
-  return <Explorer />;
+  return <MobileGateway />;
 }

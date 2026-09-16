@@ -1,0 +1,146 @@
+{
+  "origin": "http://127.0.0.1:3003",
+  "date": "2026-09-15T01:02:46.885Z",
+  "conditions": "Fresh browser contexts, disabled page cache, 1.6 Mbps download / 750 Kbps upload / 150 ms latency via CDP. Local CPU/GPU; worker network throttling not independently verified.",
+  "limits": {
+    "usefulTextMs": 2500,
+    "modelReadyAfterSelectionMs": 5000
+  },
+  "results": [
+    {
+      "trial": 1,
+      "id": "dtss",
+      "usefulTextMs": 669,
+      "controlsReadyMs": 2457,
+      "modelReadyMs": 4593,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 1,
+      "id": "tuas",
+      "usefulTextMs": 674,
+      "controlsReadyMs": 2463,
+      "modelReadyMs": 4362,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 1,
+      "id": "mrt",
+      "usefulTextMs": 672,
+      "controlsReadyMs": 2460,
+      "modelReadyMs": 4378,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 1,
+      "id": "barrage",
+      "usefulTextMs": 674,
+      "controlsReadyMs": 2464,
+      "modelReadyMs": 4347,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 1,
+      "id": "reclamation",
+      "usefulTextMs": 665,
+      "controlsReadyMs": 2451,
+      "modelReadyMs": 4261,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 2,
+      "id": "dtss",
+      "usefulTextMs": 661,
+      "controlsReadyMs": 2451,
+      "modelReadyMs": 4627,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 2,
+      "id": "tuas",
+      "usefulTextMs": 675,
+      "controlsReadyMs": 2464,
+      "modelReadyMs": 4393,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 2,
+      "id": "mrt",
+      "usefulTextMs": 675,
+      "controlsReadyMs": 2462,
+      "modelReadyMs": 4328,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 2,
+      "id": "barrage",
+      "usefulTextMs": 679,
+      "controlsReadyMs": 2468,
+      "modelReadyMs": 4410,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 2,
+      "id": "reclamation",
+      "usefulTextMs": 672,
+      "controlsReadyMs": 2459,
+      "modelReadyMs": 4129,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 3,
+      "id": "dtss",
+      "usefulTextMs": 658,
+      "controlsReadyMs": 2449,
+      "modelReadyMs": 4644,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 3,
+      "id": "tuas",
+      "usefulTextMs": 664,
+      "controlsReadyMs": 2451,
+      "modelReadyMs": 4392,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 3,
+      "id": "mrt",
+      "usefulTextMs": 664,
+      "controlsReadyMs": 2456,
+      "modelReadyMs": 4378,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 3,
+      "id": "barrage",
+      "usefulTextMs": 669,
+      "controlsReadyMs": 2459,
+      "modelReadyMs": 4311,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "trial": 3,
+      "id": "reclamation",
+      "usefulTextMs": 676,
+      "controlsReadyMs": 2463,
+      "modelReadyMs": 4245,
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

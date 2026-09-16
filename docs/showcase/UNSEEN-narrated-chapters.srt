@@ -1,0 +1,49 @@
+1
+00:00:00,000 --> 00:00:05,000
+What holds Singapore together?
+Five engineering stories. One interactive world.
+
+2
+00:00:05,000 --> 00:00:13,000
+Start with the city. Then look closer.
+Nine exhibits · Five detailed construction journeys
+
+3
+00:00:13,000 --> 00:00:19,000
+Follow a system beneath Singapore.
+DTSS · Geographic context leads into the underground story
+
+4
+00:00:19,000 --> 00:00:29,000
+Inside the tunnel: boring, rings and protection.
+Numbered components explain their purpose · Illustrative cutaway
+
+5
+00:00:29,000 --> 00:00:39,000
+Float. Place. Retain.
+Tuas Port · A schematic caisson placement sequence
+
+6
+00:00:39,000 --> 00:00:47,000
+Build beneath a living city.
+Bore and line the tunnel · Explore its numbered components
+
+7
+00:00:47,000 --> 00:01:01,000
+The tide changes how excess water leaves.
+Marina Barrage · Low-tide gates and high-tide pumping
+
+8
+00:01:01,000 --> 00:01:15,000
+Land below sea level needs water management.
+Pulau Tekong · Explore the dike, drainage and pumping story
+
+9
+00:01:15,000 --> 00:01:21,000
+Five stories. One connected city.
+Human-directed · Built with GPT-6 Astra
+
+10
+00:01:21,000 --> 00:01:28,000
+Go beneath the surface.
+unseen-singapore.darrylkai.chatgpt.site

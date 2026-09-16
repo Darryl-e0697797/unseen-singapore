@@ -1,6 +1,6 @@
 'use client';
 import { hasDetailedDemo, detailedDemoCount, demoLabel } from './demo-readiness';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import * as maplibregl from 'maplibre-gl';
 import { type Map as LibreMap, type StyleSpecification, type RasterTileSource } from 'maplibre-gl';
 import { projects, type Project, type ProjectId, type Year } from '@unseen/world';
@@ -52,6 +52,7 @@ const groups: Record<string, ProjectId[]> = {
   land: ['tuas', 'reclamation', 'coast'],
   underground: ['dtss', 'mrt', 'caverns', 'power'],
 };
+const subscribeControls = () => () => {};
 export default function SurfaceMap({
   initialProject,
   year,
@@ -67,6 +68,8 @@ export default function SurfaceMap({
   onCatalog: () => void;
   reduceMotion: boolean;
 }) {
+  const controlsReady = useSyncExternalStore(subscribeControls, () => true, () => false);
+  const pendingFocus = useRef<ProjectId | null>(null);
   const container = useRef<HTMLDivElement>(null),
     map = useRef<LibreMap | null>(null),
     markers = useRef<maplibregl.Marker[]>([]),
@@ -98,6 +101,7 @@ export default function SurfaceMap({
     motion.current = reduceMotion;
   }, [onEnter, reduceMotion]);
   const visit = useCallback((id: ProjectId) => {
+    pendingFocus.current = id;
     setSelected(id);
     // Preserve the approved network fit extents in selected-project context.
     map.current?.setMinZoom(9.5);
@@ -216,6 +220,9 @@ export default function SurfaceMap({
     });
   }, []);
   useEffect(() => {
+    if (readyVersion > 0 && pendingFocus.current) visit(pendingFocus.current);
+  }, [readyVersion, visit]);
+  useEffect(() => {
     if (!initialProject || readyVersion === 0 || hidden) return;
     const frame = requestAnimationFrame(() => visit(initialProject));
     return () => cancelAnimationFrame(frame);
@@ -296,7 +303,8 @@ export default function SurfaceMap({
       m.setMinZoom(
         m.getMinZoom() < 11 ? 9.5 : surfaceFraming(el.clientWidth, el.clientHeight).minZoom,
       );
-      m.setPitch(surfacePitch(m.getZoom(), m.getPitch(), el.clientWidth, el.clientHeight));
+      const nextPitch = surfacePitch(m.getZoom(), m.getPitch(), el.clientWidth, el.clientHeight);
+      if (Math.abs(nextPitch - m.getPitch()) > 0.01) m.setPitch(nextPitch);
     });
     m.on('moveend', () => {
       const c = m.getCenter();
@@ -353,7 +361,7 @@ export default function SurfaceMap({
             .addTo(m),
         );
       }
-      fetch('/geography/cbd-buildings.geojson', { signal: controller.signal })
+      fetch('/geography/cbd-buildings.json', { signal: controller.signal })
         .then((r) => {
           if (!r.ok) throw new Error('Building layer unavailable');
           return r.json();
@@ -454,13 +462,19 @@ export default function SurfaceMap({
       m.setLayoutProperty(
         'cbd-massing',
         'visibility',
-        buildings && pitched && year === 2026 ? 'visible' : 'none',
+        !hidden && buildings && pitched && year === 2026 ? 'visible' : 'none',
       );
-  }, [buildings, buildingsReady, pitched, year]);
+  }, [hidden, buildings, buildingsReady, pitched, year]);
+  useEffect(() => {
+    const m = map.current;
+    if (hidden) m?.stop();
+    if (m?.getLayer('onemap-plan')) m.setLayoutProperty('onemap-plan', 'visibility', hidden ? 'none' : 'visible');
+  }, [hidden, readyVersion]);
   useEffect(() => {
     if (!hidden) map.current?.resize();
   }, [hidden]);
   function returnToOverview() {
+    pendingFocus.current = null;
     const start = mapViews.marina;
     setSelected(null);
     setFilter('all');
@@ -480,6 +494,7 @@ export default function SurfaceMap({
     });
   }
   function bookmark(key: keyof typeof mapViews) {
+    pendingFocus.current = null;
     const v = mapViews[key];
     setView(v.label);
     setSelected(null);
@@ -540,6 +555,8 @@ export default function SurfaceMap({
     <section
       className={`geographic-surface ${selected === 'dtss' ? 'show-dtss-network' : selected === 'mrt' ? 'show-mrt-network' : selected === 'barrage' ? 'show-barrage-network' : selected === 'reclamation' ? 'show-reclamation-network' : ''}`}
       hidden={hidden}
+      inert={!controlsReady}
+      data-controls-ready={controlsReady}
       aria-label="Singapore surface atlas"
     >
       <div className="geographic-map" ref={container} />

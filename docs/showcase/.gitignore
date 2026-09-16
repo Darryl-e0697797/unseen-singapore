@@ -1,0 +1,16 @@
+raw/
+edit/
+frames/
+*.mp4
+*.jpg
+render.log
+*.wav
+narration/
+edit-narrated/
+teaser/audio/
+teaser/*.webm
+teaser/*.png
+teaser/*.ffconcat
+teaser/master.txt
+
+teaser/*.log

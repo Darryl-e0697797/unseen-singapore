@@ -27,3 +27,7 @@ release-artifacts/
 /out/
 
 /out/
+
+apps/web/public/geography/cbd-buildings.json
+
+apps/web/public/models/*.gz

@@ -1,6 +1,7 @@
 'use client';
+import { useModel } from './use-model';
 import { useEffect, useMemo, useRef } from 'react';
-import { Html, Line, useGLTF } from '@react-three/drei';
+import { Html, Line } from '@react-three/drei';
 import { useThree, useFrame } from '@react-three/fiber';
 import type { Line2, LineSegments2 } from 'three-stdlib';
 import { Mesh, MeshStandardMaterial, Vector3, Euler } from 'three';
@@ -100,7 +101,7 @@ export default function BarrageScene({
   mode: string;
   stage: number;
 }) {
-  const { scene } = useGLTF('/models/world-barrage.glb');
+  const { scene } = useModel('/models/world-barrage.glb');
   const { gl, invalidate } = useThree();
   const model = useMemo(() => {
     const s = scene.clone(true);
