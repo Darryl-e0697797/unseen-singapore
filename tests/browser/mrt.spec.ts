@@ -1,6 +1,10 @@
 import { test, expect } from '@playwright/test';
 async function enter(page: import('@playwright/test').Page) {
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'MRT' }).click();
   await expect(page.locator('.world-canvas canvas')).toHaveAttribute('data-model-loaded', 'mrt');
@@ -63,6 +67,10 @@ test('MRT asset failure preserves its numbered guide and historical state hides 
 }) => {
   await page.route('**/models/world-mrt.glb{,.pack.gz}', (r) => r.abort());
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'MRT' }).click();
   await expect(page.getByText('The story is still here.')).toBeVisible();
@@ -84,6 +92,10 @@ test('MRT remains readable when WebGL is unavailable', async ({ page }) => {
     } as typeof get;
   });
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'MRT' }).click();
   await expect(page.getByText('The story is still here.')).toBeVisible();
@@ -97,6 +109,10 @@ test('MRT remains readable when WebGL is unavailable', async ({ page }) => {
 test('MRT network remains usable with unavailable basemap tiles', async ({ page }) => {
   await page.route('https://www.onemap.gov.sg/maps/tiles/**', (r) => r.abort());
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page
     .locator('.surface-projects>button').filter({ hasText: 'MRT & underground construction' })
     .click();

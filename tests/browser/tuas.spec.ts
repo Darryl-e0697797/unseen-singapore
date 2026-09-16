@@ -4,6 +4,10 @@ test('Tuas tour, mechanisms, nine stages and clean return', async ({ page }) => 
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   expect(await page.locator('.tuas-map-marker').count()).toBe(0);
   await page.getByRole('button', { name: 'Begin at Tuas Port' }).click();
   const canvas = page.locator('.world-canvas canvas');
@@ -41,6 +45,10 @@ test('Tuas native context and mobile cutaway remain usable', async ({ page }) =>
   await page.setViewportSize({ width: 390, height: 844 });
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await expect(page.locator('.geographic-surface')).toHaveAttribute('data-controls-ready', 'true');
   await page.getByRole('textbox', { name: 'Find an engineering project' }).fill('Tuas');
   await expect(page.locator('.surface-projects > button')).toHaveCount(1);
@@ -63,6 +71,10 @@ test('numbered structures explain themselves and labels follow visible construct
   page,
 }) => {
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.getByRole('button', { name: 'Begin at Tuas Port' }).click();
   const canvas = page.locator('.world-canvas canvas');
   await expect(canvas).toHaveAttribute('data-model-loaded', 'tuas');
