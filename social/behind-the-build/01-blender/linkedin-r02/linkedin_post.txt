@@ -1,0 +1,27 @@
+I didn’t set out to become a 3D artist. I wanted to make an engineering story visible.
+
+Behind the Build #1 — GPT-6 Astra × Blender
+
+This clip shows 368 components coming together into the DTSS cutaway in UNSEEN Singapore: the city above, access shafts, a tunnel boring machine, structural rings and protective layers below.
+
+I brought the engineering intent and directed the iterations. Astra helped write the Blender Python scripts that turned those ideas into geometry. The web app then adds the cameras, numbered explanations and interactions.
+
+The interesting decisions were about what people needed to see:
+
+What should stay above ground for context?
+Which layers should open up?
+How do you explain a component’s purpose to someone without an engineering background?
+
+Watching the model assemble makes that process much easier to understand.
+
+The video includes a compressed replay of the scripted modelling order, followed by the finished app. It isn’t a recording of the original build time or the real construction sequence. UNSEEN is a schematic educational experience, not a surveyed infrastructure model.
+
+This is what interests me about working with AI: being able to take an engineering idea further, test it visually, and give people something they can explore.
+
+Explore UNSEEN Singapore — best experienced on desktop:
+https://unseen-singapore.darrylkai.chatgpt.site/
+
+Explore the source:
+https://github.com/Darryl-e0697797/unseen-singapore
+
+#Blender #Engineering #AI #UNSEENSingapore

@@ -110,3 +110,12 @@ User selected Pulau Tekong as next and requested five detailed-demo indicators w
 ## 2026-09-15 — Tekong teaching section and native geographic context
 
 Keep the polder as an explicitly compressed continuous section, with temporary works and alternative/future states isolated from current geometry. Use two distinct station functions without inventing installed pump counts. Source-backed mechanisms use qualitative controls, not simulations. Native map overlays show a manually generalised dike segment and pond context; no station pin or surveyed boundary is inferred from publicity artwork. Hide unrelated discovery UI on selected mobile map views while retaining prominent return and entry. Tekong waits for visual acceptance; five-demo/WIP work follows that acceptance.
+
+
+## 2026-09-24 — DTSS visual upgrade preparation
+
+User requested “Start next milestone”. Prepared docs/briefs/dtss-visual-r1/BUILD-BRIEF.md and proposal.json after source/material/rendering/budget audit and a PUB source refresh. Proposes bounded materials, lighting, camera and low-quality-path improvements; existing geometry, engineering scope and budgets remain. Gate A for the named revision is pending; no model, renderer or deployment changed. Accepted progress history stays intact. The first-build validator needs explicit upgrade-history support before reopening DTSS for implementation; do not bypass it or fabricate approval.
+
+## 2026-09-24 — Bound visual polish to the accepted model
+
+Use DTSS-specific, owned runtime material clones on the unchanged grouped Blender GLB. Avoid shipping the 368-object media replay to the app. Keep one skippable camera reveal, preserve reduced motion, and make decorative flow opt-in. Low mode disables shadows and caps DPR; it does not hide engineering components. Maintain separate upgrade acceptance history; do not overwrite the grandfathered DTSS acceptance. Current first-text/JS budget failures are documented, not waived.

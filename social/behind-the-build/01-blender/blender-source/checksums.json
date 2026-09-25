@@ -1,0 +1,9 @@
+{
+  "assembly_replay.py": "d1da9473b0e4c1c7546975a727d1d19cbf9e6ef616954da4f15ac33d0fb0a328",
+  "LICENSE": "8da2e2054f2eb4dfacf2338c1c6e68bc4e40c3b42b3cea94b3f2019ad801b1ee",
+  "README.md": "a9aa8cfc428c6d816d2faa198f8c71b8cb5a6371378344e88bc650a6267598fe",
+  "assembly-order.json": "023acfc423091ad296d1ce516a3ab12d1c942860aa7895a078d3b3c5438b8b8a",
+  "dtss-assembly-replay.blend": "9f55b48579f28832282b9988a7a3bcbb10940fb40b60c7d64956040f59618fb1",
+  "source/pipeline/blender/world.py": "887f77578eb3619deba828e4aef913207077352b28149cd7fca150e421e752ec",
+  "source/pipeline/blender/dtss_detail.py": "d9c1eaf795c81a34a0e19a1587cf1ef9535f80f511501f51b1664a5f5399a150"
+}

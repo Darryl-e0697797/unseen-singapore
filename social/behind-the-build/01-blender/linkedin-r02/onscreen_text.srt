@@ -1,0 +1,66 @@
+1
+00:00:00,000 --> 00:00:03,000
+From an empty scene. To an underground world.
+BEHIND THE BUILD #1 · ASTRA × BLENDER
+Actual app capture
+Schematic · Not a survey model
+
+2
+00:00:03,000 --> 00:00:11,000
+Watch the model take shape.
+SCRIPTED COMPONENTS · AUTHORING ORDER
+Blender assembly replay · Compressed
+Schematic · Not a survey model
+Modelling order · Not construction sequence
+
+3
+00:00:11,000 --> 00:00:23,000
+Inside Blender. Piece by piece.
+ACTUAL BLENDER WINDOW CAPTURE
+Assembly replay · Accelerated
+Schematic · Not a survey model
+
+4
+00:00:23,000 --> 00:00:28,000
+One ring. Then a tunnel.
+THE REAL BLENDER PYTHON SOURCE
+Workflow replay · Source + render
+Schematic · Not a survey model
+
+5
+00:00:28,000 --> 00:00:29,000
+Geometry becomes an app asset.
+AN ACTUAL BLENDER REBUILD
+Workflow replay · Recorded build log
+Schematic · Not a survey model
+
+6
+00:00:29,000 --> 00:00:34,000
+The completed engineering cutaway.
+SURFACE CONTEXT + UNDERGROUND STRUCTURE
+Workflow replay · Blender render
+Schematic · Not a survey model
+
+7
+00:00:34,000 --> 00:00:38,000
+Now step inside the story.
+THE MATCHING OUTPUT IN UNSEEN
+Actual app capture
+Schematic · Not a survey model
+
+8
+00:00:38,000 --> 00:00:42,000
+Every component has a purpose.
+NUMBERED EXPLANATIONS IN THE APP
+Actual app capture · Drawing key
+Schematic · Not a survey model
+
+9
+00:00:42,000 --> 00:00:45,000
+Explore what lies beneath Singapore.
+UNSEEN SINGAPORE
+Workflow replay · Blender render
+Schematic · Not a survey model
+Explore UNSEEN Singapore
+unseen-singapore.darrylkai.chatgpt.site
+Explore the engineering.

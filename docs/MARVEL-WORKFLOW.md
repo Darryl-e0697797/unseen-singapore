@@ -49,3 +49,7 @@ Every future brief/build includes the “What am I looking at?” numbered drawi
 On 2026-09-15 the user refined the post-acceptance release: exact label “Future build”, captioned recording of actual interactions, GitHub open-source release and user-led ChatGPT Sites hosting. This supersedes the earlier WIP/Vercel proposal without recording Tekong acceptance or waiving release checks. See docs/FIVE-DEMO-RELEASE.md.
 
 Current milestone (2026-09-15): user accepted Tekong reclamation-r1 after drawing-key standardisation. All five selected demos are accepted; no marvel is active. Proceed with the five-demo catalogue and whole-app release checks. Four deferred marvels remain Future build. This supersedes earlier awaiting-acceptance status in this document.
+
+## Accepted-exhibit upgrades — 2026-09-24
+
+`content/workflow/upgrades.json` records new named revisions for previously accepted exhibits, without overwriting first-build acceptance in progress.json. Upgrades carry a hash-locked brief, exact start/approval evidence and a separate Gate B acceptance. The combined checker permits at most one active first build or upgrade, rejects unapproved/stale revisions, verifies brief hashes and approval quotations, and requires an accepted project baseline. `workflow:check -- dtss` accepts a valid building-stage DTSS upgrade; awaiting acceptance does not authorise more detailed work. Checks establish record consistency, not authenticity or engineering truth.

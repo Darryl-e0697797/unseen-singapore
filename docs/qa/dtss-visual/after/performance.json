@@ -1,0 +1,39 @@
+{
+  "conditions": "One cold CDP sample: cache disabled, 1.6 Mbps down / 750 Kbps up / 150 ms latency; local Mac CPU/GPU, Chrome 1440x1000. Worker throttling not independently verified.",
+  "usefulTextMs": 4766,
+  "controlsReadyMs": 4769,
+  "modelReadyMs": 3790,
+  "requestedJsGzipBytes": 1038505,
+  "full": {
+    "engine": "three.js r186",
+    "dtssReveal": "complete",
+    "dtssFocus": "0",
+    "dtssQuality": "full",
+    "renderCalls": "46",
+    "triangles": "64594",
+    "geometryCount": "24",
+    "camera": "52.98,36.01,64.99",
+    "project": "dtss",
+    "stage": "4",
+    "modelLoaded": "dtss"
+  },
+  "low": {
+    "engine": "three.js r186",
+    "dtssReveal": "complete",
+    "dtssFocus": "0",
+    "dtssQuality": "low",
+    "renderCalls": "24",
+    "triangles": "33018",
+    "geometryCount": "24",
+    "camera": "52.98,36.01,64.99",
+    "project": "dtss",
+    "stage": "4",
+    "modelLoaded": "dtss"
+  },
+  "revealBrowserFrameMedianMs": 16.69999999999891,
+  "revealBrowserFrameP95Ms": 16.700000000000728,
+  "gpuMemory": "Not measured",
+  "ordinaryLaptop": "Not tested",
+  "physicalPhone": "Not tested",
+  "errors": []
+}

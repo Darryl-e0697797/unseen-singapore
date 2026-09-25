@@ -1,3 +1,4 @@
+import { upgradesSchema, validateUpgrades } from '../packages/workflow/upgrades';
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -31,10 +32,34 @@ for (const p of progress.projects) {
       errors.push(`${p.project_id}: model changed before Gate A`);
   }
 }
+const upgrades = upgradesSchema.parse(json('content/workflow/upgrades.json'));
+errors.push(...validateUpgrades(upgrades, progress));
+for (const row of upgrades.upgrades) {
+  if (
+    !existsSync(row.brief) ||
+    createHash('sha256').update(readFileSync(row.brief)).digest('hex') !== row.brief_sha256
+  )
+    errors.push(`${row.revision}: approved brief changed`);
+  for (const evidence of [row.start_authorisation, row.approval, row.acceptance].filter(
+    (e) => e !== null,
+  )) {
+    if (
+      !existsSync(evidence.evidence_file) ||
+      !readFileSync(evidence.evidence_file, 'utf8').includes(evidence.quote)
+    )
+      errors.push(`${row.revision}: approval quotation missing`);
+  }
+}
 const target = process.argv[2];
 if (target) {
   const p = progress.projects.find((p) => p.project_id === target);
-  if (!p || p.stage !== 'building' || p.research_approval?.revision !== p.research_revision)
+  const approvedUpgrade = upgrades.upgrades.some(
+    (r) => r.project_id === target && r.stage === 'building',
+  );
+  if (
+    !approvedUpgrade &&
+    (!p || p.stage !== 'building' || p.research_approval?.revision !== p.research_revision)
+  )
     errors.push(`${target}: detailed build is not authorised; explicit Gate A approval required`);
 }
 assert.deepEqual(errors, [], 'Marvel approval/evidence checks failed');

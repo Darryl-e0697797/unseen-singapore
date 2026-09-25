@@ -1,6 +1,6 @@
 # UNSEEN Singapore
 
-[Open the interactive website](https://unseen-singapore.darrylkai.chatgpt.site/) · [Engineering atlas](https://unseen-singapore.darrylkai.chatgpt.site/explore/)
+[Open the interactive website](https://unseen-singapore.darrylkai.chatgpt.site/) · [Public source](https://github.com/Darryl-e0697797/unseen-singapore)
 
 An independent interactive documentary about Singapore's engineering infrastructure. Explore the national map, enter construction cutaways, inspect numbered components and follow sourced engineering stories.
 
@@ -75,3 +75,7 @@ On phones, the public website opens a lightweight introduction with the captione
 - [Recording workflow, narration and provenance](docs/showcase/README.md)
 
 The showcase uses actual app footage, an actual isolated Blender rebuild, original instrumental music and synthetic narration. Astra assisted during development; this website does not run a live Astra service. Raw recording frames and editing intermediates are excluded from Git; the web-ready showcase and reproducible editing scripts are included.
+
+## Astra × Blender showcase
+
+[Watch the latest 45-second video and download the Blender source](social/behind-the-build/01-blender/linkedin-r02/README.md). The assembly is a labelled replay of the schematic model, with actual Blender-window footage and original background music.

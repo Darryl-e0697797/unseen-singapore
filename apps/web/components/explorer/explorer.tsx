@@ -5,7 +5,14 @@ import dynamic from 'next/dynamic';
 import { preload } from 'react-dom';
 import { modelUrl } from './model-url';
 import Link from 'next/link';
-import { useCallback, useEffect, useRef, useState, useSyncExternalStore, type FormEvent } from 'react';
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+  type FormEvent,
+} from 'react';
 import {
   askWorld,
   notebooks,
@@ -62,7 +69,11 @@ function Sources({ ids }: { ids: string[] }) {
 }
 const subscribeHydration = () => () => {};
 export default function Explorer() {
-  const hydrated = useSyncExternalStore(subscribeHydration, () => true, () => false);
+  const hydrated = useSyncExternalStore(
+    subscribeHydration,
+    () => true,
+    () => false,
+  );
   const [state, setState] = useState<WorldState>(initialWorld),
     [flight, setFlight] = useState(false),
     [reset, setReset] = useState(0),
@@ -75,6 +86,9 @@ export default function Explorer() {
     [answer, setAnswer] = useState(''),
     [playing, setPlaying] = useState(false),
     [dtssFocus, setDtssFocus] = useState(0),
+    [dtssLow, setDtssLow] = useState(false),
+    [dtssFlow, setDtssFlow] = useState(false),
+    [dtssReveal, setDtssReveal] = useState(false),
     [reclamation, setReclamation] = useState<ReclamationControls>(initialReclamation),
     [barrage, setBarrage] = useState<BarrageControls>(initialBarrage),
     [mrt, setMrt] = useState<MrtControls>(initialMrt),
@@ -90,10 +104,13 @@ export default function Explorer() {
     (commands: unknown) => setState((s) => runCommands(s, commands)),
     [],
   );
+  const stopDtssReveal = useCallback(() => setDtssReveal(false), []);
   const stopFlight = useCallback(() => setFlight(false), []);
   const focusDtss = useCallback(
     (n: number) => {
       setDtssFocus(n);
+      setDtssFlow(false);
+      setDtssReveal(false);
       setInspect(false);
       setFlight(false);
       setPlaying(false);
@@ -127,11 +144,18 @@ export default function Explorer() {
   }, [playing]);
   const select = useCallback(
     (project: Project) => {
-      preload(modelUrl(project.model_file), { as: 'fetch', crossOrigin: 'anonymous', fetchPriority: 'high' });
+      preload(modelUrl(project.model_file), {
+        as: 'fetch',
+        crossOrigin: 'anonymous',
+        fetchPriority: 'high',
+      });
       void loadScene();
       dispatch([{ type: 'focus', project: project.project_id }]);
       setChapter(0);
       setDtssFocus(0);
+      setDtssLow(window.innerWidth < 768);
+      setDtssFlow(false);
+      setDtssReveal(false);
       setTuas(initialTuas);
       setBarrage(initialBarrage);
       setReclamation(initialReclamation);
@@ -181,7 +205,10 @@ export default function Explorer() {
     setAnswer('');
   }
   return (
-    <main inert={!hydrated} aria-busy={!hydrated} data-interactive={hydrated}
+    <main
+      inert={!hydrated}
+      aria-busy={!hydrated}
+      data-interactive={hydrated}
       className={`engineering-world ${p ? 'in-exhibit' : 'on-surface'} ${['dtss', 'tuas', 'mrt', 'barrage', 'reclamation'].includes(p?.project_id ?? '') ? 'dtss-exhibit' : ''} ${p?.project_id === 'tuas' || p?.project_id === 'mrt' || p?.project_id === 'barrage' || p?.project_id === 'reclamation' ? 'tuas-exhibit' : ''} ${p?.project_id === 'mrt' ? 'mrt-exhibit' : ''}`}
     >
       <a className="world-skip" href={p ? '#exhibit-content' : '#world-content'}>
@@ -193,7 +220,10 @@ export default function Explorer() {
         year={state.year}
         hidden={!!p}
         onEnter={select}
-        onCatalog={() => { setCatalog(true); void loadScene(); }}
+        onCatalog={() => {
+          setCatalog(true);
+          void loadScene();
+        }}
         reduceMotion={reduceMotion}
       />
       {p && (
@@ -219,6 +249,10 @@ export default function Explorer() {
                 onBarrageInspect={(id) => setBarrage((v) => ({ ...v, component: id }))}
                 onMrtInspect={(id) => setMrt((v) => ({ ...v, component: id }))}
                 dtssFocus={dtssFocus}
+                dtssLow={dtssLow}
+                dtssFlow={dtssFlow}
+                dtssReveal={dtssReveal}
+                onDtssRevealEnd={stopDtssReveal}
                 onDtssFocus={focusDtss}
                 state={state}
                 reveal={false}
@@ -274,9 +308,56 @@ export default function Explorer() {
       {p && (
         <>
           <div className="world-tools">
+            {p.project_id === 'dtss' && (
+              <>
+                {dtssFocus === 5 && (
+                  <button
+                    aria-label={dtssFlow ? 'Pause flow' : 'Animate flow'}
+                    title={
+                      reduceMotion
+                        ? 'Flow motion is disabled by reduced-motion preference'
+                        : 'Illustrative flow direction only'
+                    }
+                    disabled={reduceMotion}
+                    aria-pressed={dtssFlow}
+                    onClick={() => setDtssFlow((v) => !v)}
+                  >
+                    ≈ <span>{dtssFlow ? 'Pause flow' : 'Animate flow'}</span>
+                  </button>
+                )}
+                <button
+                  aria-label={dtssLow ? 'Full detail' : 'Low detail'}
+                  title={dtssLow ? 'Full detail' : 'Low detail'}
+                  aria-pressed={dtssLow}
+                  onClick={() => setDtssLow((v) => !v)}
+                >
+                  <b aria-hidden="true">◐</b>
+                  <span>{dtssLow ? 'Full detail' : 'Low detail'}</span>
+                </button>
+                <button
+                  aria-label={dtssReveal ? 'Skip reveal' : 'Reveal underground'}
+                  title={dtssReveal ? 'Skip reveal' : 'Reveal underground'}
+                  onClick={() => {
+                    if (dtssReveal) {
+                      setDtssReveal(false);
+                      return;
+                    }
+                    focusDtss(0);
+                    setDtssReveal(true);
+                    setReset((r) => r + 1);
+                  }}
+                >
+                  <b aria-hidden="true">↘</b>
+                  <span>{dtssReveal ? 'Skip reveal' : 'Reveal underground'}</span>
+                </button>
+              </>
+            )}
             {p && (
               <button
-                onClick={() => setInspect(!inspect)}
+                onClick={() => {
+                  setDtssReveal(false);
+                  setInspect(!inspect);
+                }}
                 aria-pressed={inspect}
                 aria-label={inspect ? 'Wide view' : 'Inspect structure'}
               >
@@ -286,6 +367,10 @@ export default function Explorer() {
             <button
               onClick={() => {
                 setInspect(false);
+                if (p?.project_id === 'dtss') {
+                  setDtssReveal(false);
+                  setDtssFocus(0);
+                }
                 if (p?.project_id === 'tuas') setTuas(initialTuas);
                 if (p?.project_id === 'reclamation') {
                   setReclamation(initialReclamation);
@@ -362,7 +447,10 @@ export default function Explorer() {
             </button>
           </div>
           <h2>{p.title}</h2>
-          <p>{demoLabel(p)}{!hasDetailedDemo(p) && ' · An introductory model of the engineering system.'}</p>
+          <p>
+            {demoLabel(p)}
+            {!hasDetailedDemo(p) && ' · An introductory model of the engineering system.'}
+          </p>
           <p className="current-status">{p.current_status}</p>
           <div className="world-metric">
             <b>{p.metric.value}</b>
@@ -409,6 +497,10 @@ export default function Explorer() {
                 setPlaying(false);
                 setFlight(false);
                 setInspect(false);
+                if (p?.project_id === 'dtss') {
+                  setDtssReveal(false);
+                  setDtssFocus(0);
+                }
                 if (v.focus !== mrt.focus || v.progress !== mrt.progress || v.method !== mrt.method)
                   dispatch([{ type: 'mode', mode: 'finished' }]);
               }}
@@ -432,6 +524,10 @@ export default function Explorer() {
                 setPlaying(false);
                 setFlight(false);
                 setInspect(false);
+                if (p?.project_id === 'dtss') {
+                  setDtssReveal(false);
+                  setDtssFocus(0);
+                }
                 if (v.focus !== barrage.focus || v.progress !== barrage.progress)
                   dispatch([{ type: 'mode', mode: 'finished' }]);
               }}
@@ -455,6 +551,10 @@ export default function Explorer() {
                 setPlaying(false);
                 setFlight(false);
                 setInspect(false);
+                if (p?.project_id === 'dtss') {
+                  setDtssReveal(false);
+                  setDtssFocus(0);
+                }
                 if (
                   v.focus !== reclamation.focus ||
                   v.progress !== reclamation.progress ||
@@ -702,7 +802,9 @@ export default function Explorer() {
             <br />
             Singapore differently.
           </h2>
-          <p>{detailedDemoCount} Detailed · {projects.length - detailedDemoCount} Simplified</p>
+          <p>
+            {detailedDemoCount} Detailed · {projects.length - detailedDemoCount} Simplified
+          </p>
           <p>{era.body}</p>
           <Sources ids={era.source_ids} />
           <div className="catalog-list">

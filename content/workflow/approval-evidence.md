@@ -85,3 +85,8 @@ User replied: “approve”, directly to the reclamation-r1 review package. Auth
 ## Pulau Tekong Gate B — 2026-09-15
 
 User message: “Approve”. Follows the completed Tekong build and requested restoration of the standard drawing key. Accepts reclamation-r1 at `9ec97c063a44866de08a3872d544e3721b644f2d`. The previously requested post-acceptance catalogue and release work may proceed; whole-app acceptance, performance and licensing requirements remain open.
+
+
+## 2026-09-24 — DTSS visual upgrade dtss-visual-r1
+
+User authorised preparation: “Start next milestone”. After the assistant presented docs/briefs/dtss-visual-r1/BUILD-BRIEF.md and requested approval of dtss-visual-r1, the user replied: “Approve”. This approves the named visual revision; prior DTSS acceptance remains historical and unchanged. No Gate B acceptance or deployment approval for this upgrade is recorded.

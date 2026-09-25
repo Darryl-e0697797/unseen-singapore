@@ -1,4 +1,5 @@
 'use client';
+import { ownDtssMaterials } from './dtss-materials';
 import { useModel } from './use-model';
 import { Suspense, useEffect, useMemo, useRef } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
@@ -12,6 +13,7 @@ import {
   Vector3,
   Mesh,
   PCFShadowMap,
+  PCFSoftShadowMap,
 } from 'three';
 import ReclamationScene from './reclamation-scene';
 import { reclamationExhibit, type ReclamationControls } from './reclamation-controls';
@@ -203,10 +205,12 @@ function Model({
   project,
   stage,
   mode,
+  reduceMotion,
 }: {
   project: Project;
   stage: number;
   mode: WorldState['mode'];
+  reduceMotion: boolean;
 }) {
   const { scene } = useModel(project.model_file);
   const { gl } = useThree();
@@ -216,16 +220,19 @@ function Model({
       gl.domElement.removeAttribute('data-model-loaded');
     };
   }, [gl, project]);
-  const clone = useMemo(() => {
+  const model = useMemo(() => {
     const s = scene.clone(true);
+    const materials = project.project_id === 'dtss' ? ownDtssMaterials(s) : [];
     s.traverse((o) => {
       if (o instanceof Mesh) {
         o.castShadow = true;
         o.receiveShadow = true;
       }
     });
-    return s;
-  }, [scene]);
+    return { scene: s, materials };
+  }, [scene, project.project_id]);
+  useEffect(() => () => model.materials.forEach((m) => m.dispose()), [model]);
+  const clone = model.scene;
   useFrame((_, dt) => {
     let moving = false;
     clone.traverse((o) => {
@@ -236,7 +243,7 @@ function Model({
         const base = o.userData.baseY ?? (o.userData.baseY = o.position.y);
         const next = base + target;
         if (Math.abs(o.position.y - next) > 0.01) {
-          o.position.y += (next - o.position.y) * Math.min(dt * 6, 1);
+          o.position.y += (next - o.position.y) * (reduceMotion ? 1 : Math.min(dt * 6, 1));
           moving = true;
         }
       }
@@ -270,12 +277,19 @@ function DtssDetails({
 }) {
   const dots = useRef<InstancedMesh>(null);
   const dummy = useMemo(() => new Object3D(), []);
-  const { gl } = useThree();
+  const { gl, invalidate } = useThree();
+  useEffect(() => {
+    const resume = () => {
+      if (!document.hidden) invalidate();
+    };
+    document.addEventListener('visibilitychange', resume);
+    return () => document.removeEventListener('visibilitychange', resume);
+  }, [invalidate]);
   useEffect(() => {
     gl.domElement.setAttribute('data-dtss-focus', String(focus));
   }, [gl, focus]);
   useFrame(({ clock, invalidate }) => {
-    if (!visible || !dots.current) return;
+    if (!visible || !dots.current || document.hidden) return;
     for (let i = 0; i < 18; i++) {
       dummy.position.set(
         -23 + ((i * 2.5 + (animated ? clock.elapsedTime * 2 : 0)) % 45),
@@ -332,6 +346,8 @@ function Navigation({
   reduceMotion,
   onFlightEnd,
   dtssFocus,
+  dtssReveal,
+  onDtssRevealEnd,
   tuas,
   mrt,
   barrage,
@@ -344,18 +360,31 @@ function Navigation({
   reduceMotion: boolean;
   onFlightEnd: () => void;
   dtssFocus: number;
+  dtssReveal: boolean;
+  onDtssRevealEnd: () => void;
   tuas: TuasControls;
   mrt: MrtControls;
   barrage: BarrageControls;
   reclamation: ReclamationControls;
 }) {
   const controls = useRef<OrbitType>(null);
-  const { camera, invalidate, size } = useThree();
+  const { camera, invalidate, size, gl } = useThree();
   const target = useRef(new Vector3());
   const goal = useRef(new Vector3());
   const moving = useRef(true);
+  const revealTime = useRef<number | null>(null);
+  const revealFrom = useRef(new Vector3());
+  const revealTargetFrom = useRef(new Vector3());
+  const wasReveal = useRef(false);
+  const cancelledByOrbit = useRef(false);
   const keys = useRef(new Set<string>());
   useEffect(() => {
+    if (cancelledByOrbit.current) {
+      cancelledByOrbit.current = false;
+      moving.current = false;
+      invalidate();
+      return;
+    }
     target.current.set(0, project ? 5 : 0, project ? 0 : -1);
     goal.current.set(project ? 64 : 35, project ? 47 : 37, project ? 75 : 45);
     if (project?.project_id === 'dtss' && !inspect) {
@@ -403,6 +432,24 @@ function Navigation({
       goal.current.set(enclosed ? 23 : 30, enclosed ? 5 : 14, enclosed ? -2 : 29);
       target.current.set(0, 4, 0);
     }
+    if (project?.project_id === 'dtss') {
+      if (dtssReveal && !reduceMotion) {
+        camera.position.set(8, 80, 48);
+        controls.current?.target.set(0, 24, -8);
+        revealFrom.current.copy(camera.position);
+        revealTargetFrom.current.set(0, 24, -8);
+        revealTime.current = 0;
+      } else {
+        revealTime.current = null;
+        if (wasReveal.current || reduceMotion) {
+          camera.position.copy(goal.current);
+          controls.current?.target.copy(target.current);
+          controls.current?.update();
+        }
+        if (dtssReveal && reduceMotion) onDtssRevealEnd();
+      }
+      wasReveal.current = dtssReveal;
+    }
     moving.current = true;
     invalidate();
   }, [
@@ -410,6 +457,8 @@ function Navigation({
     reset,
     inspect,
     dtssFocus,
+    dtssReveal,
+    onDtssRevealEnd,
     tuas.focus,
     mrt.focus,
     barrage.focus,
@@ -417,6 +466,8 @@ function Navigation({
     invalidate,
     size.width,
     size.height,
+    camera,
+    reduceMotion,
   ]);
   useEffect(() => {
     if (!flight) return;
@@ -453,7 +504,25 @@ function Navigation({
   useFrame((_, dt) => {
     const c = controls.current;
     if (!c) return;
-    if (moving.current) {
+    if (project?.project_id === 'dtss')
+      gl.domElement.setAttribute(
+        'data-dtss-reveal',
+        revealTime.current === null ? 'complete' : 'playing',
+      );
+    if (revealTime.current !== null) {
+      revealTime.current += Math.min(dt, 0.1);
+      const t = Math.min(revealTime.current / 2.4, 1),
+        ease = t * t * (3 - 2 * t);
+      camera.position.lerpVectors(revealFrom.current, goal.current, ease);
+      c.target.lerpVectors(revealTargetFrom.current, target.current, ease);
+      c.update();
+      if (t === 1) {
+        revealTime.current = null;
+        moving.current = false;
+        onDtssRevealEnd();
+      }
+      invalidate();
+    } else if (moving.current) {
       const a = reduceMotion ? 1 : 1 - Math.exp(-dt * 3.3);
       camera.position.lerp(goal.current, a);
       c.target.lerp(target.current, a);
@@ -492,6 +561,12 @@ function Navigation({
       maxPolarAngle={project ? Math.PI * 0.94 : Math.PI * 0.48}
       onStart={() => {
         moving.current = false;
+        revealTime.current = null;
+        if (dtssReveal) {
+          cancelledByOrbit.current = true;
+          wasReveal.current = false;
+          onDtssRevealEnd();
+        }
       }}
     />
   );
@@ -525,7 +600,11 @@ export default function Scene({
   reclamation,
   state,
   dtssFocus,
+  dtssReveal,
+  onDtssRevealEnd,
   onDtssFocus,
+  dtssLow,
+  dtssFlow,
   reveal,
   flight,
   reset,
@@ -544,7 +623,11 @@ export default function Scene({
   barrage: BarrageControls;
   reclamation: ReclamationControls;
   dtssFocus: number;
+  dtssReveal: boolean;
+  onDtssRevealEnd: () => void;
   onDtssFocus: (n: number) => void;
+  dtssLow: boolean;
+  dtssFlow: boolean;
   reveal: boolean;
   flight: boolean;
   reset: number;
@@ -570,6 +653,7 @@ export default function Scene({
     <Canvas
       frameloop="demand"
       dpr={
+        (p?.project_id === 'dtss' && dtssLow) ||
         (p?.project_id === 'tuas' && tuas.low) ||
         (p?.project_id === 'mrt' && mrt.low) ||
         (p?.project_id === 'barrage' && barrage.low) ||
@@ -578,17 +662,18 @@ export default function Scene({
           : [1, 1.5]
       }
       shadows={
+        (p?.project_id === 'dtss' && dtssLow) ||
         (p?.project_id === 'tuas' && tuas.low) ||
         (p?.project_id === 'mrt' && mrt.low) ||
         (p?.project_id === 'barrage' && barrage.low) ||
         (p?.project_id === 'reclamation' && reclamation.low)
           ? false
-          : { type: PCFShadowMap }
+          : { type: p?.project_id === 'dtss' ? PCFSoftShadowMap : PCFShadowMap }
       }
       camera={{ position: [40, 45, 58], fov: 43, near: 0.1, far: 650 }}
       gl={{ antialias: true }}
       onCreated={({ gl }) => {
-        gl.shadowMap.type = PCFShadowMap;
+        gl.shadowMap.type = p?.project_id === 'dtss' ? PCFSoftShadowMap : PCFShadowMap;
       }}
     >
       <color attach="background" args={['#102b33']} />
@@ -600,11 +685,13 @@ export default function Scene({
           p?.project_id === 'dtss' ? 650 : p ? 300 : 165,
         ]}
       />
-      <ambientLight intensity={0.45} />
-      <hemisphereLight args={['#d8e9e8', '#344844', 1.1]} />
+      <ambientLight intensity={p?.project_id === 'dtss' ? 0.6 : 0.45} />
+      <hemisphereLight
+        args={p?.project_id === 'dtss' ? ['#e6ebe4', '#647d80', 1.4] : ['#d8e9e8', '#344844', 1.1]}
+      />
       <directionalLight
-        position={[20, 60, 25]}
-        intensity={2.1}
+        position={p?.project_id === 'dtss' ? [-28, 55, 38] : [20, 60, 25]}
+        intensity={p?.project_id === 'dtss' ? 1.8 : 2.1}
         castShadow
         shadow-mapSize={[2048, 2048]}
         shadow-camera-left={-65}
@@ -613,12 +700,18 @@ export default function Scene({
         shadow-camera-bottom={-65}
         shadow-camera-far={180}
         shadow-bias={-0.001}
+        shadow-normalBias={p?.project_id === 'dtss' ? 0.06 : 0}
       />
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, p ? -3.55 : -0.55, 0]} receiveShadow>
         <planeGeometry args={[600, 600]} />
-        <meshStandardMaterial color="#163b45" roughness={0.64} metalness={0.25} />
+        <meshStandardMaterial
+          color={p?.project_id === 'dtss' ? '#183039' : '#163b45'}
+          roughness={p?.project_id === 'dtss' ? 0.95 : 0.64}
+          metalness={p?.project_id === 'dtss' ? 0 : 0.25}
+        />
       </mesh>
       <gridHelper
+        visible={p?.project_id !== 'dtss'}
         args={[p ? 210 : 120, p ? 42 : 40, '#28454d', '#193c46']}
         position={[0, p ? -3.5 : -0.5, 0]}
       />
@@ -663,7 +756,12 @@ export default function Scene({
               mode={state.mode}
             />
           ) : (
-            <Model project={p} stage={modelStage(p, state.stage)} mode={state.mode} />
+            <Model
+              reduceMotion={reduceMotion}
+              project={p}
+              stage={modelStage(p, state.stage)}
+              mode={state.mode}
+            />
           )}
         </Suspense>
       ) : (
@@ -676,10 +774,11 @@ export default function Scene({
         <DtssDetails
           focus={dtssFocus}
           onFocus={onDtssFocus}
-          animated={!reduceMotion && state.mode === 'finished'}
+          animated={dtssFlow && !reduceMotion && state.mode === 'finished'}
           visible={state.mode !== 'construction' || state.stage === 4}
         />
       )}
+      <DtssQualityTelemetry low={dtssLow} active={p?.project_id === 'dtss'} />
       <RenderTelemetry state={state} />
       <Navigation
         project={p}
@@ -688,6 +787,8 @@ export default function Scene({
         barrage={barrage}
         reclamation={reclamation}
         dtssFocus={dtssFocus}
+        dtssReveal={dtssReveal}
+        onDtssRevealEnd={onDtssRevealEnd}
         flight={flight}
         reset={reset}
         inspect={inspect}
@@ -696,4 +797,14 @@ export default function Scene({
       />
     </Canvas>
   );
+}
+
+function DtssQualityTelemetry({ low, active }: { low: boolean; active: boolean }) {
+  const { gl, invalidate } = useThree();
+  useEffect(() => {
+    if (active) gl.domElement.setAttribute('data-dtss-quality', low ? 'low' : 'full');
+    else gl.domElement.removeAttribute('data-dtss-quality');
+    invalidate();
+  }, [gl, low, active, invalidate]);
+  return null;
 }
