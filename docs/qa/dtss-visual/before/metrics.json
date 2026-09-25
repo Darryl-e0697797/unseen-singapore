@@ -1,0 +1,73 @@
+{
+  "environment": "Local production / Chrome / 1440x1000 / reduced motion / unthrottled; not ordinary-device evidence",
+  "loadedMs": 880,
+  "samples": [
+    {
+      "engine": "three.js r186",
+      "dtssFocus": "0",
+      "renderCalls": "47",
+      "triangles": "64594",
+      "geometryCount": "25",
+      "camera": "53.00,36.00,65.00",
+      "project": "dtss",
+      "stage": "4",
+      "modelLoaded": "dtss"
+    },
+    {
+      "engine": "three.js r186",
+      "dtssFocus": "1",
+      "renderCalls": "44",
+      "triangles": "63966",
+      "geometryCount": "25",
+      "camera": "-43.00,28.00,33.00",
+      "project": "dtss",
+      "stage": "4",
+      "modelLoaded": "dtss"
+    },
+    {
+      "engine": "three.js r186",
+      "dtssFocus": "2",
+      "renderCalls": "47",
+      "triangles": "64594",
+      "geometryCount": "25",
+      "camera": "43.00,14.00,19.00",
+      "project": "dtss",
+      "stage": "4",
+      "modelLoaded": "dtss"
+    },
+    {
+      "engine": "three.js r186",
+      "dtssFocus": "3",
+      "renderCalls": "42",
+      "triangles": "63506",
+      "geometryCount": "25",
+      "camera": "7.00,11.00,22.00",
+      "project": "dtss",
+      "stage": "4",
+      "modelLoaded": "dtss"
+    },
+    {
+      "engine": "three.js r186",
+      "dtssFocus": "4",
+      "renderCalls": "43",
+      "triangles": "63954",
+      "geometryCount": "25",
+      "camera": "-6.00,16.00,23.00",
+      "project": "dtss",
+      "stage": "4",
+      "modelLoaded": "dtss"
+    },
+    {
+      "engine": "three.js r186",
+      "dtssFocus": "5",
+      "renderCalls": "45",
+      "triangles": "64058",
+      "geometryCount": "25",
+      "camera": "20.00,5.00,1.00",
+      "project": "dtss",
+      "stage": "4",
+      "modelLoaded": "dtss"
+    }
+  ],
+  "errors": []
+}

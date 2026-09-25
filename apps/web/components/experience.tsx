@@ -158,7 +158,7 @@ export default function Experience() {
       <main>
         <section className="intro">
           <div>
-            <p className="eyebrow">01 — THE WATER BENEATH US</p>
+            <p className="eyebrow">PORTFOLIO CASE STUDY · INTERACTIVE ENGINEERING</p>
             <h1>
               The city you see.
               <br />
@@ -166,9 +166,13 @@ export default function Experience() {
             </h1>
           </div>
           <p className="intro-copy">
-            Walk through the engineering that built a nation. Start with the world beneath your
-            feet.
+            From a first underground cutaway to a national engineering atlas: nine interactive exhibits, five detailed construction journeys, and five eras of Singapore’s story.
           </p>
+        </section>
+        <section className="portfolio-progress" aria-label="Project development and current experience">
+          <div><span className="eyebrow">THE CURRENT EXPERIENCE</span><h2>One island. Nine ways in.</h2><p>5 Detailed · 4 Simplified. Start on the map, enter an engineering environment, and discover why each structure exists.</p><Link href="/explore/">Explore the 3D world ↗</Link></div>
+          <div><span className="eyebrow">WHAT HAS GROWN</span><h2>Built to explain.</h2><p>Numbered drawing keys, guided camera views, construction playback, interactive mechanisms, source-linked explanations and clear return navigation.</p></div>
+          <div><span className="eyebrow">HOW IT WAS MADE</span><h2>Research to interaction.</h2><p>Human direction and review, with Astra assisting research, code, reproducible Blender authoring and testing. The in-app guide is authored; it is not a live AI service.</p><a href="https://github.com/Darryl-e0697797/unseen-singapore" target="_blank" rel="noreferrer">View the open-source project ↗</a></div>
         </section>
         <section className="exhibit" id="exhibit" aria-label="Interactive engineering exhibit">
           <div className="world-column">
@@ -292,7 +296,7 @@ export default function Experience() {
           <article className="chapter" id="chapter">
             <div className="chapter-top">
               <span className="eyebrow">DEEP TUNNEL SEWERAGE SYSTEM</span>
-              <span className="chapter-index">01 / 06</span>
+              <span className="chapter-index">DTSS PREVIEW</span>
             </div>
             <div className="levels" aria-label="Explanation level">
               {(['public', 'student', 'engineer', 'planning'] as const).map((l) => (
@@ -413,16 +417,14 @@ export default function Experience() {
             <span className="eyebrow">INVISIBLE, NOT INSIGNIFICANT</span>
             <h3>Engineering is a connected story.</h3>
             <p>
-              UNSEEN Singapore explores the systems behind everyday life. This first chapter is a
-              representative teaching scene, grounded in public sources.
+              The atlas connects geographic context with construction and operation. Inspect numbered structures, peel open cutaways, trace flows and step through construction sequences. The original DTSS teaching scene above shows where the project began.
             </p>
           </div>
           <div>
-            <span className="eyebrow">NEXT CHAPTER · IN DEVELOPMENT</span>
-            <h3>The making of Tuas.</h3>
+            <span className="eyebrow">FIVE DETAILED EXHIBITS</span>
+            <h3>From tunnels to a new coastline.</h3>
             <p>
-              From seabed to working port. A future chapter will unpack reclamation, caissons and
-              construction, with evidence for each stage.
+              Explore DTSS, Tuas Port, MRT & underground construction, Marina Barrage and Pulau Tekong. Four simplified exhibits introduce NEWater, Jurong Rock Caverns, power tunnels and coastal resilience.
             </p>
           </div>
           <div>
@@ -478,7 +480,7 @@ export default function Experience() {
       </main>
       <footer className="footer">
         <span>UNSEEN SINGAPORE · AN INDEPENDENT PROJECT</span>
-        <span>No agency endorsement implied. Local first chapter · 2026</span>
+        <span>No agency endorsement implied. Independent engineering documentary · 2026</span>
       </footer>
     </>
   );

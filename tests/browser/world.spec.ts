@@ -5,6 +5,10 @@ test('world opens sourced exhibits and construction changes rendered geometry', 
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await expect(page.getByRole('heading', { name: 'Singapore. Look closer.' })).toBeVisible();
   await page.getByRole('button', { name: 'Begin at Tuas Port' }).click();
   await expect(page.locator('.world-canvas canvas')).toHaveAttribute('data-project', 'tuas');
@@ -32,6 +36,10 @@ test('world opens sourced exhibits and construction changes rendered geometry', 
 test('all nine models load, flight exits, sources remain available on mobile', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   const ids = [
     'dtss',
     'mrt',
@@ -65,8 +73,12 @@ test('all nine models load, flight exits, sources remain available on mobile', a
   expect(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)).toBe(false);
 });
 test('failed world asset preserves the complete research interface', async ({ page }) => {
-  await page.route('**/models/world-tuas.glb', (r) => r.abort());
+  await page.route('**/models/world-tuas.glb{,.pack.gz}', (r) => r.abort());
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.getByRole('button', { name: 'Begin at Tuas Port' }).click();
   await expect(page.getByText('The story is still here.')).toBeVisible();
   await page.getByRole('tab', { name: 'Engineering', exact: true }).click();

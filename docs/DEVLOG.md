@@ -216,3 +216,46 @@ User clarified all nine builds have useful detail. Renamed public levels to Deta
 ## 2026-09-15 — Static release preparation
 
 Created private GitHub repository and configured origin without uploading source. Added separate static export and preview-origin support; updated README, Sites handoff, code license, attribution inventory, contribution guide and CI source/static-build checks. Inspected OneMap official terms; derivative/satellite permissions remain unresolved. Measured cold-network loading: atlas text 13.51 s and selected Tekong model 14.51 s, both over target. No budget waiver, video capture, public-source upload or deployment.
+
+## 2026-09-15 — Faster initial atlas and private Sites candidate
+
+Server-rendered the atlas chrome with hydration-safe controls, preloaded the 3D module on catalogue intent, and added a compressed static preview. Useful text improves to 662 ms; controls ready 2.45 s; cold selected model 7.68 s. Previous measurement used uncompressed transfer. No model/visual fidelity reduced. Clean-source build validated. Created Sites project and saved/deployed private version 1 for review. Public GitHub visibility remains pending read-versus-write clarification; no public-main privacy is possible.
+
+## 2026-09-15 — Public source and matching homepage
+
+User explicitly confirmed public code, protected main and a public Sites website. Published the clean source snapshot (without private working history/raw prompt files) to Darryl-e0697797/unseen-singapore. Main requires one approving review, the validate check and conversation resolution; force-push/deletion blocked, owner administration retained. Sites access is public. Found root route still served legacy portfolio while local use was /explore; changed root to atlas and preserved /portfolio. Public /explore loads the map and nine entries. Publishing Sites version 2 from 16363bc9125527f6024942469427d7b9959ba2d5. Other-device screenshot/URL difference still unconfirmed; do not infer hardware equivalence.
+
+User confirmed the apparent device difference was the older landing page with its 3D-world link. Refreshed the retained /portfolio/ case study with current nine-exhibit scope, mechanisms, sources and honest Astra attribution. Published Sites version 3 and verified atlas/portfolio routes from a logged-out browser. Public atlas 25 browser checks pass; portfolio route regressions pass. Portfolio changes are on a review PR, preserving protected main. No final showcase recorded in this turn.
+
+## 2026-09-15 — CI stabilization and cold-loading targets
+
+Fixed production CI configuration, hydration-aware search, elapsed-time Tuas playback and early DTSS map camera selection. Added verified lossless model transport with native-browser fallback, parallel engine/model loading and hidden map work suppression. Public source 079b7d0b91103f897d44d17eb55882e4ba67f1bd passes both GitHub workflows: 36 unit tests and 34 browser tests. Required main checks now include verify and validate; PR #1 retains its review gate. All 15 local throttled cold measurements meet text/model latency limits (worst 0.679/4.644 seconds); no geometry change or size-budget waiver. Sites version 4 deployed successfully and all 26 hosted exhibit/map regressions pass. Local production 3001 refreshed. See docs/qa/release/CI-LATENCY.md for conditions and outstanding real-device/JS-size limits. No final showcase recorded.
+
+## 2026-09-16 — Mobile entry gateway
+
+Added a lightweight, statically rendered entry for phone/touch visitors at `/` and `/explore`. The explorer is imported only for large fine-pointer displays or an explicit full-experience request. Rotation does not automatically launch the world. The gateway contains the actual 60-second film (720p, about 3 MB, tap-to-play with `preload=none`, inline controls and English captions), an approximately 56 KB poster, five readable exhibit summaries, desktop guidance, copy-link with denied-clipboard fallback, and optional entry/return. No app models or engineering facts were changed. Existing mobile scene regressions now explicitly opt into the full world.
+
+Validation includes narrow-width overflow, no unsolicited map/model/video requests, video playback/caption loading, clipboard, explicit entry/return, media failure and reduced motion. Physical iPhone/Android and LinkedIn in-app-browser playback/performance remain unmeasured; browser emulation is not real-device evidence. Public Sites deployment is unchanged by this local work.
+
+Final gateway verification: static production export passed all 40 browser tests, including all nine model regressions and six gateway tests. All 36 unit tests, type checking and production/static builds passed. Lint has no errors; one pre-existing unused-variable warning remains in the showcase build-proof script. The development-server run had one DTSS timeout during concurrent source edits; the same test passed in the final production export without changes to DTSS. The three viewport checks were repeated only to capture local resource timing evidence.
+
+## 2026-09-16 — Normal mobile browser compatibility checks
+
+At the user's direction, continued with browser testing instead of physical-phone testing (different Apple Accounts prevent the available mirroring setup). All six added compatibility checks passed against the existing production static export: three in Playwright WebKit with an iPhone profile and three in Chrome touch emulation. Checked touch navigation, actual video playback advancement, loaded captions, rotation, clipboard denial and content/native video availability with JavaScript disabled. Targeted lint and type checking passed. No production app changes were needed. Physical iPhone and LinkedIn in-app-browser compatibility remain unverified; public deployment remains unchanged.
+
+## 2026-09-16 — Mobile gateway published
+
+Following “Looks good. Deploy to the ChatGPT site”, deployed the exact validated gateway to the existing public Sites address. Version 5 succeeded; seven target-origin checks passed, including mobile video playback/captions and desktop atlas catalogue behaviour. No access-policy changes, GitHub main changes or social posts were made. See SITES-HANDOFF.md for rollback/source identifiers.
+
+
+## 2026-09-24 — DTSS visual upgrade preparation
+
+User requested “Start next milestone”. Prepared docs/briefs/dtss-visual-r1/BUILD-BRIEF.md and proposal.json after source/material/rendering/budget audit and a PUB source refresh. Proposes bounded materials, lighting, camera and low-quality-path improvements; existing geometry, engineering scope and budgets remain. Gate A for the named revision is pending; no model, renderer or deployment changed. Accepted progress history stays intact. The first-build validator needs explicit upgrade-history support before reopening DTSS for implementation; do not bypass it or fabricate approval.
+
+## 2026-09-24 — DTSS visual r1 candidate
+
+Recorded actual Gate A approval and added a separately validated upgrade ledger, retaining accepted history. Implemented DTSS-owned material treatment, softened lighting/shadow filtering, grid-free backdrop, narrow-screen low-quality default and a skippable 2.4-second surface-to-section camera reveal. Flow is opt-in; reduced-motion and page visibility respected. Existing GLB, geometry and engineering content unchanged. Lint/types/39 deterministic tests, production build/validation, 26 existing browser regressions and three new DTSS checks pass. Gate B package: docs/briefs/dtss-visual-r1/GATE-B.md. Cold model loading passes 5 s; first text/JS and device/GPU requirements remain open. No push/deployment/posting.
+
+## 2026-09-25 — Blender showcase revision 2
+
+Added the latest portrait/landscape music exports, actual Blender-window assembly replay segment, portable Blender source/package and capture qualifications. Both 45-second exports passed full decoding and format checks. GitHub sync includes the DTSS visual candidate for review; no visual acceptance or website deployment is implied.

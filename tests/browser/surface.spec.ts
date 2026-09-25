@@ -20,6 +20,10 @@ test('geographic surface renders buildings, changes projection, and clears Tuas 
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   const map = page.locator('.geographic-map canvas');
   await expect(map).toHaveAttribute('data-buildings-loaded', 'true', { timeout: 15000 });
   await expect
@@ -46,8 +50,12 @@ test('geographic surface renders buildings, changes projection, and clears Tuas 
 
 test('mobile map remains usable when building data fails', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.route('**/geography/cbd-buildings.geojson', (route) => route.abort());
+  await page.route('**/geography/cbd-buildings.{geojson,json}', (route) => route.abort());
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await expect(page.locator('.geographic-map canvas')).toHaveAttribute(
     'data-surface-loaded',
     'true',
@@ -64,6 +72,10 @@ test('mobile map remains usable when building data fails', async ({ page }) => {
 
 test('DTSS corridors and landmarks live on the map and phase toggles work', async ({ page }) => {
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.locator('.surface-projects > button').first().click();
   const map = page.locator('.geographic-map canvas');
   await expect(map).toHaveAttribute('data-dtss-overlay', 'true');
@@ -102,6 +114,10 @@ test('zooming out flattens the regional imagery and 3D returns to district frami
   await page.setViewportSize({ width: 1208, height: 1126 });
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   const canvas = page.locator('.geographic-map canvas');
   await expect(canvas).toHaveAttribute('data-surface-loaded', 'true');
   await page.getByRole('button', { name: 'Whole island', exact: true }).click();

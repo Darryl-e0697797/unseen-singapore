@@ -1,0 +1,2210 @@
+[
+  {
+    "order": 1,
+    "name": "exhibit-plinth",
+    "stage": 0,
+    "reveal_frame": 2
+  },
+  {
+    "order": 2,
+    "name": "geological-back-wall",
+    "stage": 0,
+    "reveal_frame": 2
+  },
+  {
+    "order": 3,
+    "name": "geological-bedding",
+    "stage": 0,
+    "reveal_frame": 3
+  },
+  {
+    "order": 4,
+    "name": "geological-bedding.001",
+    "stage": 0,
+    "reveal_frame": 3
+  },
+  {
+    "order": 5,
+    "name": "geological-bedding.002",
+    "stage": 0,
+    "reveal_frame": 4
+  },
+  {
+    "order": 6,
+    "name": "geological-bedding.003",
+    "stage": 0,
+    "reveal_frame": 5
+  },
+  {
+    "order": 7,
+    "name": "soil-horizon-upper",
+    "stage": 0,
+    "reveal_frame": 5
+  },
+  {
+    "order": 8,
+    "name": "strata-seam",
+    "stage": 0,
+    "reveal_frame": 6
+  },
+  {
+    "order": 9,
+    "name": "strata-seam.001",
+    "stage": 0,
+    "reveal_frame": 7
+  },
+  {
+    "order": 10,
+    "name": "strata-seam.002",
+    "stage": 0,
+    "reveal_frame": 7
+  },
+  {
+    "order": 11,
+    "name": "surface-road",
+    "stage": 0,
+    "reveal_frame": 8
+  },
+  {
+    "order": 12,
+    "name": "road-centre-mark",
+    "stage": 0,
+    "reveal_frame": 9
+  },
+  {
+    "order": 13,
+    "name": "road-centre-mark.001",
+    "stage": 0,
+    "reveal_frame": 9
+  },
+  {
+    "order": 14,
+    "name": "road-centre-mark.002",
+    "stage": 0,
+    "reveal_frame": 10
+  },
+  {
+    "order": 15,
+    "name": "road-centre-mark.003",
+    "stage": 0,
+    "reveal_frame": 11
+  },
+  {
+    "order": 16,
+    "name": "road-centre-mark.004",
+    "stage": 0,
+    "reveal_frame": 11
+  },
+  {
+    "order": 17,
+    "name": "road-centre-mark.005",
+    "stage": 0,
+    "reveal_frame": 12
+  },
+  {
+    "order": 18,
+    "name": "road-centre-mark.006",
+    "stage": 0,
+    "reveal_frame": 13
+  },
+  {
+    "order": 19,
+    "name": "road-centre-mark.007",
+    "stage": 0,
+    "reveal_frame": 13
+  },
+  {
+    "order": 20,
+    "name": "road-centre-mark.008",
+    "stage": 0,
+    "reveal_frame": 14
+  },
+  {
+    "order": 21,
+    "name": "road-centre-mark.009",
+    "stage": 0,
+    "reveal_frame": 14
+  },
+  {
+    "order": 22,
+    "name": "road-centre-mark.010",
+    "stage": 0,
+    "reveal_frame": 15
+  },
+  {
+    "order": 23,
+    "name": "road-centre-mark.011",
+    "stage": 0,
+    "reveal_frame": 16
+  },
+  {
+    "order": 24,
+    "name": "road-centre-mark.012",
+    "stage": 0,
+    "reveal_frame": 16
+  },
+  {
+    "order": 25,
+    "name": "road-centre-mark.013",
+    "stage": 0,
+    "reveal_frame": 17
+  },
+  {
+    "order": 26,
+    "name": "road-centre-mark.014",
+    "stage": 0,
+    "reveal_frame": 18
+  },
+  {
+    "order": 27,
+    "name": "road-centre-mark.015",
+    "stage": 0,
+    "reveal_frame": 18
+  },
+  {
+    "order": 28,
+    "name": "surface-context-building",
+    "stage": 0,
+    "reveal_frame": 19
+  },
+  {
+    "order": 29,
+    "name": "facade-window",
+    "stage": 0,
+    "reveal_frame": 20
+  },
+  {
+    "order": 30,
+    "name": "facade-window.001",
+    "stage": 0,
+    "reveal_frame": 20
+  },
+  {
+    "order": 31,
+    "name": "facade-window.002",
+    "stage": 0,
+    "reveal_frame": 21
+  },
+  {
+    "order": 32,
+    "name": "facade-window.003",
+    "stage": 0,
+    "reveal_frame": 22
+  },
+  {
+    "order": 33,
+    "name": "facade-window.004",
+    "stage": 0,
+    "reveal_frame": 22
+  },
+  {
+    "order": 34,
+    "name": "facade-window.005",
+    "stage": 0,
+    "reveal_frame": 23
+  },
+  {
+    "order": 35,
+    "name": "facade-window.006",
+    "stage": 0,
+    "reveal_frame": 24
+  },
+  {
+    "order": 36,
+    "name": "facade-window.007",
+    "stage": 0,
+    "reveal_frame": 24
+  },
+  {
+    "order": 37,
+    "name": "facade-window.008",
+    "stage": 0,
+    "reveal_frame": 25
+  },
+  {
+    "order": 38,
+    "name": "surface-context-building.001",
+    "stage": 0,
+    "reveal_frame": 25
+  },
+  {
+    "order": 39,
+    "name": "facade-window.009",
+    "stage": 0,
+    "reveal_frame": 26
+  },
+  {
+    "order": 40,
+    "name": "facade-window.010",
+    "stage": 0,
+    "reveal_frame": 27
+  },
+  {
+    "order": 41,
+    "name": "facade-window.011",
+    "stage": 0,
+    "reveal_frame": 27
+  },
+  {
+    "order": 42,
+    "name": "facade-window.012",
+    "stage": 0,
+    "reveal_frame": 28
+  },
+  {
+    "order": 43,
+    "name": "facade-window.013",
+    "stage": 0,
+    "reveal_frame": 29
+  },
+  {
+    "order": 44,
+    "name": "facade-window.014",
+    "stage": 0,
+    "reveal_frame": 29
+  },
+  {
+    "order": 45,
+    "name": "facade-window.015",
+    "stage": 0,
+    "reveal_frame": 30
+  },
+  {
+    "order": 46,
+    "name": "facade-window.016",
+    "stage": 0,
+    "reveal_frame": 31
+  },
+  {
+    "order": 47,
+    "name": "facade-window.017",
+    "stage": 0,
+    "reveal_frame": 31
+  },
+  {
+    "order": 48,
+    "name": "facade-window.018",
+    "stage": 0,
+    "reveal_frame": 32
+  },
+  {
+    "order": 49,
+    "name": "facade-window.019",
+    "stage": 0,
+    "reveal_frame": 33
+  },
+  {
+    "order": 50,
+    "name": "facade-window.020",
+    "stage": 0,
+    "reveal_frame": 33
+  },
+  {
+    "order": 51,
+    "name": "facade-window.021",
+    "stage": 0,
+    "reveal_frame": 34
+  },
+  {
+    "order": 52,
+    "name": "facade-window.022",
+    "stage": 0,
+    "reveal_frame": 35
+  },
+  {
+    "order": 53,
+    "name": "facade-window.023",
+    "stage": 0,
+    "reveal_frame": 35
+  },
+  {
+    "order": 54,
+    "name": "surface-context-building.002",
+    "stage": 0,
+    "reveal_frame": 36
+  },
+  {
+    "order": 55,
+    "name": "facade-window.024",
+    "stage": 0,
+    "reveal_frame": 37
+  },
+  {
+    "order": 56,
+    "name": "facade-window.025",
+    "stage": 0,
+    "reveal_frame": 37
+  },
+  {
+    "order": 57,
+    "name": "facade-window.026",
+    "stage": 0,
+    "reveal_frame": 38
+  },
+  {
+    "order": 58,
+    "name": "facade-window.027",
+    "stage": 0,
+    "reveal_frame": 38
+  },
+  {
+    "order": 59,
+    "name": "facade-window.028",
+    "stage": 0,
+    "reveal_frame": 39
+  },
+  {
+    "order": 60,
+    "name": "facade-window.029",
+    "stage": 0,
+    "reveal_frame": 40
+  },
+  {
+    "order": 61,
+    "name": "facade-window.030",
+    "stage": 0,
+    "reveal_frame": 40
+  },
+  {
+    "order": 62,
+    "name": "facade-window.031",
+    "stage": 0,
+    "reveal_frame": 41
+  },
+  {
+    "order": 63,
+    "name": "facade-window.032",
+    "stage": 0,
+    "reveal_frame": 42
+  },
+  {
+    "order": 64,
+    "name": "surface-context-building.003",
+    "stage": 0,
+    "reveal_frame": 42
+  },
+  {
+    "order": 65,
+    "name": "facade-window.033",
+    "stage": 0,
+    "reveal_frame": 43
+  },
+  {
+    "order": 66,
+    "name": "facade-window.034",
+    "stage": 0,
+    "reveal_frame": 44
+  },
+  {
+    "order": 67,
+    "name": "facade-window.035",
+    "stage": 0,
+    "reveal_frame": 44
+  },
+  {
+    "order": 68,
+    "name": "facade-window.036",
+    "stage": 0,
+    "reveal_frame": 45
+  },
+  {
+    "order": 69,
+    "name": "facade-window.037",
+    "stage": 0,
+    "reveal_frame": 46
+  },
+  {
+    "order": 70,
+    "name": "facade-window.038",
+    "stage": 0,
+    "reveal_frame": 46
+  },
+  {
+    "order": 71,
+    "name": "facade-window.039",
+    "stage": 0,
+    "reveal_frame": 47
+  },
+  {
+    "order": 72,
+    "name": "facade-window.040",
+    "stage": 0,
+    "reveal_frame": 48
+  },
+  {
+    "order": 73,
+    "name": "facade-window.041",
+    "stage": 0,
+    "reveal_frame": 48
+  },
+  {
+    "order": 74,
+    "name": "facade-window.042",
+    "stage": 0,
+    "reveal_frame": 49
+  },
+  {
+    "order": 75,
+    "name": "facade-window.043",
+    "stage": 0,
+    "reveal_frame": 49
+  },
+  {
+    "order": 76,
+    "name": "facade-window.044",
+    "stage": 0,
+    "reveal_frame": 50
+  },
+  {
+    "order": 77,
+    "name": "surface-context-building.004",
+    "stage": 0,
+    "reveal_frame": 51
+  },
+  {
+    "order": 78,
+    "name": "facade-window.045",
+    "stage": 0,
+    "reveal_frame": 51
+  },
+  {
+    "order": 79,
+    "name": "facade-window.046",
+    "stage": 0,
+    "reveal_frame": 52
+  },
+  {
+    "order": 80,
+    "name": "facade-window.047",
+    "stage": 0,
+    "reveal_frame": 53
+  },
+  {
+    "order": 81,
+    "name": "facade-window.048",
+    "stage": 0,
+    "reveal_frame": 53
+  },
+  {
+    "order": 82,
+    "name": "facade-window.049",
+    "stage": 0,
+    "reveal_frame": 54
+  },
+  {
+    "order": 83,
+    "name": "facade-window.050",
+    "stage": 0,
+    "reveal_frame": 55
+  },
+  {
+    "order": 84,
+    "name": "shaft-lining-ring",
+    "stage": 1,
+    "reveal_frame": 55
+  },
+  {
+    "order": 85,
+    "name": "shaft-lining-ring.001",
+    "stage": 1,
+    "reveal_frame": 56
+  },
+  {
+    "order": 86,
+    "name": "shaft-lining-ring.002",
+    "stage": 1,
+    "reveal_frame": 57
+  },
+  {
+    "order": 87,
+    "name": "shaft-lining-ring.003",
+    "stage": 1,
+    "reveal_frame": 57
+  },
+  {
+    "order": 88,
+    "name": "shaft-lining-ring.004",
+    "stage": 1,
+    "reveal_frame": 58
+  },
+  {
+    "order": 89,
+    "name": "shaft-lining-ring.005",
+    "stage": 1,
+    "reveal_frame": 59
+  },
+  {
+    "order": 90,
+    "name": "shaft-lining-ring.006",
+    "stage": 1,
+    "reveal_frame": 59
+  },
+  {
+    "order": 91,
+    "name": "shaft-lining-ring.007",
+    "stage": 1,
+    "reveal_frame": 60
+  },
+  {
+    "order": 92,
+    "name": "shaft-lining-ring.008",
+    "stage": 1,
+    "reveal_frame": 61
+  },
+  {
+    "order": 93,
+    "name": "shaft-lining-ring.009",
+    "stage": 1,
+    "reveal_frame": 61
+  },
+  {
+    "order": 94,
+    "name": "shaft-lining-ring.010",
+    "stage": 1,
+    "reveal_frame": 62
+  },
+  {
+    "order": 95,
+    "name": "shaft-lining-ring.011",
+    "stage": 1,
+    "reveal_frame": 62
+  },
+  {
+    "order": 96,
+    "name": "access-ladder-rung",
+    "stage": 1,
+    "reveal_frame": 63
+  },
+  {
+    "order": 97,
+    "name": "access-ladder-rung.001",
+    "stage": 1,
+    "reveal_frame": 64
+  },
+  {
+    "order": 98,
+    "name": "access-ladder-rung.002",
+    "stage": 1,
+    "reveal_frame": 64
+  },
+  {
+    "order": 99,
+    "name": "access-ladder-rung.003",
+    "stage": 1,
+    "reveal_frame": 65
+  },
+  {
+    "order": 100,
+    "name": "access-ladder-rung.004",
+    "stage": 1,
+    "reveal_frame": 66
+  },
+  {
+    "order": 101,
+    "name": "access-ladder-rung.005",
+    "stage": 1,
+    "reveal_frame": 66
+  },
+  {
+    "order": 102,
+    "name": "access-ladder-rung.006",
+    "stage": 1,
+    "reveal_frame": 67
+  },
+  {
+    "order": 103,
+    "name": "access-ladder-rung.007",
+    "stage": 1,
+    "reveal_frame": 68
+  },
+  {
+    "order": 104,
+    "name": "access-ladder-rung.008",
+    "stage": 1,
+    "reveal_frame": 68
+  },
+  {
+    "order": 105,
+    "name": "access-ladder-rung.009",
+    "stage": 1,
+    "reveal_frame": 69
+  },
+  {
+    "order": 106,
+    "name": "access-ladder-rung.010",
+    "stage": 1,
+    "reveal_frame": 70
+  },
+  {
+    "order": 107,
+    "name": "access-ladder-rung.011",
+    "stage": 1,
+    "reveal_frame": 70
+  },
+  {
+    "order": 108,
+    "name": "access-ladder-rung.012",
+    "stage": 1,
+    "reveal_frame": 71
+  },
+  {
+    "order": 109,
+    "name": "access-ladder-rung.013",
+    "stage": 1,
+    "reveal_frame": 72
+  },
+  {
+    "order": 110,
+    "name": "access-ladder-rung.014",
+    "stage": 1,
+    "reveal_frame": 72
+  },
+  {
+    "order": 111,
+    "name": "access-ladder-rung.015",
+    "stage": 1,
+    "reveal_frame": 73
+  },
+  {
+    "order": 112,
+    "name": "access-ladder-rung.016",
+    "stage": 1,
+    "reveal_frame": 73
+  },
+  {
+    "order": 113,
+    "name": "access-ladder-rung.017",
+    "stage": 1,
+    "reveal_frame": 74
+  },
+  {
+    "order": 114,
+    "name": "access-ladder-rung.018",
+    "stage": 1,
+    "reveal_frame": 75
+  },
+  {
+    "order": 115,
+    "name": "access-ladder-rung.019",
+    "stage": 1,
+    "reveal_frame": 75
+  },
+  {
+    "order": 116,
+    "name": "access-ladder-rung.020",
+    "stage": 1,
+    "reveal_frame": 76
+  },
+  {
+    "order": 117,
+    "name": "access-ladder-rung.021",
+    "stage": 1,
+    "reveal_frame": 77
+  },
+  {
+    "order": 118,
+    "name": "ladder-rail",
+    "stage": 1,
+    "reveal_frame": 77
+  },
+  {
+    "order": 119,
+    "name": "ladder-rail.001",
+    "stage": 1,
+    "reveal_frame": 78
+  },
+  {
+    "order": 120,
+    "name": "shaft-service-landing",
+    "stage": 1,
+    "reveal_frame": 79
+  },
+  {
+    "order": 121,
+    "name": "shaft-service-landing.001",
+    "stage": 1,
+    "reveal_frame": 79
+  },
+  {
+    "order": 122,
+    "name": "shaft-service-landing.002",
+    "stage": 1,
+    "reveal_frame": 80
+  },
+  {
+    "order": 123,
+    "name": "gantry-column",
+    "stage": 1,
+    "reveal_frame": 81
+  },
+  {
+    "order": 124,
+    "name": "gantry-column.001",
+    "stage": 1,
+    "reveal_frame": 81
+  },
+  {
+    "order": 125,
+    "name": "gantry-crossbeam",
+    "stage": 1,
+    "reveal_frame": 82
+  },
+  {
+    "order": 126,
+    "name": "hoist-cable",
+    "stage": 1,
+    "reveal_frame": 83
+  },
+  {
+    "order": 127,
+    "name": "lifting-cradle",
+    "stage": 1,
+    "reveal_frame": 83
+  },
+  {
+    "order": 128,
+    "name": "TBM-face",
+    "stage": 1,
+    "reveal_frame": 84
+  },
+  {
+    "order": 129,
+    "name": "TBM-drive-hub",
+    "stage": 1,
+    "reveal_frame": 85
+  },
+  {
+    "order": 130,
+    "name": "TBM-disc-cutter",
+    "stage": 1,
+    "reveal_frame": 85
+  },
+  {
+    "order": 131,
+    "name": "TBM-disc-cutter.001",
+    "stage": 1,
+    "reveal_frame": 86
+  },
+  {
+    "order": 132,
+    "name": "TBM-disc-cutter.002",
+    "stage": 1,
+    "reveal_frame": 86
+  },
+  {
+    "order": 133,
+    "name": "TBM-disc-cutter.003",
+    "stage": 1,
+    "reveal_frame": 87
+  },
+  {
+    "order": 134,
+    "name": "TBM-disc-cutter.004",
+    "stage": 1,
+    "reveal_frame": 88
+  },
+  {
+    "order": 135,
+    "name": "TBM-disc-cutter.005",
+    "stage": 1,
+    "reveal_frame": 88
+  },
+  {
+    "order": 136,
+    "name": "TBM-disc-cutter.006",
+    "stage": 1,
+    "reveal_frame": 89
+  },
+  {
+    "order": 137,
+    "name": "TBM-disc-cutter.007",
+    "stage": 1,
+    "reveal_frame": 90
+  },
+  {
+    "order": 138,
+    "name": "TBM-disc-cutter.008",
+    "stage": 1,
+    "reveal_frame": 90
+  },
+  {
+    "order": 139,
+    "name": "TBM-disc-cutter.009",
+    "stage": 1,
+    "reveal_frame": 91
+  },
+  {
+    "order": 140,
+    "name": "TBM-disc-cutter.010",
+    "stage": 1,
+    "reveal_frame": 92
+  },
+  {
+    "order": 141,
+    "name": "TBM-disc-cutter.011",
+    "stage": 1,
+    "reveal_frame": 92
+  },
+  {
+    "order": 142,
+    "name": "TBM-disc-cutter.012",
+    "stage": 1,
+    "reveal_frame": 93
+  },
+  {
+    "order": 143,
+    "name": "TBM-disc-cutter.013",
+    "stage": 1,
+    "reveal_frame": 94
+  },
+  {
+    "order": 144,
+    "name": "TBM-disc-cutter.014",
+    "stage": 1,
+    "reveal_frame": 94
+  },
+  {
+    "order": 145,
+    "name": "TBM-disc-cutter.015",
+    "stage": 1,
+    "reveal_frame": 95
+  },
+  {
+    "order": 146,
+    "name": "TBM-disc-cutter.016",
+    "stage": 1,
+    "reveal_frame": 96
+  },
+  {
+    "order": 147,
+    "name": "TBM-disc-cutter.017",
+    "stage": 1,
+    "reveal_frame": 96
+  },
+  {
+    "order": 148,
+    "name": "TBM-disc-cutter.018",
+    "stage": 1,
+    "reveal_frame": 97
+  },
+  {
+    "order": 149,
+    "name": "TBM-disc-cutter.019",
+    "stage": 1,
+    "reveal_frame": 97
+  },
+  {
+    "order": 150,
+    "name": "TBM-disc-cutter.020",
+    "stage": 1,
+    "reveal_frame": 98
+  },
+  {
+    "order": 151,
+    "name": "TBM-disc-cutter.021",
+    "stage": 1,
+    "reveal_frame": 99
+  },
+  {
+    "order": 152,
+    "name": "TBM-disc-cutter.022",
+    "stage": 1,
+    "reveal_frame": 99
+  },
+  {
+    "order": 153,
+    "name": "TBM-disc-cutter.023",
+    "stage": 1,
+    "reveal_frame": 100
+  },
+  {
+    "order": 154,
+    "name": "TBM-disc-cutter.024",
+    "stage": 1,
+    "reveal_frame": 101
+  },
+  {
+    "order": 155,
+    "name": "TBM-disc-cutter.025",
+    "stage": 1,
+    "reveal_frame": 101
+  },
+  {
+    "order": 156,
+    "name": "TBM-disc-cutter.026",
+    "stage": 1,
+    "reveal_frame": 102
+  },
+  {
+    "order": 157,
+    "name": "TBM-disc-cutter.027",
+    "stage": 1,
+    "reveal_frame": 103
+  },
+  {
+    "order": 158,
+    "name": "TBM-disc-cutter.028",
+    "stage": 1,
+    "reveal_frame": 103
+  },
+  {
+    "order": 159,
+    "name": "TBM-disc-cutter.029",
+    "stage": 1,
+    "reveal_frame": 104
+  },
+  {
+    "order": 160,
+    "name": "TBM-disc-cutter.030",
+    "stage": 1,
+    "reveal_frame": 105
+  },
+  {
+    "order": 161,
+    "name": "TBM-disc-cutter.031",
+    "stage": 1,
+    "reveal_frame": 105
+  },
+  {
+    "order": 162,
+    "name": "TBM-disc-cutter.032",
+    "stage": 1,
+    "reveal_frame": 106
+  },
+  {
+    "order": 163,
+    "name": "TBM-disc-cutter.033",
+    "stage": 1,
+    "reveal_frame": 107
+  },
+  {
+    "order": 164,
+    "name": "TBM-disc-cutter.034",
+    "stage": 1,
+    "reveal_frame": 107
+  },
+  {
+    "order": 165,
+    "name": "TBM-disc-cutter.035",
+    "stage": 1,
+    "reveal_frame": 108
+  },
+  {
+    "order": 166,
+    "name": "TBM-protective-shield",
+    "stage": 1,
+    "reveal_frame": 109
+  },
+  {
+    "order": 167,
+    "name": "TBM-protective-shield.001",
+    "stage": 1,
+    "reveal_frame": 109
+  },
+  {
+    "order": 168,
+    "name": "TBM-thrust-jack",
+    "stage": 1,
+    "reveal_frame": 110
+  },
+  {
+    "order": 169,
+    "name": "TBM-thrust-jack.001",
+    "stage": 1,
+    "reveal_frame": 110
+  },
+  {
+    "order": 170,
+    "name": "TBM-thrust-jack.002",
+    "stage": 1,
+    "reveal_frame": 111
+  },
+  {
+    "order": 171,
+    "name": "TBM-thrust-jack.003",
+    "stage": 1,
+    "reveal_frame": 112
+  },
+  {
+    "order": 172,
+    "name": "TBM-thrust-jack.004",
+    "stage": 1,
+    "reveal_frame": 112
+  },
+  {
+    "order": 173,
+    "name": "TBM-thrust-jack.005",
+    "stage": 1,
+    "reveal_frame": 113
+  },
+  {
+    "order": 174,
+    "name": "TBM-thrust-jack.006",
+    "stage": 1,
+    "reveal_frame": 114
+  },
+  {
+    "order": 175,
+    "name": "TBM-thrust-jack.007",
+    "stage": 1,
+    "reveal_frame": 114
+  },
+  {
+    "order": 176,
+    "name": "TBM-backup-deck",
+    "stage": 1,
+    "reveal_frame": 115
+  },
+  {
+    "order": 177,
+    "name": "TBM-service-cabinet",
+    "stage": 1,
+    "reveal_frame": 116
+  },
+  {
+    "order": 178,
+    "name": "TBM-service-cabinet.001",
+    "stage": 1,
+    "reveal_frame": 116
+  },
+  {
+    "order": 179,
+    "name": "TBM-service-cabinet.002",
+    "stage": 1,
+    "reveal_frame": 117
+  },
+  {
+    "order": 180,
+    "name": "TBM-spoil-conveyor",
+    "stage": 1,
+    "reveal_frame": 118
+  },
+  {
+    "order": 181,
+    "name": "precast-structural-ring",
+    "stage": 2,
+    "reveal_frame": 118
+  },
+  {
+    "order": 182,
+    "name": "segment-joint-bolt",
+    "stage": 2,
+    "reveal_frame": 119
+  },
+  {
+    "order": 183,
+    "name": "segment-joint-bolt.001",
+    "stage": 2,
+    "reveal_frame": 120
+  },
+  {
+    "order": 184,
+    "name": "segment-joint-bolt.002",
+    "stage": 2,
+    "reveal_frame": 120
+  },
+  {
+    "order": 185,
+    "name": "segment-joint-bolt.003",
+    "stage": 2,
+    "reveal_frame": 121
+  },
+  {
+    "order": 186,
+    "name": "segment-joint-bolt.004",
+    "stage": 2,
+    "reveal_frame": 121
+  },
+  {
+    "order": 187,
+    "name": "segment-joint-bolt.005",
+    "stage": 2,
+    "reveal_frame": 122
+  },
+  {
+    "order": 188,
+    "name": "precast-structural-ring.001",
+    "stage": 2,
+    "reveal_frame": 123
+  },
+  {
+    "order": 189,
+    "name": "segment-joint-bolt.006",
+    "stage": 2,
+    "reveal_frame": 123
+  },
+  {
+    "order": 190,
+    "name": "segment-joint-bolt.007",
+    "stage": 2,
+    "reveal_frame": 124
+  },
+  {
+    "order": 191,
+    "name": "segment-joint-bolt.008",
+    "stage": 2,
+    "reveal_frame": 125
+  },
+  {
+    "order": 192,
+    "name": "segment-joint-bolt.009",
+    "stage": 2,
+    "reveal_frame": 125
+  },
+  {
+    "order": 193,
+    "name": "segment-joint-bolt.010",
+    "stage": 2,
+    "reveal_frame": 126
+  },
+  {
+    "order": 194,
+    "name": "segment-joint-bolt.011",
+    "stage": 2,
+    "reveal_frame": 127
+  },
+  {
+    "order": 195,
+    "name": "precast-structural-ring.002",
+    "stage": 2,
+    "reveal_frame": 127
+  },
+  {
+    "order": 196,
+    "name": "segment-joint-bolt.012",
+    "stage": 2,
+    "reveal_frame": 128
+  },
+  {
+    "order": 197,
+    "name": "segment-joint-bolt.013",
+    "stage": 2,
+    "reveal_frame": 129
+  },
+  {
+    "order": 198,
+    "name": "segment-joint-bolt.014",
+    "stage": 2,
+    "reveal_frame": 129
+  },
+  {
+    "order": 199,
+    "name": "segment-joint-bolt.015",
+    "stage": 2,
+    "reveal_frame": 130
+  },
+  {
+    "order": 200,
+    "name": "segment-joint-bolt.016",
+    "stage": 2,
+    "reveal_frame": 131
+  },
+  {
+    "order": 201,
+    "name": "segment-joint-bolt.017",
+    "stage": 2,
+    "reveal_frame": 131
+  },
+  {
+    "order": 202,
+    "name": "precast-structural-ring.003",
+    "stage": 2,
+    "reveal_frame": 132
+  },
+  {
+    "order": 203,
+    "name": "segment-joint-bolt.018",
+    "stage": 2,
+    "reveal_frame": 132
+  },
+  {
+    "order": 204,
+    "name": "segment-joint-bolt.019",
+    "stage": 2,
+    "reveal_frame": 133
+  },
+  {
+    "order": 205,
+    "name": "segment-joint-bolt.020",
+    "stage": 2,
+    "reveal_frame": 134
+  },
+  {
+    "order": 206,
+    "name": "segment-joint-bolt.021",
+    "stage": 2,
+    "reveal_frame": 134
+  },
+  {
+    "order": 207,
+    "name": "segment-joint-bolt.022",
+    "stage": 2,
+    "reveal_frame": 135
+  },
+  {
+    "order": 208,
+    "name": "segment-joint-bolt.023",
+    "stage": 2,
+    "reveal_frame": 136
+  },
+  {
+    "order": 209,
+    "name": "precast-structural-ring.004",
+    "stage": 2,
+    "reveal_frame": 136
+  },
+  {
+    "order": 210,
+    "name": "segment-joint-bolt.024",
+    "stage": 2,
+    "reveal_frame": 137
+  },
+  {
+    "order": 211,
+    "name": "segment-joint-bolt.025",
+    "stage": 2,
+    "reveal_frame": 138
+  },
+  {
+    "order": 212,
+    "name": "segment-joint-bolt.026",
+    "stage": 2,
+    "reveal_frame": 138
+  },
+  {
+    "order": 213,
+    "name": "segment-joint-bolt.027",
+    "stage": 2,
+    "reveal_frame": 139
+  },
+  {
+    "order": 214,
+    "name": "segment-joint-bolt.028",
+    "stage": 2,
+    "reveal_frame": 140
+  },
+  {
+    "order": 215,
+    "name": "segment-joint-bolt.029",
+    "stage": 2,
+    "reveal_frame": 140
+  },
+  {
+    "order": 216,
+    "name": "precast-structural-ring.005",
+    "stage": 2,
+    "reveal_frame": 141
+  },
+  {
+    "order": 217,
+    "name": "segment-joint-bolt.030",
+    "stage": 2,
+    "reveal_frame": 142
+  },
+  {
+    "order": 218,
+    "name": "segment-joint-bolt.031",
+    "stage": 2,
+    "reveal_frame": 142
+  },
+  {
+    "order": 219,
+    "name": "segment-joint-bolt.032",
+    "stage": 2,
+    "reveal_frame": 143
+  },
+  {
+    "order": 220,
+    "name": "segment-joint-bolt.033",
+    "stage": 2,
+    "reveal_frame": 144
+  },
+  {
+    "order": 221,
+    "name": "segment-joint-bolt.034",
+    "stage": 2,
+    "reveal_frame": 144
+  },
+  {
+    "order": 222,
+    "name": "segment-joint-bolt.035",
+    "stage": 2,
+    "reveal_frame": 145
+  },
+  {
+    "order": 223,
+    "name": "precast-structural-ring.006",
+    "stage": 2,
+    "reveal_frame": 145
+  },
+  {
+    "order": 224,
+    "name": "segment-joint-bolt.036",
+    "stage": 2,
+    "reveal_frame": 146
+  },
+  {
+    "order": 225,
+    "name": "segment-joint-bolt.037",
+    "stage": 2,
+    "reveal_frame": 147
+  },
+  {
+    "order": 226,
+    "name": "segment-joint-bolt.038",
+    "stage": 2,
+    "reveal_frame": 147
+  },
+  {
+    "order": 227,
+    "name": "segment-joint-bolt.039",
+    "stage": 2,
+    "reveal_frame": 148
+  },
+  {
+    "order": 228,
+    "name": "segment-joint-bolt.040",
+    "stage": 2,
+    "reveal_frame": 149
+  },
+  {
+    "order": 229,
+    "name": "segment-joint-bolt.041",
+    "stage": 2,
+    "reveal_frame": 149
+  },
+  {
+    "order": 230,
+    "name": "precast-structural-ring.007",
+    "stage": 2,
+    "reveal_frame": 150
+  },
+  {
+    "order": 231,
+    "name": "segment-joint-bolt.042",
+    "stage": 2,
+    "reveal_frame": 151
+  },
+  {
+    "order": 232,
+    "name": "segment-joint-bolt.043",
+    "stage": 2,
+    "reveal_frame": 151
+  },
+  {
+    "order": 233,
+    "name": "segment-joint-bolt.044",
+    "stage": 2,
+    "reveal_frame": 152
+  },
+  {
+    "order": 234,
+    "name": "segment-joint-bolt.045",
+    "stage": 2,
+    "reveal_frame": 153
+  },
+  {
+    "order": 235,
+    "name": "segment-joint-bolt.046",
+    "stage": 2,
+    "reveal_frame": 153
+  },
+  {
+    "order": 236,
+    "name": "segment-joint-bolt.047",
+    "stage": 2,
+    "reveal_frame": 154
+  },
+  {
+    "order": 237,
+    "name": "precast-structural-ring.008",
+    "stage": 2,
+    "reveal_frame": 155
+  },
+  {
+    "order": 238,
+    "name": "segment-joint-bolt.048",
+    "stage": 2,
+    "reveal_frame": 155
+  },
+  {
+    "order": 239,
+    "name": "segment-joint-bolt.049",
+    "stage": 2,
+    "reveal_frame": 156
+  },
+  {
+    "order": 240,
+    "name": "segment-joint-bolt.050",
+    "stage": 2,
+    "reveal_frame": 156
+  },
+  {
+    "order": 241,
+    "name": "segment-joint-bolt.051",
+    "stage": 2,
+    "reveal_frame": 157
+  },
+  {
+    "order": 242,
+    "name": "segment-joint-bolt.052",
+    "stage": 2,
+    "reveal_frame": 158
+  },
+  {
+    "order": 243,
+    "name": "segment-joint-bolt.053",
+    "stage": 2,
+    "reveal_frame": 158
+  },
+  {
+    "order": 244,
+    "name": "precast-structural-ring.009",
+    "stage": 2,
+    "reveal_frame": 159
+  },
+  {
+    "order": 245,
+    "name": "segment-joint-bolt.054",
+    "stage": 2,
+    "reveal_frame": 160
+  },
+  {
+    "order": 246,
+    "name": "segment-joint-bolt.055",
+    "stage": 2,
+    "reveal_frame": 160
+  },
+  {
+    "order": 247,
+    "name": "segment-joint-bolt.056",
+    "stage": 2,
+    "reveal_frame": 161
+  },
+  {
+    "order": 248,
+    "name": "segment-joint-bolt.057",
+    "stage": 2,
+    "reveal_frame": 162
+  },
+  {
+    "order": 249,
+    "name": "segment-joint-bolt.058",
+    "stage": 2,
+    "reveal_frame": 162
+  },
+  {
+    "order": 250,
+    "name": "segment-joint-bolt.059",
+    "stage": 2,
+    "reveal_frame": 163
+  },
+  {
+    "order": 251,
+    "name": "precast-structural-ring.010",
+    "stage": 2,
+    "reveal_frame": 164
+  },
+  {
+    "order": 252,
+    "name": "segment-joint-bolt.060",
+    "stage": 2,
+    "reveal_frame": 164
+  },
+  {
+    "order": 253,
+    "name": "segment-joint-bolt.061",
+    "stage": 2,
+    "reveal_frame": 165
+  },
+  {
+    "order": 254,
+    "name": "segment-joint-bolt.062",
+    "stage": 2,
+    "reveal_frame": 166
+  },
+  {
+    "order": 255,
+    "name": "segment-joint-bolt.063",
+    "stage": 2,
+    "reveal_frame": 166
+  },
+  {
+    "order": 256,
+    "name": "segment-joint-bolt.064",
+    "stage": 2,
+    "reveal_frame": 167
+  },
+  {
+    "order": 257,
+    "name": "segment-joint-bolt.065",
+    "stage": 2,
+    "reveal_frame": 168
+  },
+  {
+    "order": 258,
+    "name": "precast-structural-ring.011",
+    "stage": 2,
+    "reveal_frame": 168
+  },
+  {
+    "order": 259,
+    "name": "segment-joint-bolt.066",
+    "stage": 2,
+    "reveal_frame": 169
+  },
+  {
+    "order": 260,
+    "name": "segment-joint-bolt.067",
+    "stage": 2,
+    "reveal_frame": 169
+  },
+  {
+    "order": 261,
+    "name": "segment-joint-bolt.068",
+    "stage": 2,
+    "reveal_frame": 170
+  },
+  {
+    "order": 262,
+    "name": "segment-joint-bolt.069",
+    "stage": 2,
+    "reveal_frame": 171
+  },
+  {
+    "order": 263,
+    "name": "segment-joint-bolt.070",
+    "stage": 2,
+    "reveal_frame": 171
+  },
+  {
+    "order": 264,
+    "name": "segment-joint-bolt.071",
+    "stage": 2,
+    "reveal_frame": 172
+  },
+  {
+    "order": 265,
+    "name": "precast-structural-ring.012",
+    "stage": 2,
+    "reveal_frame": 173
+  },
+  {
+    "order": 266,
+    "name": "segment-joint-bolt.072",
+    "stage": 2,
+    "reveal_frame": 173
+  },
+  {
+    "order": 267,
+    "name": "segment-joint-bolt.073",
+    "stage": 2,
+    "reveal_frame": 174
+  },
+  {
+    "order": 268,
+    "name": "segment-joint-bolt.074",
+    "stage": 2,
+    "reveal_frame": 175
+  },
+  {
+    "order": 269,
+    "name": "segment-joint-bolt.075",
+    "stage": 2,
+    "reveal_frame": 175
+  },
+  {
+    "order": 270,
+    "name": "segment-joint-bolt.076",
+    "stage": 2,
+    "reveal_frame": 176
+  },
+  {
+    "order": 271,
+    "name": "segment-joint-bolt.077",
+    "stage": 2,
+    "reveal_frame": 177
+  },
+  {
+    "order": 272,
+    "name": "precast-structural-ring.013",
+    "stage": 2,
+    "reveal_frame": 177
+  },
+  {
+    "order": 273,
+    "name": "segment-joint-bolt.078",
+    "stage": 2,
+    "reveal_frame": 178
+  },
+  {
+    "order": 274,
+    "name": "segment-joint-bolt.079",
+    "stage": 2,
+    "reveal_frame": 179
+  },
+  {
+    "order": 275,
+    "name": "segment-joint-bolt.080",
+    "stage": 2,
+    "reveal_frame": 179
+  },
+  {
+    "order": 276,
+    "name": "segment-joint-bolt.081",
+    "stage": 2,
+    "reveal_frame": 180
+  },
+  {
+    "order": 277,
+    "name": "segment-joint-bolt.082",
+    "stage": 2,
+    "reveal_frame": 180
+  },
+  {
+    "order": 278,
+    "name": "segment-joint-bolt.083",
+    "stage": 2,
+    "reveal_frame": 181
+  },
+  {
+    "order": 279,
+    "name": "precast-structural-ring.014",
+    "stage": 2,
+    "reveal_frame": 182
+  },
+  {
+    "order": 280,
+    "name": "segment-joint-bolt.084",
+    "stage": 2,
+    "reveal_frame": 182
+  },
+  {
+    "order": 281,
+    "name": "segment-joint-bolt.085",
+    "stage": 2,
+    "reveal_frame": 183
+  },
+  {
+    "order": 282,
+    "name": "segment-joint-bolt.086",
+    "stage": 2,
+    "reveal_frame": 184
+  },
+  {
+    "order": 283,
+    "name": "segment-joint-bolt.087",
+    "stage": 2,
+    "reveal_frame": 184
+  },
+  {
+    "order": 284,
+    "name": "segment-joint-bolt.088",
+    "stage": 2,
+    "reveal_frame": 185
+  },
+  {
+    "order": 285,
+    "name": "segment-joint-bolt.089",
+    "stage": 2,
+    "reveal_frame": 186
+  },
+  {
+    "order": 286,
+    "name": "precast-structural-ring.015",
+    "stage": 2,
+    "reveal_frame": 186
+  },
+  {
+    "order": 287,
+    "name": "segment-joint-bolt.090",
+    "stage": 2,
+    "reveal_frame": 187
+  },
+  {
+    "order": 288,
+    "name": "segment-joint-bolt.091",
+    "stage": 2,
+    "reveal_frame": 188
+  },
+  {
+    "order": 289,
+    "name": "segment-joint-bolt.092",
+    "stage": 2,
+    "reveal_frame": 188
+  },
+  {
+    "order": 290,
+    "name": "segment-joint-bolt.093",
+    "stage": 2,
+    "reveal_frame": 189
+  },
+  {
+    "order": 291,
+    "name": "segment-joint-bolt.094",
+    "stage": 2,
+    "reveal_frame": 190
+  },
+  {
+    "order": 292,
+    "name": "segment-joint-bolt.095",
+    "stage": 2,
+    "reveal_frame": 190
+  },
+  {
+    "order": 293,
+    "name": "precast-structural-ring.016",
+    "stage": 2,
+    "reveal_frame": 191
+  },
+  {
+    "order": 294,
+    "name": "segment-joint-bolt.096",
+    "stage": 2,
+    "reveal_frame": 192
+  },
+  {
+    "order": 295,
+    "name": "segment-joint-bolt.097",
+    "stage": 2,
+    "reveal_frame": 192
+  },
+  {
+    "order": 296,
+    "name": "segment-joint-bolt.098",
+    "stage": 2,
+    "reveal_frame": 193
+  },
+  {
+    "order": 297,
+    "name": "segment-joint-bolt.099",
+    "stage": 2,
+    "reveal_frame": 193
+  },
+  {
+    "order": 298,
+    "name": "segment-joint-bolt.100",
+    "stage": 2,
+    "reveal_frame": 194
+  },
+  {
+    "order": 299,
+    "name": "segment-joint-bolt.101",
+    "stage": 2,
+    "reveal_frame": 195
+  },
+  {
+    "order": 300,
+    "name": "precast-structural-ring.017",
+    "stage": 2,
+    "reveal_frame": 195
+  },
+  {
+    "order": 301,
+    "name": "segment-joint-bolt.102",
+    "stage": 2,
+    "reveal_frame": 196
+  },
+  {
+    "order": 302,
+    "name": "segment-joint-bolt.103",
+    "stage": 2,
+    "reveal_frame": 197
+  },
+  {
+    "order": 303,
+    "name": "segment-joint-bolt.104",
+    "stage": 2,
+    "reveal_frame": 197
+  },
+  {
+    "order": 304,
+    "name": "segment-joint-bolt.105",
+    "stage": 2,
+    "reveal_frame": 198
+  },
+  {
+    "order": 305,
+    "name": "segment-joint-bolt.106",
+    "stage": 2,
+    "reveal_frame": 199
+  },
+  {
+    "order": 306,
+    "name": "segment-joint-bolt.107",
+    "stage": 2,
+    "reveal_frame": 199
+  },
+  {
+    "order": 307,
+    "name": "precast-structural-ring.018",
+    "stage": 2,
+    "reveal_frame": 200
+  },
+  {
+    "order": 308,
+    "name": "segment-joint-bolt.108",
+    "stage": 2,
+    "reveal_frame": 201
+  },
+  {
+    "order": 309,
+    "name": "segment-joint-bolt.109",
+    "stage": 2,
+    "reveal_frame": 201
+  },
+  {
+    "order": 310,
+    "name": "segment-joint-bolt.110",
+    "stage": 2,
+    "reveal_frame": 202
+  },
+  {
+    "order": 311,
+    "name": "segment-joint-bolt.111",
+    "stage": 2,
+    "reveal_frame": 203
+  },
+  {
+    "order": 312,
+    "name": "segment-joint-bolt.112",
+    "stage": 2,
+    "reveal_frame": 203
+  },
+  {
+    "order": 313,
+    "name": "segment-joint-bolt.113",
+    "stage": 2,
+    "reveal_frame": 204
+  },
+  {
+    "order": 314,
+    "name": "precast-structural-ring.019",
+    "stage": 2,
+    "reveal_frame": 204
+  },
+  {
+    "order": 315,
+    "name": "segment-joint-bolt.114",
+    "stage": 2,
+    "reveal_frame": 205
+  },
+  {
+    "order": 316,
+    "name": "segment-joint-bolt.115",
+    "stage": 2,
+    "reveal_frame": 206
+  },
+  {
+    "order": 317,
+    "name": "segment-joint-bolt.116",
+    "stage": 2,
+    "reveal_frame": 206
+  },
+  {
+    "order": 318,
+    "name": "segment-joint-bolt.117",
+    "stage": 2,
+    "reveal_frame": 207
+  },
+  {
+    "order": 319,
+    "name": "segment-joint-bolt.118",
+    "stage": 2,
+    "reveal_frame": 208
+  },
+  {
+    "order": 320,
+    "name": "segment-joint-bolt.119",
+    "stage": 2,
+    "reveal_frame": 208
+  },
+  {
+    "order": 321,
+    "name": "precast-structural-ring.020",
+    "stage": 2,
+    "reveal_frame": 209
+  },
+  {
+    "order": 322,
+    "name": "segment-joint-bolt.120",
+    "stage": 2,
+    "reveal_frame": 210
+  },
+  {
+    "order": 323,
+    "name": "segment-joint-bolt.121",
+    "stage": 2,
+    "reveal_frame": 210
+  },
+  {
+    "order": 324,
+    "name": "segment-joint-bolt.122",
+    "stage": 2,
+    "reveal_frame": 211
+  },
+  {
+    "order": 325,
+    "name": "segment-joint-bolt.123",
+    "stage": 2,
+    "reveal_frame": 212
+  },
+  {
+    "order": 326,
+    "name": "segment-joint-bolt.124",
+    "stage": 2,
+    "reveal_frame": 212
+  },
+  {
+    "order": 327,
+    "name": "segment-joint-bolt.125",
+    "stage": 2,
+    "reveal_frame": 213
+  },
+  {
+    "order": 328,
+    "name": "precast-structural-ring.021",
+    "stage": 2,
+    "reveal_frame": 214
+  },
+  {
+    "order": 329,
+    "name": "segment-joint-bolt.126",
+    "stage": 2,
+    "reveal_frame": 214
+  },
+  {
+    "order": 330,
+    "name": "segment-joint-bolt.127",
+    "stage": 2,
+    "reveal_frame": 215
+  },
+  {
+    "order": 331,
+    "name": "segment-joint-bolt.128",
+    "stage": 2,
+    "reveal_frame": 216
+  },
+  {
+    "order": 332,
+    "name": "segment-joint-bolt.129",
+    "stage": 2,
+    "reveal_frame": 216
+  },
+  {
+    "order": 333,
+    "name": "segment-joint-bolt.130",
+    "stage": 2,
+    "reveal_frame": 217
+  },
+  {
+    "order": 334,
+    "name": "segment-joint-bolt.131",
+    "stage": 2,
+    "reveal_frame": 217
+  },
+  {
+    "order": 335,
+    "name": "secondary-corrosion-protection",
+    "stage": 3,
+    "reveal_frame": 218
+  },
+  {
+    "order": 336,
+    "name": "inner-protective-skin",
+    "stage": 3,
+    "reveal_frame": 219
+  },
+  {
+    "order": 337,
+    "name": "designated-gate-shaft",
+    "stage": 3,
+    "reveal_frame": 219
+  },
+  {
+    "order": 338,
+    "name": "designated-gate-shaft.001",
+    "stage": 3,
+    "reveal_frame": 220
+  },
+  {
+    "order": 339,
+    "name": "designated-gate-shaft.002",
+    "stage": 3,
+    "reveal_frame": 221
+  },
+  {
+    "order": 340,
+    "name": "designated-gate-shaft.003",
+    "stage": 3,
+    "reveal_frame": 221
+  },
+  {
+    "order": 341,
+    "name": "designated-gate-shaft.004",
+    "stage": 3,
+    "reveal_frame": 222
+  },
+  {
+    "order": 342,
+    "name": "designated-gate-shaft.005",
+    "stage": 3,
+    "reveal_frame": 223
+  },
+  {
+    "order": 343,
+    "name": "designated-gate-shaft.006",
+    "stage": 3,
+    "reveal_frame": 223
+  },
+  {
+    "order": 344,
+    "name": "designated-gate-shaft.007",
+    "stage": 3,
+    "reveal_frame": 224
+  },
+  {
+    "order": 345,
+    "name": "designated-gate-shaft.008",
+    "stage": 3,
+    "reveal_frame": 225
+  },
+  {
+    "order": 346,
+    "name": "designated-gate-shaft.009",
+    "stage": 3,
+    "reveal_frame": 225
+  },
+  {
+    "order": 347,
+    "name": "designated-gate-shaft.010",
+    "stage": 3,
+    "reveal_frame": 226
+  },
+  {
+    "order": 348,
+    "name": "designated-gate-shaft.011",
+    "stage": 3,
+    "reveal_frame": 227
+  },
+  {
+    "order": 349,
+    "name": "embedded-gate-guide",
+    "stage": 3,
+    "reveal_frame": 227
+  },
+  {
+    "order": 350,
+    "name": "embedded-gate-guide.001",
+    "stage": 3,
+    "reveal_frame": 228
+  },
+  {
+    "order": 351,
+    "name": "air-management-riser",
+    "stage": 3,
+    "reveal_frame": 228
+  },
+  {
+    "order": 352,
+    "name": "illustrative-odour-control-enclosure",
+    "stage": 3,
+    "reveal_frame": 229
+  },
+  {
+    "order": 353,
+    "name": "used-water-invert",
+    "stage": 4,
+    "reveal_frame": 230
+  },
+  {
+    "order": 354,
+    "name": "monitoring-fibre",
+    "stage": 4,
+    "reveal_frame": 230
+  },
+  {
+    "order": 355,
+    "name": "monitoring-fibre.001",
+    "stage": 4,
+    "reveal_frame": 231
+  },
+  {
+    "order": 356,
+    "name": "fibre-junction-indicator",
+    "stage": 4,
+    "reveal_frame": 232
+  },
+  {
+    "order": 357,
+    "name": "fibre-junction-indicator.001",
+    "stage": 4,
+    "reveal_frame": 232
+  },
+  {
+    "order": 358,
+    "name": "fibre-junction-indicator.002",
+    "stage": 4,
+    "reveal_frame": 233
+  },
+  {
+    "order": 359,
+    "name": "fibre-junction-indicator.003",
+    "stage": 4,
+    "reveal_frame": 234
+  },
+  {
+    "order": 360,
+    "name": "link-sewer",
+    "stage": 4,
+    "reveal_frame": 234
+  },
+  {
+    "order": 361,
+    "name": "link-sewer-collar",
+    "stage": 4,
+    "reveal_frame": 235
+  },
+  {
+    "order": 362,
+    "name": "link-sewer-collar.001",
+    "stage": 4,
+    "reveal_frame": 236
+  },
+  {
+    "order": 363,
+    "name": "link-sewer-collar.002",
+    "stage": 4,
+    "reveal_frame": 236
+  },
+  {
+    "order": 364,
+    "name": "link-sewer-collar.003",
+    "stage": 4,
+    "reveal_frame": 237
+  },
+  {
+    "order": 365,
+    "name": "scale-person-body",
+    "stage": 4,
+    "reveal_frame": 238
+  },
+  {
+    "order": 366,
+    "name": "scale-person-hardhat",
+    "stage": 4,
+    "reveal_frame": 238
+  },
+  {
+    "order": 367,
+    "name": "scale-person-leg",
+    "stage": 4,
+    "reveal_frame": 239
+  },
+  {
+    "order": 368,
+    "name": "scale-person-leg.001",
+    "stage": 4,
+    "reveal_frame": 240
+  }
+]

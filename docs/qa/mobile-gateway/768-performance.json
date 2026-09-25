@@ -1,0 +1,60 @@
+{
+  "environment": "Local browser emulation; not physical-device or public-network evidence",
+  "width": 768,
+  "resources": [
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/21k86tcbeq0ys.css",
+      "transferBytes": 13483
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/310vm2bl3xxpt.js",
+      "transferBytes": 5664
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/2amfp8-0hpu8w.css",
+      "transferBytes": 2878
+    },
+    {
+      "url": "http://127.0.0.1:3004/showcase/poster.jpg",
+      "transferBytes": 57836
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/2mdolztdas6eu.js",
+      "transferBytes": 24974
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/140uwj43difvo.js",
+      "transferBytes": 32656
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/turbopack-37oei899qs-nd.js",
+      "transferBytes": 10054
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/31n9bf14c5184.js",
+      "transferBytes": 162080
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/34wvn5zw0a69w.js",
+      "transferBytes": 204896
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/3ly6sb_sq3uzh.js",
+      "transferBytes": 6182
+    },
+    {
+      "url": "http://127.0.0.1:3004/_next/static/chunks/3fntmmi971322.js",
+      "transferBytes": 14677
+    },
+    {
+      "url": "http://127.0.0.1:3004/showcase/captions.vtt",
+      "transferBytes": 1139
+    },
+    {
+      "url": "http://127.0.0.1:3004/icon.svg?icon.3_j5790t7uc2q.svg",
+      "transferBytes": 546
+    }
+  ],
+  "firstContentfulPaintMs": 44,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36"
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "hook",
+    "duration": 3,
+    "source": "app-entry",
+    "start": 2.8,
+    "title": "From an empty scene.\nTo an underground world.",
+    "kicker": "BEHIND THE BUILD #1 \u00b7 ASTRA \u00d7 BLENDER",
+    "origin": "Actual app capture"
+  },
+  {
+    "name": "assembly",
+    "duration": 8,
+    "source": "assembly",
+    "start": 0,
+    "title": "Watch the model\ntake shape.",
+    "kicker": "SCRIPTED COMPONENTS \u00b7 AUTHORING ORDER",
+    "origin": "Blender assembly replay \u00b7 Compressed"
+  },
+  {
+    "name": "blender",
+    "duration": 12,
+    "source": "blender",
+    "start": 0,
+    "title": "Inside Blender.\nPiece by piece.",
+    "kicker": "ACTUAL BLENDER WINDOW CAPTURE",
+    "origin": "Assembly replay \u00b7 Accelerated"
+  },
+  {
+    "name": "code",
+    "duration": 5,
+    "source": "detail",
+    "start": 0,
+    "title": "One ring.\nThen a tunnel.",
+    "kicker": "THE REAL BLENDER PYTHON SOURCE",
+    "origin": "Workflow replay \u00b7 Source + render"
+  },
+  {
+    "name": "build",
+    "duration": 1,
+    "source": "log",
+    "start": 3.5,
+    "title": "Geometry becomes\nan app asset.",
+    "kicker": "AN ACTUAL BLENDER REBUILD",
+    "origin": "Workflow replay \u00b7 Recorded build log"
+  },
+  {
+    "name": "result",
+    "duration": 5,
+    "source": "overview",
+    "start": 0,
+    "title": "The completed\nengineering cutaway.",
+    "kicker": "SURFACE CONTEXT + UNDERGROUND STRUCTURE",
+    "origin": "Workflow replay \u00b7 Blender render"
+  },
+  {
+    "name": "app",
+    "duration": 4,
+    "source": "app",
+    "start": 5.5,
+    "title": "Now step inside\nthe story.",
+    "kicker": "THE MATCHING OUTPUT IN UNSEEN",
+    "origin": "Actual app capture"
+  },
+  {
+    "name": "key",
+    "duration": 4,
+    "source": "app",
+    "start": 9.5,
+    "title": "Every component\nhas a purpose.",
+    "kicker": "NUMBERED EXPLANATIONS IN THE APP",
+    "origin": "Actual app capture \u00b7 Drawing key"
+  },
+  {
+    "name": "end",
+    "duration": 3,
+    "source": "overview",
+    "start": 0,
+    "title": "Explore what lies\nbeneath Singapore.",
+    "kicker": "UNSEEN SINGAPORE",
+    "origin": "Workflow replay \u00b7 Blender render"
+  }
+]

@@ -1,6 +1,10 @@
 import { test, expect } from '@playwright/test';
 async function enter(page: import('@playwright/test').Page) {
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await expect(page.locator('.reclamation-map-marker')).toHaveCount(0);
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page
@@ -82,7 +86,7 @@ test('Tekong mobile reduced motion, key and era visibility', async ({ page }) =>
 });
 for (const failure of ['asset', 'webgl'])
   test(`Tekong ${failure} failure retains readable evidence`, async ({ page }) => {
-    if (failure === 'asset') await page.route('**/models/world-reclamation.glb', (r) => r.abort());
+    if (failure === 'asset') await page.route('**/models/world-reclamation.glb{,.pack.gz}', (r) => r.abort());
     else
       await page.addInitScript(() => {
         const get = HTMLCanvasElement.prototype.getContext;
@@ -92,6 +96,10 @@ for (const failure of ['asset', 'webgl'])
         } as typeof get;
       });
     await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
     await page.getByRole('button', { name: /Explore 9 projects/ }).click();
     await page
       .locator('.catalog-list>button')
@@ -103,3 +111,19 @@ for (const failure of ['asset', 'webgl'])
     await tour.getByText('Evidence for this view', { exact: true }).click();
     await expect(tour.getByRole('link', { name: /PUB/ }).first()).toBeVisible();
   });
+
+
+test('model transport uses gzip once and retains native-browser fallback', async ({ page }) => {
+  const requests: string[] = [];
+  page.on('request', (request) => {
+    if (request.url().includes('/models/world-reclamation.glb')) requests.push(request.url());
+  });
+  await enter(page);
+  expect(requests).toHaveLength(1);
+  expect(requests[0]).toMatch(/\.glb\.pack\.gz$/);
+  await page.addInitScript(() => { Object.defineProperty(globalThis, 'DecompressionStream', { value: undefined }); });
+  requests.length = 0;
+  await enter(page);
+  expect(requests).toHaveLength(1);
+  expect(requests[0]).toMatch(/\.glb$/);
+});

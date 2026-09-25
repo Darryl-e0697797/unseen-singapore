@@ -1,0 +1,20 @@
+{
+  "project_id": "dtss",
+  "revision": "dtss-visual-r1",
+  "stage": "awaiting-acceptance",
+  "start_authorisation": {
+    "quote": "Start next milestone",
+    "date": "2026-09-24",
+    "source": "current user conversation"
+  },
+  "research_approval": {
+    "date": "2026-09-24",
+    "quote": "Approve",
+    "evidence_file": "content/workflow/approval-evidence.md",
+    "revision": "dtss-visual-r1",
+    "brief_sha256": "877096d2b814f9b0537382881a3e2b9b7cb4248cd5da36e954ab219a4fa5113a"
+  },
+  "brief_sha256": "877096d2b814f9b0537382881a3e2b9b7cb4248cd5da36e954ab219a4fa5113a",
+  "accepted_baseline_sha256": "320ba7faf829dfc9258c8d30dffcba6652e09146bca1a79c2b693a182cb163b8",
+  "note": "Authoritative upgrade state: content/workflow/upgrades.json. Historical acceptance remains in progress.json."
+}

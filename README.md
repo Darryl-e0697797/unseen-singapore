@@ -1,6 +1,6 @@
 # UNSEEN Singapore
 
-[Open the interactive website](https://unseen-singapore.darrylkai.chatgpt.site/) · [Engineering atlas](https://unseen-singapore.darrylkai.chatgpt.site/explore/)
+[Open the interactive website](https://unseen-singapore.darrylkai.chatgpt.site/) · [Public source](https://github.com/Darryl-e0697797/unseen-singapore)
 
 An independent interactive documentary about Singapore's engineering infrastructure. Explore the national map, enter construction cutaways, inspect numbered components and follow sourced engineering stories.
 
@@ -65,3 +65,17 @@ Read the [engineering standard](docs/ENGINEERING-MARVEL-STANDARD.md) before chan
 Human direction and review shaped the experience. Astra assisted with research, code, asset scripts, testing and corrections. The in-app guide uses authored routing; it is not a connected live Astra service. Engineering facts cite source records; automated validation checks evidence coverage, not factual truth.
 
 See [third-party notices](THIRD_PARTY_NOTICES.md), [release status](docs/qa/release/STATUS.md) and [performance budgets](docs/PERFORMANCE-BUDGET.md). Real-device testing, the JavaScript size overrun and remaining redistribution reviews prevent a production-cleared claim at present.
+
+## Mobile preview and showcase
+
+On phones, the public website opens a lightweight introduction with the captioned 60-second showcase. Video downloads only on playback; the atlas and 3D models load only after explicit entry. Desktop visitors enter the full atlas. The gateway provides a desktop link and an optional full-experience preview.
+
+- [Watch the showcase](https://unseen-singapore.darrylkai.chatgpt.site/showcase/unseen-60s.mp4)
+- [Mobile compatibility and testing notes](docs/MOBILE-GATEWAY.md)
+- [Recording workflow, narration and provenance](docs/showcase/README.md)
+
+The showcase uses actual app footage, an actual isolated Blender rebuild, original instrumental music and synthetic narration. Astra assisted during development; this website does not run a live Astra service. Raw recording frames and editing intermediates are excluded from Git; the web-ready showcase and reproducible editing scripts are included.
+
+## Astra × Blender showcase
+
+[Watch the latest 45-second video and download the Blender source](social/behind-the-build/01-blender/linkedin-r02/README.md). The assembly is a labelled replay of the schematic model, with actual Blender-window footage and original background music.

@@ -1,6 +1,10 @@
 import { test, expect } from '@playwright/test';
 async function enter(page: import('@playwright/test').Page) {
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await expect(page.locator('.barrage-map-marker')).toHaveCount(0);
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'Marina Barrage' }).click();
@@ -77,8 +81,12 @@ test('Barrage mobile map selection, future and historical state', async ({ page 
   await expect(page.locator('.barrage-map-marker')).toHaveCount(0);
 });
 test('Barrage asset failure retains readable engineering and evidence', async ({ page }) => {
-  await page.route('**/models/world-barrage.glb', (r) => r.abort());
+  await page.route('**/models/world-barrage.glb{,.pack.gz}', (r) => r.abort());
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'Marina Barrage' }).click();
   await expect(page.getByText('The story is still here.')).toBeVisible();
@@ -98,6 +106,10 @@ test('Barrage WebGL failure preserves its reading journey', async ({ page }) => 
     } as typeof get;
   });
   await page.goto('/explore');
+  if ((page.viewportSize()?.width ?? 1280) < 1024) {
+    await page.getByText('Try the full experience on this device', { exact: true }).click();
+    await page.getByRole('button', { name: 'Launch full experience', exact: true }).click();
+  }
   await page.getByRole('button', { name: /Explore 9 projects/ }).click();
   await page.locator('.catalog-list>button').filter({ hasText: 'Marina Barrage' }).click();
   await expect(page.getByRole('heading', { name: 'What am I looking at?' })).toBeVisible();

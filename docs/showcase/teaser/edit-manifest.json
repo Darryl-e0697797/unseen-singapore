@@ -1,0 +1,103 @@
+[
+  {
+    "shot": "surface-to-underground",
+    "duration": 4,
+    "transition": "editorial wipe between actual app captures"
+  },
+  {
+    "card": "title",
+    "duration": 3,
+    "text": [
+      "UNSEEN Singapore"
+    ],
+    "subtitle": "The engineering beneath a nation."
+  },
+  {
+    "source": "dtss",
+    "start": 0.7,
+    "duration": 5,
+    "label": "01 / DTSS",
+    "crop": true
+  },
+  {
+    "source": "mrt",
+    "start": 0.7,
+    "duration": 4,
+    "label": "02 / MRT",
+    "crop": true
+  },
+  {
+    "source": "tuas-orbit",
+    "start": 0.7,
+    "duration": 4,
+    "label": "03 / TUAS PORT",
+    "crop": true
+  },
+  {
+    "source": "barrage-final",
+    "start": 2.5,
+    "duration": 6,
+    "label": "ENGINEERING STORIES",
+    "crop": false
+  },
+  {
+    "source": "tekong",
+    "start": 6,
+    "duration": 4,
+    "label": "ENGINEERING STORIES",
+    "crop": false
+  },
+  {
+    "card": "astra",
+    "duration": 2,
+    "text": [
+      "Built using",
+      "GPT-6 Astra"
+    ],
+    "subtitle": "Research. Authoring. Code. Iteration."
+  },
+  {
+    "source": "actual isolated Blender process, CLI recording",
+    "duration": 6
+  },
+  {
+    "source": "tuas-motion",
+    "start": 0.5,
+    "duration": 4,
+    "label": "FLOAT. PLACE. RETAIN.",
+    "crop": true
+  },
+  {
+    "source": "tekong",
+    "start": 1,
+    "duration": 4,
+    "label": "LAND BELOW THE SEA",
+    "crop": true
+  },
+  {
+    "source": "return-map",
+    "start": 2,
+    "duration": 4,
+    "label": "ONE CONNECTED WORLD",
+    "crop": false
+  },
+  {
+    "card": "challenge",
+    "duration": 5,
+    "text": [
+      "One engineer.",
+      "One frontier AI model.",
+      "How much can we build?"
+    ],
+    "subtitle": ""
+  },
+  {
+    "card": "explore",
+    "duration": 5,
+    "text": [
+      "Explore",
+      "UNSEEN Singapore"
+    ],
+    "subtitle": "unseen-singapore.darrylkai.chatgpt.site"
+  }
+]

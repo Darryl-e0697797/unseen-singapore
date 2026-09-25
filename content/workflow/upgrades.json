@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "upgrades": [
+    {
+      "project_id": "dtss",
+      "revision": "dtss-visual-r1",
+      "stage": "awaiting-acceptance",
+      "brief": "docs/briefs/dtss-visual-r1/BUILD-BRIEF.md",
+      "brief_sha256": "877096d2b814f9b0537382881a3e2b9b7cb4248cd5da36e954ab219a4fa5113a",
+      "start_authorisation": {
+        "date": "2026-09-24",
+        "quote": "Start next milestone",
+        "evidence_file": "content/workflow/approval-evidence.md"
+      },
+      "approval": {
+        "date": "2026-09-24",
+        "quote": "Approve",
+        "evidence_file": "content/workflow/approval-evidence.md",
+        "revision": "dtss-visual-r1",
+        "brief_sha256": "877096d2b814f9b0537382881a3e2b9b7cb4248cd5da36e954ab219a4fa5113a"
+      },
+      "acceptance": null
+    }
+  ]
+}
